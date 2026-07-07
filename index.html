@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ink Ripple</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+
+  <div id="ui">
+    <h1>Ink Ripple</h1>
+    <div class="row">
+      <label for="mode">Mode</label>
+      <select id="mode">
+        <option value="ripple">Ripples</option>
+        <option value="trail">Flow Trail</option>
+        <option value="fireworks">Fireworks</option>
+      </select>
+    </div>
+    <div class="row">
+      <label for="hue">Palette</label>
+      <input type="range" id="hue" min="0" max="360" value="200">
+    </div>
+    <div class="row">
+      <label for="size">Brush Size</label>
+      <input type="range" id="size" min="4" max="60" value="18">
+    </div>
+    <div class="row buttons">
+      <button id="clearBtn">Clear</button>
+      <button id="saveBtn">Save PNG</button>
+    </div>
+    <p class="hint">Click / drag / touch the canvas to paint.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
