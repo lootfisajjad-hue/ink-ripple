@@ -4,7 +4,8 @@ import globals from 'globals';
 export default [
   js.configs.recommended,
   {
-    ignores: ['dist/**', 'coverage/**', 'node_modules/**'],
+    // app/ is a self-contained sub-project with its own ESLint/Prettier config.
+    ignores: ['dist/**', 'coverage/**', 'node_modules/**', 'app/**'],
   },
   {
     files: ['src/**/*.js'],
