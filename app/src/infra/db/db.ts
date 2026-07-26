@@ -16,6 +16,7 @@ import type {
   CityContent,
   DocumentTemplate,
   Source,
+  CourseLesson,
 } from '@/domain/content/schema';
 import type { MemoryState } from '@/domain/srs/fsrs';
 import type { Skill } from '@/domain/placement/placement';
@@ -155,6 +156,7 @@ export class OlaBrasilDB extends Dexie {
   citizenshipTopics!: EntityTable<CitizenshipTopic, 'id'>;
   cities!: EntityTable<CityContent, 'id'>;
   documentTemplates!: EntityTable<DocumentTemplate, 'id'>;
+  courseLessons!: EntityTable<CourseLesson, 'id'>;
 
   // per-profile state
   profiles!: EntityTable<Profile, 'id'>;
@@ -193,6 +195,11 @@ export class OlaBrasilDB extends Dexie {
       documents: 'id, profileId',
       pronunciationAttempts: '++id, profileId, phraseId',
       dailyActivity: 'id, profileId, date',
+    });
+
+    // v2: add the Federal Prep Course content table.
+    this.version(2).stores({
+      courseLessons: 'id, order',
     });
   }
 }

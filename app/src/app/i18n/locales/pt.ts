@@ -112,6 +112,22 @@ export const pt: Translation = {
     yourScore: 'Sua pontuação',
     mastery: 'Domínio',
   },
+  course: {
+    title: 'Curso de Preparação Federal',
+    subtitle:
+      'Aulas passo a passo e simplificadas com base no material de preparação federal',
+    badge: 'Federal',
+    objectives: 'Objetivos da aula',
+    keyPoints: 'Pontos-chave',
+    quiz: 'Quiz rápido',
+    summary: 'Resumo',
+    source: 'Fonte',
+    start: 'Começar a aula',
+    examples: 'Exemplos',
+    backToList: 'Voltar à lista do curso',
+    finish: 'Concluir a aula',
+    progress: '{{done}} de {{total}} aulas',
+  },
   flashcards: {
     title: 'Flashcards',
     decks: 'Baralhos',

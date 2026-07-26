@@ -104,6 +104,7 @@ export function Dashboard() {
       <h2 className="section-title">{t('dashboard.quickActions')}</h2>
       <div className="grid-2">
         <QuickAction to="/learn" label={t('nav.learn')} emoji="📚" />
+        <QuickAction to="/course" label={t('course.title')} emoji="🎓" />
         <QuickAction
           to="/citizenship"
           label={t('citizenship.title')}

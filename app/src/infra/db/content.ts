@@ -4,7 +4,24 @@
  */
 import { db } from './db';
 import { lessonCategoryMap } from '@/content/seed';
-import type { Vocab, Phrase, Lesson, Dialogue } from '@/domain/content/schema';
+import type {
+  Vocab,
+  Phrase,
+  Lesson,
+  Dialogue,
+  CourseLesson,
+} from '@/domain/content/schema';
+
+export async function getCourseLessons(): Promise<CourseLesson[]> {
+  const lessons = await db.courseLessons.toArray();
+  return lessons.sort((a, b) => a.order - b.order);
+}
+
+export async function getCourseLesson(
+  id: string,
+): Promise<CourseLesson | undefined> {
+  return db.courseLessons.get(id);
+}
 
 export async function getLessonsByTrack(track: string): Promise<Lesson[]> {
   const lessons = await db.lessons.where('track').equals(track).toArray();

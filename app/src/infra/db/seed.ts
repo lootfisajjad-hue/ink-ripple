@@ -6,7 +6,7 @@
 import { db } from './db';
 import { getContentBundle } from '@/content/seed';
 
-const CONTENT_VERSION = 1;
+const CONTENT_VERSION = 2;
 const VERSION_KEY = 'ola-brasil-content-version';
 
 /** Seed content into IndexedDB if not already present at this version. */
@@ -31,6 +31,7 @@ export async function seedContent(force = false): Promise<boolean> {
       db.citizenshipTopics,
       db.cities,
       db.documentTemplates,
+      db.courseLessons,
     ],
     async () => {
       await Promise.all([
@@ -43,6 +44,7 @@ export async function seedContent(force = false): Promise<boolean> {
         db.citizenshipTopics.bulkPut(bundle.citizenshipTopics),
         db.cities.bulkPut(bundle.cities),
         db.documentTemplates.bulkPut(bundle.documentTemplates),
+        db.courseLessons.bulkPut(bundle.courseLessons),
       ]);
     },
   );

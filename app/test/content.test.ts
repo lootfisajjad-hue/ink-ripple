@@ -19,6 +19,17 @@ describe('seed content', () => {
     expect(contentCounts.interviewQuestions).toBeGreaterThanOrEqual(20);
     expect(contentCounts.lessons).toBeGreaterThanOrEqual(5);
     expect(contentCounts.cities).toBeGreaterThanOrEqual(5);
+    expect(contentCounts.courseLessons).toBeGreaterThanOrEqual(5);
+  });
+
+  it('every course lesson has a title, sections, and a source note', () => {
+    const bundle = getContentBundle();
+    for (const l of bundle.courseLessons) {
+      expect(l.titleFa.length).toBeGreaterThan(0);
+      expect(l.titlePt.length).toBeGreaterThan(0);
+      expect(l.sections.length).toBeGreaterThanOrEqual(1);
+      expect(l.sourceNoteFa.length).toBeGreaterThan(0);
+    }
   });
 
   it('every citizenship topic carries a source and a disclaimer', () => {

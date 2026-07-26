@@ -16,6 +16,7 @@ import { interviewQuestions } from './interviewQuestions';
 import { citizenshipTopics } from './citizenshipTopics';
 import { cities } from './cities';
 import { documentTemplates } from './documentTemplates';
+import { courseLessons } from './course';
 
 /** slug → categories, used by the Lesson screen to pull vocab/phrases. */
 export const lessonCategoryMap: Record<string, string[]> = Object.fromEntries(
@@ -38,6 +39,7 @@ export const rawBundle = {
   citizenshipTopics,
   cities,
   documentTemplates,
+  courseLessons,
 };
 
 /** Validate and return the bundle. Throws (with details) on malformed content. */
@@ -56,4 +58,5 @@ export const contentCounts = {
   citizenshipTopics: citizenshipTopics.length,
   cities: cities.length,
   documentTemplates: documentTemplates.length,
+  courseLessons: courseLessons.length,
 };

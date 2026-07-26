@@ -112,6 +112,22 @@ export const en: Translation = {
     yourScore: 'Your score',
     mastery: 'Mastery',
   },
+  course: {
+    title: 'Federal Prep Course',
+    subtitle:
+      'Step-by-step, simplified lessons based on the federal-prep materials',
+    badge: 'Federal',
+    objectives: 'Lesson objectives',
+    keyPoints: 'Key points',
+    quiz: 'Quick quiz',
+    summary: 'Summary',
+    source: 'Source',
+    start: 'Start lesson',
+    examples: 'Examples',
+    backToList: 'Back to course list',
+    finish: 'Finish lesson',
+    progress: '{{done}} of {{total}} lessons',
+  },
   flashcards: {
     title: 'Flashcards',
     decks: 'Decks',

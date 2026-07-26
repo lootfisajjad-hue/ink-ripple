@@ -209,6 +209,48 @@ export const documentTemplateSchema = z.object({
 });
 export type DocumentTemplate = z.infer<typeof documentTemplateSchema>;
 
+/**
+ * A worked example inside a course section: Portuguese + Persian + optional
+ * pronunciation guide and a short Persian note.
+ */
+export const courseExampleSchema = z.object({
+  pt: z.string(),
+  fa: z.string(),
+  pron: z.string().optional(),
+  note: z.string().optional(),
+});
+export type CourseExample = z.infer<typeof courseExampleSchema>;
+
+/** One teaching step: a simplified Persian explanation + examples. */
+export const courseSectionSchema = z.object({
+  headingFa: z.string(),
+  bodyFa: z.string(),
+  examples: z.array(courseExampleSchema).default([]),
+});
+export type CourseSection = z.infer<typeof courseSectionSchema>;
+
+/**
+ * A course lesson — a step-by-step, simplified re-teaching of a source "Aula"
+ * from the federal-prep materials. Interface/explanations in Persian, examples
+ * in Brazilian Portuguese.
+ */
+export const courseLessonSchema = z.object({
+  id: z.string(),
+  order: z.number().int().nonnegative(),
+  aula: z.string(), // e.g. 'Aula 1'
+  titleFa: z.string(), // Persian title (required)
+  titlePt: z.string(), // original Portuguese title
+  cefr: cefrSchema,
+  summaryFa: z.string(),
+  objectivesFa: z.array(z.string()).default([]),
+  sections: z.array(courseSectionSchema).min(1),
+  keyPointsFa: z.array(z.string()).default([]),
+  quiz: z.array(exerciseSchema).default([]),
+  estimatedMinutes: z.number().int().positive().default(12),
+  sourceNoteFa: z.string(),
+});
+export type CourseLesson = z.infer<typeof courseLessonSchema>;
+
 /** The whole seed bundle, validated as one object. */
 export const contentBundleSchema = z.object({
   sources: z.array(sourceSchema),
@@ -220,5 +262,6 @@ export const contentBundleSchema = z.object({
   citizenshipTopics: z.array(citizenshipTopicSchema),
   cities: z.array(cityContentSchema),
   documentTemplates: z.array(documentTemplateSchema),
+  courseLessons: z.array(courseLessonSchema),
 });
 export type ContentBundle = z.infer<typeof contentBundleSchema>;

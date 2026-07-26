@@ -11,6 +11,8 @@ import { Onboarding } from './screens/Onboarding';
 import { Dashboard } from './screens/Dashboard';
 import { Learn } from './screens/Learn';
 import { LessonScreen } from './screens/LessonScreen';
+import { Course } from './screens/Course';
+import { CourseLessonScreen } from './screens/CourseLessonScreen';
 import { Flashcards } from './screens/Flashcards';
 import { ReviewScreen } from './screens/ReviewScreen';
 import { Citizenship } from './screens/Citizenship';
@@ -78,6 +80,8 @@ export function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/learn" element={<Learn />} />
             <Route path="/learn/lesson/:id" element={<LessonScreen />} />
+            <Route path="/course" element={<Course />} />
+            <Route path="/course/:id" element={<CourseLessonScreen />} />
             <Route path="/flashcards" element={<Flashcards />} />
             <Route path="/review" element={<ReviewScreen />} />
             <Route path="/citizenship" element={<Citizenship />} />

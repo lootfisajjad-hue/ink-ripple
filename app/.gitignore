@@ -11,3 +11,4 @@ test-results/
 .DS_Store
 dist-single/
 src/content/generated/
+*.tsbuildinfo
