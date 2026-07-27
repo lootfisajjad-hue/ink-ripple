@@ -152,6 +152,9 @@ export function CourseLessonScreen() {
                       src={asset(`pages/aula${lesson.order}/${file}`)}
                       alt={`${lesson.aula} — ${file}`}
                       loading="lazy"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
                     />
                   </a>
                 ))}
