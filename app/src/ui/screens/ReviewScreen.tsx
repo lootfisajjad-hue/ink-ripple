@@ -90,6 +90,17 @@ export function ReviewScreen() {
       </div>
 
       <Card className="flip-card" onClick={() => setFlipped((f) => !f)}>
+        {card.image && (
+          <img
+            className="card-image"
+            src={card.image}
+            alt={card.front}
+            loading="lazy"
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).style.display = 'none';
+            }}
+          />
+        )}
         <span className="pt flip-front" lang="pt">
           {card.front}
         </span>
@@ -98,6 +109,17 @@ export function ReviewScreen() {
             <div style={{ fontSize: '1.2rem' }}>{card.back}</div>
             {card.pronunciation && (
               <div className="muted">{card.pronunciation}</div>
+            )}
+            {card.image && card.imageCredit && (
+              <a
+                className="card-credit"
+                href={card.imageSource}
+                target="_blank"
+                rel="noreferrer noopener"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {card.imageCredit}
+              </a>
             )}
           </>
         ) : (

@@ -12,6 +12,7 @@ import { useSession } from '@/app/store/session';
 import { getLesson, getLessonContent } from '@/infra/db/content';
 import { setLessonProgress, logActivity } from '@/infra/db/activity';
 import { addCard, recordMistake } from '@/infra/db/flashcards';
+import cardImages from '@/content/cardImages.json';
 import type {
   Lesson,
   Vocab,
@@ -19,6 +20,29 @@ import type {
   Dialogue,
   Exercise,
 } from '@/domain/content/schema';
+
+type CardImage = {
+  file: string;
+  source: string;
+  author: string;
+  license: string;
+};
+const CARD_IMAGES = cardImages as Record<string, CardImage>;
+
+/** Illustration + attribution for a vocab id, if we have a licensed image. */
+function imageFor(vocabId: string): {
+  image?: string;
+  imageCredit?: string;
+  imageSource?: string;
+} {
+  const meta = CARD_IMAGES[vocabId];
+  if (!meta) return {};
+  return {
+    image: `${import.meta.env.BASE_URL}${meta.file}`,
+    imageCredit: `${meta.author} · ${meta.license}`,
+    imageSource: meta.source,
+  };
+}
 
 export function LessonScreen() {
   const { id } = useParams();
@@ -181,6 +205,7 @@ export function LessonScreen() {
                     front: v.pt,
                     back: v.faNatural,
                     pronunciation: v.pronunciation,
+                    ...imageFor(v.id),
                   }),
                 ),
               );

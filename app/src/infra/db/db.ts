@@ -43,6 +43,12 @@ export interface Flashcard {
   front: string;
   back: string;
   pronunciation?: string;
+  /** optional illustration (public-path URL, e.g. `cardimg/v-pao.webp`) */
+  image?: string;
+  /** attribution line for the image (author · license), for CC compliance */
+  imageCredit?: string;
+  /** source page URL for the image (attribution link) */
+  imageSource?: string;
   memory: MemoryState;
   /** user-set importance, 1 (low) .. 5 (high); 0 or undefined = unrated */
   importance?: number;

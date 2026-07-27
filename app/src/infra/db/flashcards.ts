@@ -21,6 +21,9 @@ export interface NewCardInput {
   front: string;
   back: string;
   pronunciation?: string;
+  image?: string;
+  imageCredit?: string;
+  imageSource?: string;
 }
 
 /** Create a card if it does not already exist for this profile. */
@@ -41,6 +44,9 @@ export async function addCard(
     front: input.front,
     back: input.back,
     pronunciation: input.pronunciation,
+    image: input.image,
+    imageCredit: input.imageCredit,
+    imageSource: input.imageSource,
     memory: newCard(ts),
     createdAt: ts,
     updatedAt: ts,

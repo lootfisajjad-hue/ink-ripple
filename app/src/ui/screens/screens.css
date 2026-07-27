@@ -142,6 +142,27 @@
   color: var(--text-faint);
   font-size: 0.85rem;
 }
+.card-image {
+  width: 100%;
+  max-width: 240px;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: var(--radius-2, 10px);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+.card-credit {
+  color: var(--text-faint);
+  font-size: 0.7rem;
+  text-decoration: none;
+  opacity: 0.8;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card-credit:hover {
+  text-decoration: underline;
+}
 
 .hub-grid {
   display: grid;

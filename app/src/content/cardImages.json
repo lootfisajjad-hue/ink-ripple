@@ -1,0 +1,470 @@
+{
+  "v-familia": {
+    "file": "cardimg/v-familia.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Inupiat_Family_from_Noatak,_Alaska,_1929,_Edward_S._Curtis_(restored).jpg",
+    "author": "Edward S. Curtis",
+    "license": "Public domain"
+  },
+  "v-pai": {
+    "file": "cardimg/v-pai.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Father_and_son_27.jpg",
+    "author": "No machine-readable author provided. Onkelbo~commonswiki assumed (based on copyr",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-mae": {
+    "file": "cardimg/v-mae.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Mother-Child_face_to_face.jpg",
+    "author": "Robert Whitehead",
+    "license": "CC BY 2.0"
+  },
+  "v-filho": {
+    "file": "cardimg/v-filho.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Auguste_Renoir,_Child_with_Toys_-_Gabrielle_and_the_Artist%27s_Son,_Jean,_1895-1896,_NGA_66434.jpg",
+    "author": "Pierre-Auguste Renoir",
+    "license": "CC0"
+  },
+  "v-filha": {
+    "file": "cardimg/v-filha.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Dad_with_daughter_2.jpg",
+    "author": "Naked Bare Nude",
+    "license": "CC BY 2.0"
+  },
+  "v-marido": {
+    "file": "cardimg/v-marido.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Newly_married_couple_(50898881512).jpg",
+    "author": "Mario A. P. from San Sebastian, Spain",
+    "license": "CC BY-SA 2.0"
+  },
+  "v-sal": {
+    "file": "cardimg/v-sal.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Marakkanam_Salt_Pans.JPG",
+    "author": "Dey.sandip",
+    "license": "CC BY 3.0"
+  },
+  "v-agua": {
+    "file": "cardimg/v-agua.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Fasting_4-Fasting-a-glass-of-water-on-an-empty-plate.jpg",
+    "author": "Dr Jean Fortunet",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-cafe": {
+    "file": "cardimg/v-cafe.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG",
+    "author": "Julius Schorzman",
+    "license": "CC BY-SA 2.0"
+  },
+  "v-leite": {
+    "file": "cardimg/v-leite.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Bowl_milk_glass.jpg",
+    "author": "Manfred Heyde",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-loja": {
+    "file": "cardimg/v-loja.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Comercio_en_la_plaza_del_9_de_abril_de_1947,_T%C3%A1nger,_Marruecos,_2015-12-11,_DD_78.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-irmao": {
+    "file": "cardimg/v-irmao.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Brother_2.jpg",
+    "author": "Sri Namagiri Mahalakshmi Baskaran",
+    "license": "CC BY 3.0"
+  },
+  "v-irma": {
+    "file": "cardimg/v-irma.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Dos_chicas_en_vestidos_de_verano_bella_%C3%A9poca_dresde_II.jpg",
+    "author": "Hahn Nachfolger/ Hahn's Nachf.; Waisenhausstraße/ Ferdinandplatz, Dresden",
+    "license": "Public domain"
+  },
+  "v-avo-m": {
+    "file": "cardimg/v-avo-m.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Elderly_man_in_Rhodes,_Greece_(black_and_white).jpg",
+    "author": "Martin Hricko",
+    "license": "CC BY 3.0"
+  },
+  "v-avo-f": {
+    "file": "cardimg/v-avo-f.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Grandmother_preparing_food_inside_traditional_kitchen_(edited).jpg",
+    "author": "Original: Mithun Kunwar Derivative work: Radomianin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-esposa": {
+    "file": "cardimg/v-esposa.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Massysm_Quentin_%E2%80%94_The_Moneylender_and_his_Wife_%E2%80%94_1514.jpg",
+    "author": "Quinten Metsys",
+    "license": "Public domain"
+  },
+  "v-amigo": {
+    "file": "cardimg/v-amigo.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Best_Friends_Forever_2009.jpg",
+    "author": "Don LaVange",
+    "license": "CC BY-SA 2.0"
+  },
+  "v-crianca": {
+    "file": "cardimg/v-crianca.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Child_laborer.jpg",
+    "author": "Lewis W. Hine for the National Child Labor Committee",
+    "license": "Public domain"
+  },
+  "v-casa": {
+    "file": "cardimg/v-casa.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Jacobs_Home_earlier_called_Miller-Jacobs_Home,_Galveston.jpg",
+    "author": "Jim Evans",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-apartamento": {
+    "file": "cardimg/v-apartamento.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Alte_Brennerei_L%C3%B6hning_--_2015_--_8609-13.jpg",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-quarto": {
+    "file": "cardimg/v-quarto.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Vogtsbauernhof_-_Bedroom_01.JPG",
+    "author": "H. Zell",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-cozinha": {
+    "file": "cardimg/v-cozinha.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Grandmother_preparing_food_inside_traditional_kitchen_(edited).jpg",
+    "author": "Original: Mithun Kunwar Derivative work: Radomianin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-banheiro": {
+    "file": "cardimg/v-banheiro.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Bathroom_of_Khan_Pool_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-sala": {
+    "file": "cardimg/v-sala.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Reception_lounge_at_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-porta": {
+    "file": "cardimg/v-porta.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Myeongjeongjeon_seen_through_the_wooden_Gate_Hyehwamun_at_Changgyeonggung_Palace_in_Seoul.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-janela": {
+    "file": "cardimg/v-janela.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Santorin_(GR),_Fira_--_2017_--_2624.jpg",
+    "author": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-mesa": {
+    "file": "cardimg/v-mesa.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Table-banquette_by_Annie_Tribel_1968_-_Design_Museum_Brussels_Belgium.jpg",
+    "author": "Photographer: Basile Morin Product designer: Annie Tribel",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-cadeira": {
+    "file": "cardimg/v-cadeira.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:HK_Ikea_furniture_wooden_chairs_seats_August_2024_003.jpg",
+    "author": "WuodeaJier Boa",
+    "license": "CC0"
+  },
+  "v-cama": {
+    "file": "cardimg/v-cama.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Canopy_bed_of_Amantaka_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-chave": {
+    "file": "cardimg/v-chave.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:English_-_Mortise_Lock_with_Key_-_Walters_52173.jpg",
+    "author": "Anonymous (England)Unknown author",
+    "license": "Public domain"
+  },
+  "v-comida": {
+    "file": "cardimg/v-comida.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:KERALA_MEAL_IN_KUDUMBRASREE_HOTEL.jpg",
+    "author": "Abdullanafih",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-pao": {
+    "file": "cardimg/v-pao.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Home_made_sour_dough_bread.jpg",
+    "author": "Tomascastelazo",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-arroz": {
+    "file": "cardimg/v-arroz.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Green_rice_sheaves_planted_in_a_paddy_field_with_long_shadows_at_golden_hour_in_Don_Det_Laos.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-feijao": {
+    "file": "cardimg/v-feijao.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Pinto_Beans_Seeds.jpg",
+    "author": "Sanjay Acharya",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-carne": {
+    "file": "cardimg/v-carne.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Mercado_Municipal_(S%C3%A3o_Paulo)_07.jpg",
+    "author": "Wilfredor",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-frango": {
+    "file": "cardimg/v-frango.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Chickens_in_market.jpg",
+    "author": "Tomás Castelazo",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-peixe": {
+    "file": "cardimg/v-peixe.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Ensenada_fish_market_2.jpg",
+    "author": "Tomascastelazo",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-ovo": {
+    "file": "cardimg/v-ovo.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Chicken_Egg_without_Eggshell_5859.jpg",
+    "author": "Biswarup Ganguly",
+    "license": "CC BY 3.0"
+  },
+  "v-queijo": {
+    "file": "cardimg/v-queijo.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Clara_Peeters_-_Still_Life_with_Cheeses,_Almonds_and_Pretzels.jpg",
+    "author": "Clara Peeters",
+    "license": "Public domain"
+  },
+  "v-fruta": {
+    "file": "cardimg/v-fruta.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Pyrus_pyrifolia_fruit_on_tree_PS_2z_LR.jpg",
+    "author": "PumpkinSky",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-maca": {
+    "file": "cardimg/v-maca.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Apple.jpg",
+    "author": "Abhijit Tembhekar from Mumbai, India",
+    "license": "CC BY 2.0"
+  },
+  "v-verdura": {
+    "file": "cardimg/v-verdura.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Mixed_vegetables_tomatoes_carrots_and_cucumbers.jpg",
+    "author": "Mayejiro",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-acucar": {
+    "file": "cardimg/v-acucar.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Sugar_Spoon-White_Plate.jpg",
+    "author": "Fusokufuri",
+    "license": "CC BY 2.5"
+  },
+  "v-suco": {
+    "file": "cardimg/v-suco.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Orange_juice_1_edit1.jpg",
+    "author": "Agency of the United States Department of Agriculture Edited Version by: Arad",
+    "license": "Public domain"
+  },
+  "v-cerveja": {
+    "file": "cardimg/v-cerveja.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Beer_wuerzburger_hofbraue_v.jpg",
+    "author": "Christian \"VisualBeo\" Horvat",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-vinho": {
+    "file": "cardimg/v-vinho.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Wine_glass5275.jpg",
+    "author": "Itu",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-cha": {
+    "file": "cardimg/v-cha.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Fili%C5%BCanki_do_herbaty.jpg",
+    "author": "Jacek Halicki",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-mercado": {
+    "file": "cardimg/v-mercado.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Supermarket_in_recife,_pernambuco,_Brazil.jpg",
+    "author": "Wilfredor",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-feira": {
+    "file": "cardimg/v-feira.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Fruit_and_vegetable_stall_at_Southside_Farmers_Market_November_2025.jpg",
+    "author": "Nick-D",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-preco": {
+    "file": "cardimg/v-preco.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:2021-06-28_E-ink_price_tag_in_Sydney_supermarket.jpg",
+    "author": "Maksym Kozlenko",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-conta": {
+    "file": "cardimg/v-conta.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:JP_%E6%97%A5%E6%9C%AC_Japan_%E4%BA%AC%E9%83%BD%E5%B8%82Kyoto_%E4%B8%AD%E5%8D%8E%E6%96%99%E7%90%86%E5%BA%97_%E9%A4%83%E5%AD%90%E3%81%AE%E7%8E%8B%E5%B0%86_Gyoza_no_Ohsho_Japanese_Chinese_restaurant_chain_Receipt_in_June_2026_N13P_01.jpg",
+    "author": "TKdows 2026",
+    "license": "CC0"
+  },
+  "v-onibus": {
+    "file": "cardimg/v-onibus.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Setra_S6_-_Empresa_Mosquera_-_02.jpg",
+    "author": "Xosema",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-carro": {
+    "file": "cardimg/v-carro.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Tesla_Model_3_(2023)_Autofr%C3%BChling_Ulm_IMG_9282.jpg",
+    "author": "Alexander-93",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-metro": {
+    "file": "cardimg/v-metro.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Man_at_Dundas_subway_station,_Toronto,_2008-05-06.jpg",
+    "author": "Radomianin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-trem": {
+    "file": "cardimg/v-trem.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:UBTZ_2TE116UM-022_Cagaan_Had_-_Sumangijn_Zoo.jpg",
+    "author": "Kabelleger / David Gubler",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-aviao": {
+    "file": "cardimg/v-aviao.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Patrouille_de_France_Radom_3_1.JPG",
+    "author": "Łukasz Golowanow",
+    "license": "Attribution"
+  },
+  "v-bicicleta": {
+    "file": "cardimg/v-bicicleta.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Parked_bicycle_with_graffitied_building_facade_and_doors_in_Amsterdam.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-taxi": {
+    "file": "cardimg/v-taxi.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:TAXI.jpg",
+    "author": "Petar Milošević",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-passagem": {
+    "file": "cardimg/v-passagem.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Paper_bus_tickets.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY 4.0"
+  },
+  "v-cabeca": {
+    "file": "cardimg/v-cabeca.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Gerard_Dou_-_Rembrandt%27s_mother,_Illustrated_catalogue_of_100_paintings_from_the_Sedelmeyer_Gallery_(14580234708)_(cropped).jpg",
+    "author": "Wikimedia Commons",
+    "license": "No restrictions"
+  },
+  "v-mao": {
+    "file": "cardimg/v-mao.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Hand_and_power_stone_bracelets.jpg",
+    "author": "Tomascastelazo",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-pe": {
+    "file": "cardimg/v-pe.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Sole_of_foot_of_an_infant_held_between_the_middle_finger_and_the_ring_finger_of_an_adult_hand_for_size_comparison.jpg",
+    "author": "Basile Morin",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-olho": {
+    "file": "cardimg/v-olho.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Eye_iris.jpg",
+    "author": "che (Please credit as \"Petr Novák, Wikipedia\" in case you use this outside Wikim",
+    "license": "CC BY-SA 2.5"
+  },
+  "v-perna": {
+    "file": "cardimg/v-perna.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Leg_(66962406).jpg",
+    "author": "Andy / Andrew Fogg from near Cambridge, UK",
+    "license": "CC BY 2.0"
+  },
+  "v-braco": {
+    "file": "cardimg/v-braco.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Extended_arm.jpg",
+    "author": "Genusfotografen (Tomas Gunnarsson) / Wikimedia Sverige",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-roupa": {
+    "file": "cardimg/v-roupa.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Woman%27s_shirt_from_Kutch,_Gujarat,_India,_IMA_55114.jpg",
+    "author": "Indianapolis Museum of Art",
+    "license": "Copyrighted free use"
+  },
+  "v-camisa": {
+    "file": "cardimg/v-camisa.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Folded_shirts_March_Photo_Challenge_-_Laundering.jpg",
+    "author": "Gabbybratcher",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-calca": {
+    "file": "cardimg/v-calca.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Trousers.jpg",
+    "author": "Wikimedia Commons",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-sapato": {
+    "file": "cardimg/v-sapato.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Reebok_Royal_Glide_Ripple_Clip_shoe.jpg",
+    "author": "Petar Milošević",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-vestido": {
+    "file": "cardimg/v-vestido.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Dress_with_circle_skirt_in_the_wind_-_pose_2.jpg",
+    "author": "Tobias ToMar Maier",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-casaco": {
+    "file": "cardimg/v-casaco.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Woman_wearing_a_blue_chore_jacket_(chore_coat).jpg",
+    "author": "Tradlands",
+    "license": "CC BY 2.0"
+  },
+  "v-cidade": {
+    "file": "cardimg/v-cidade.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Lower_Manhattan_from_Jersey_City_November_2014_panorama_3.jpg",
+    "author": "King of Hearts",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-rua": {
+    "file": "cardimg/v-rua.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Shopping_near_the_Warwick_Arms,Warwick_Street_-_geograph.org.uk_-_618114.jpg",
+    "author": "Peter Holmes",
+    "license": "CC BY-SA 2.0"
+  },
+  "v-praca": {
+    "file": "cardimg/v-praca.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:St_Peter%27s_Square,_Vatican_City_-_April_2007.jpg",
+    "author": "Diliff",
+    "license": "CC BY-SA 3.0"
+  },
+  "v-escola": {
+    "file": "cardimg/v-escola.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:School_children_in_a_classroom_in_Tel_Aviv_(FL61798013).jpg",
+    "author": "IPPA photographer",
+    "license": "CC BY 4.0"
+  },
+  "v-restaurante": {
+    "file": "cardimg/v-restaurante.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Restaurant_in_Place_D%27Youville,_Quebec_City.jpg",
+    "author": "Wilfredor",
+    "license": "CC0"
+  },
+  "v-igreja": {
+    "file": "cardimg/v-igreja.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Bell_tower_of_Church_of_Beheading_of_John_the_Baptist_in_Moscow.jpg",
+    "author": "Dmitry Ivanov.",
+    "license": "CC BY-SA 4.0"
+  },
+  "v-hotel": {
+    "file": "cardimg/v-hotel.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:The_connaught_hotel_london_exterior_entrance.jpg",
+    "author": "Liam Smith Photography",
+    "license": "CC BY-SA 2.0"
+  }
+}
