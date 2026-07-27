@@ -325,14 +325,10 @@ export const aula13: CourseLesson = {
       type: 'mcq',
       prompt: 'O que um advérbio modifica?',
       promptFa: 'قید معنای کدام‌ها را تغییر می‌دهد؟',
-      options: [
-        'فعل، صفت و قیدِ دیگر',
-        'فقط اسم',
-        'فقط ضمیر',
-        'فقط حرف اضافه',
-      ],
+      options: ['فعل، صفت و قیدِ دیگر', 'فقط اسم', 'فقط ضمیر', 'فقط حرف اضافه'],
       answer: 'فعل، صفت و قیدِ دیگر',
-      explanationFa: 'قید معنای فعل، صفت یا قیدِ دیگر را تغییر می‌دهد و کلمه‌ای تغییرناپذیر است.',
+      explanationFa:
+        'قید معنای فعل، صفت یا قیدِ دیگر را تغییر می‌دهد و کلمه‌ای تغییرناپذیر است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -341,7 +337,12 @@ export const aula13: CourseLesson = {
       type: 'mcq',
       prompt: 'A qual classe pertence "hoje"?',
       promptFa: '«hoje» جزو کدام گروه قید است؟',
-      options: ['زمان (Tempo)', 'مکان (Lugar)', 'حالت (Modo)', 'شدت (Intensidade)'],
+      options: [
+        'زمان (Tempo)',
+        'مکان (Lugar)',
+        'حالت (Modo)',
+        'شدت (Intensidade)',
+      ],
       answer: 'زمان (Tempo)',
       explanationFa: '«hoje» یعنی امروز و قید زمان است.',
       cefr: 'A2',
@@ -398,7 +399,8 @@ export const aula13: CourseLesson = {
       promptFa: 'با قید مکان کامل کنید: ___ در برزیل همه پرتغالی حرف می‌زنند.',
       options: [],
       answer: 'Aqui',
-      explanationFa: 'اگر گوینده در برزیل باشد «Aqui no Brasil» (اینجا در برزیل) درست است.',
+      explanationFa:
+        'اگر گوینده در برزیل باشد «Aqui no Brasil» (اینجا در برزیل) درست است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -494,18 +496,22 @@ export const aula13: CourseLesson = {
       id: 'course-aula-13-q16',
       type: 'fill-blank',
       prompt: '_____ acabei meu curso! (advérbio de modo terminado em -mente)',
-      promptFa: 'با قید حالتِ ختم‌شونده به -mente کامل کنید: ___ دوره‌ام را تمام کردم!',
+      promptFa:
+        'با قید حالتِ ختم‌شونده به -mente کامل کنید: ___ دوره‌ام را تمام کردم!',
       options: [],
       answer: 'Finalmente',
-      explanationFa: '«Finalmente» یعنی بالاخره؛ قید حالتِ ختم‌شونده به -mente.',
+      explanationFa:
+        '«Finalmente» یعنی بالاخره؛ قید حالتِ ختم‌شونده به -mente.',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-13-q17',
       type: 'fill-blank',
-      prompt: '_____ eu quero ter a cidadania brasileira. (advérbio de afirmação)',
-      promptFa: 'با قید تأکید کامل کنید: ___ می‌خواهم تابعیت برزیل را داشته باشم.',
+      prompt:
+        '_____ eu quero ter a cidadania brasileira. (advérbio de afirmação)',
+      promptFa:
+        'با قید تأکید کامل کنید: ___ می‌خواهم تابعیت برزیل را داشته باشم.',
       options: [],
       answer: 'Certamente',
       explanationFa: '«Certamente» یعنی قطعاً؛ قید تأکید.',
@@ -581,8 +587,10 @@ export const aula13: CourseLesson = {
     {
       id: 'course-aula-13-q24',
       type: 'fill-blank',
-      prompt: 'Eles _____ esperaram a luz verde acender e já atravessaram a rua. (advérbio de negação)',
-      promptFa: 'با قید نفی کامل کنید: آن‌ها ___ منتظر سبز شدن چراغ شدند و از خیابان رد شدند.',
+      prompt:
+        'Eles _____ esperaram a luz verde acender e já atravessaram a rua. (advérbio de negação)',
+      promptFa:
+        'با قید نفی کامل کنید: آن‌ها ___ منتظر سبز شدن چراغ شدند و از خیابان رد شدند.',
       options: [],
       answer: 'nem',
       explanationFa: '«nem» یعنی حتی ... هم نه؛ قید نفی.',
@@ -614,8 +622,10 @@ export const aula13: CourseLesson = {
     {
       id: 'course-aula-13-q27',
       type: 'fill-blank',
-      prompt: 'Ele tem _____ tempo para ler do que ela. (advérbio de intensidade)',
-      promptFa: 'با قید شدت (مقایسه) کامل کنید: او ___ وقت برای خواندن دارد تا او (زن).',
+      prompt:
+        'Ele tem _____ tempo para ler do que ela. (advérbio de intensidade)',
+      promptFa:
+        'با قید شدت (مقایسه) کامل کنید: او ___ وقت برای خواندن دارد تا او (زن).',
       options: [],
       answer: 'mais',
       explanationFa: '«mais ... do que» یعنی بیشتر از؛ قید شدت در مقایسه.',
@@ -629,7 +639,8 @@ export const aula13: CourseLesson = {
       promptFa: 'با قید شدت کامل کنید: آن‌ها زوجِ ___ زیبایی هستند!',
       options: [],
       answer: 'muito',
-      explanationFa: '«muito bonito» یعنی خیلی زیبا؛ قید شدت. «tão bonito» هم پذیرفتنی است.',
+      explanationFa:
+        '«muito bonito» یعنی خیلی زیبا؛ قید شدت. «tão bonito» هم پذیرفتنی است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -673,7 +684,8 @@ export const aula13: CourseLesson = {
       promptFa: 'این جمله را به فارسی ترجمه کنید.',
       options: [],
       answer: 'او خیلی خوب خواند.',
-      explanationFa: 'قید «muito» قیدِ «bem» را تشدید می‌کند و هر دو فعل «cantar» را توصیف می‌کنند.',
+      explanationFa:
+        'قید «muito» قیدِ «bem» را تشدید می‌کند و هر دو فعل «cantar» را توصیف می‌کنند.',
       cefr: 'A2',
       skill: 'reading',
     },

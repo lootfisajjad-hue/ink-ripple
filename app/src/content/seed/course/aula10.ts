@@ -285,7 +285,8 @@ export const aula10: CourseLesson = {
     {
       id: 'course-aula-10-q1',
       type: 'fill-blank',
-      prompt: 'Presente: Após o trabalho, João ____ (voltar) para casa cansado.',
+      prompt:
+        'Presente: Após o trabalho, João ____ (voltar) para casa cansado.',
       promptFa: 'فعل voltar را در زمان حال برای «João» صرف کنید.',
       options: [],
       answer: 'volta',
@@ -322,7 +323,8 @@ export const aula10: CourseLesson = {
       promptFa: 'دو فعل را در زمان حال برای «eles» بگذارید.',
       options: [],
       answer: 'jantam / sorriem',
-      explanationFa: 'سوم‌شخص جمع: jantar → jantam؛ sorrir → sorriem (نه «sorrem»).',
+      explanationFa:
+        'سوم‌شخص جمع: jantar → jantam؛ sorrir → sorriem (نه «sorrem»).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -373,7 +375,8 @@ export const aula10: CourseLesson = {
     {
       id: 'course-aula-10-q9',
       type: 'fill-blank',
-      prompt: 'Pretérito Perfeito: No ano passado, Rafaella ____ (viajar) para a Europa.',
+      prompt:
+        'Pretérito Perfeito: No ano passado, Rafaella ____ (viajar) para a Europa.',
       promptFa: 'فعل viajar را در گذشتهٔ ساده برای «Rafaella» بگذارید.',
       options: [],
       answer: 'viajou',
@@ -388,14 +391,16 @@ export const aula10: CourseLesson = {
       promptFa: 'فعل conhecer را در گذشتهٔ ساده بگذارید.',
       options: [],
       answer: 'conheceu',
-      explanationFa: 'گروه ‎-ER‎ در گذشتهٔ ساده سوم‌شخص مفرد → ‎-eu‎: conheceu.',
+      explanationFa:
+        'گروه ‎-ER‎ در گذشتهٔ ساده سوم‌شخص مفرد → ‎-eu‎: conheceu.',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-10-q11',
       type: 'fill-blank',
-      prompt: 'Pretérito Perfeito: As duas ____ (sair) e não ____ (pagar) muito caro.',
+      prompt:
+        'Pretérito Perfeito: As duas ____ (sair) e não ____ (pagar) muito caro.',
       promptFa: 'دو فعل را در گذشتهٔ ساده برای «as duas» بگذارید.',
       options: [],
       answer: 'saíram / pagaram',
@@ -406,7 +411,8 @@ export const aula10: CourseLesson = {
     {
       id: 'course-aula-10-q12',
       type: 'fill-blank',
-      prompt: 'Pretérito Perfeito: Rafaella ____ (acordar) cedo e ____ (acabar) se apaixonando pela cidade.',
+      prompt:
+        'Pretérito Perfeito: Rafaella ____ (acordar) cedo e ____ (acabar) se apaixonando pela cidade.',
       promptFa: 'دو فعل را در گذشتهٔ ساده بگذارید.',
       options: [],
       answer: 'acordou / acabou',
@@ -418,7 +424,8 @@ export const aula10: CourseLesson = {
       id: 'course-aula-10-q13',
       type: 'translate-pt-fa',
       prompt: 'Passe para o Futuro: "Mamãe comprou um carro novo."',
-      promptFa: 'این جمله را به زمان آینده تبدیل کنید (فقط جملهٔ پرتغالی آینده را بنویسید).',
+      promptFa:
+        'این جمله را به زمان آینده تبدیل کنید (فقط جملهٔ پرتغالی آینده را بنویسید).',
       options: [],
       answer: 'Mamãe comprará um carro novo.',
       explanationFa: 'comprar در آیندهٔ سوم‌شخص مفرد → comprará.',
@@ -430,7 +437,12 @@ export const aula10: CourseLesson = {
       type: 'mcq',
       prompt: 'Passe para o Futuro: "Busquei meu irmão no aeroporto." →',
       promptFa: 'کدام شکل آیندهٔ درست برای «busquei» است؟',
-      options: ['Buscarei meu irmão no aeroporto.', 'Busco meu irmão no aeroporto.', 'Buscava meu irmão no aeroporto.', 'Busquei meu irmão no aeroporto.'],
+      options: [
+        'Buscarei meu irmão no aeroporto.',
+        'Busco meu irmão no aeroporto.',
+        'Buscava meu irmão no aeroporto.',
+        'Busquei meu irmão no aeroporto.',
+      ],
       answer: 'Buscarei meu irmão no aeroporto.',
       explanationFa: 'اول‌شخص مفرد آینده → پایانهٔ ‎-ei‎ روی مصدر: buscarei.',
       cefr: 'A2',
@@ -454,7 +466,8 @@ export const aula10: CourseLesson = {
       promptFa: 'گذشته و آیندهٔ «Chego» را بنویسید.',
       options: [],
       answer: 'Cheguei / Chegarei',
-      explanationFa: 'در گذشته «u» می‌آید تا صدای «گ» حفظ شود: cheguei؛ آینده: chegarei.',
+      explanationFa:
+        'در گذشته «u» می‌آید تا صدای «گ» حفظ شود: cheguei؛ آینده: chegarei.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -485,7 +498,12 @@ export const aula10: CourseLesson = {
       type: 'mcq',
       prompt: 'Quantos verbos há em: "Fui visitar minha vó e logo voltei."?',
       promptFa: 'چند فعل در این جمله هست؟',
-      options: ['Três (fui, visitar, voltei)', 'Um (fui)', 'Dois (fui, voltei)', 'Nenhum'],
+      options: [
+        'Três (fui, visitar, voltei)',
+        'Um (fui)',
+        'Dois (fui, voltei)',
+        'Nenhum',
+      ],
       answer: 'Três (fui, visitar, voltei)',
       explanationFa: 'سه فعل: fui و voltei (گذشته) و visitar (مصدر).',
       cefr: 'A2',
@@ -496,7 +514,12 @@ export const aula10: CourseLesson = {
       type: 'mcq',
       prompt: 'Faça a concordância: "Nós quer ir para festa." →',
       promptFa: 'کدام تصحیحِ مطابقت درست است؟',
-      options: ['Nós queremos ir para a festa.', 'Nós quer ir para a festa.', 'Nós quero ir para festa.', 'Nós querem ir para festa.'],
+      options: [
+        'Nós queremos ir para a festa.',
+        'Nós quer ir para a festa.',
+        'Nós quero ir para festa.',
+        'Nós querem ir para festa.',
+      ],
       answer: 'Nós queremos ir para a festa.',
       explanationFa: 'فاعل «Nós» فعل اول‌شخص جمع می‌خواهد → queremos.',
       cefr: 'A2',
@@ -507,7 +530,12 @@ export const aula10: CourseLesson = {
       type: 'mcq',
       prompt: 'Faça a concordância: "A gente precisamos sair mais cedo." →',
       promptFa: 'کدام تصحیحِ درست است؟',
-      options: ['A gente precisa sair mais cedo.', 'A gente precisamos sair mais cedo.', 'A gente precisam sair mais cedo.', 'A gente preciso sair mais cedo.'],
+      options: [
+        'A gente precisa sair mais cedo.',
+        'A gente precisamos sair mais cedo.',
+        'A gente precisam sair mais cedo.',
+        'A gente preciso sair mais cedo.',
+      ],
       answer: 'A gente precisa sair mais cedo.',
       explanationFa: '«a gente» با فعل سوم‌شخص مفرد می‌آید → precisa.',
       cefr: 'A2',
@@ -516,18 +544,21 @@ export const aula10: CourseLesson = {
     {
       id: 'course-aula-10-q22',
       type: 'fill-blank',
-      prompt: 'Faça a concordância: "Elas busca seu filhos na escola." → Elas ____ ____ filhos na escola.',
+      prompt:
+        'Faça a concordância: "Elas busca seu filhos na escola." → Elas ____ ____ filhos na escola.',
       promptFa: 'فعل و ضمیر ملکی را برای مطابقت درست کنید.',
       options: [],
       answer: 'buscam seus',
-      explanationFa: 'فعل جمع (buscam) و مطابقت اسمی (seus filhos) هر دو لازم است.',
+      explanationFa:
+        'فعل جمع (buscam) و مطابقت اسمی (seus filhos) هر دو لازم است.',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-10-q23',
       type: 'fill-blank',
-      prompt: 'Faça a concordância: "Nós não pagou a conta." → Nós não ____ a conta.',
+      prompt:
+        'Faça a concordância: "Nós não pagou a conta." → Nós não ____ a conta.',
       promptFa: 'فعل را با فاعل «Nós» درست کنید.',
       options: [],
       answer: 'pagamos',
@@ -538,11 +569,13 @@ export const aula10: CourseLesson = {
     {
       id: 'course-aula-10-q24',
       type: 'fill-blank',
-      prompt: 'Verbo correto: Semana passada eu ____ (jantar) nesse restaurante.',
+      prompt:
+        'Verbo correto: Semana passada eu ____ (jantar) nesse restaurante.',
       promptFa: 'با توجه به «semana passada» فعل را صرف کنید.',
       options: [],
       answer: 'jantei',
-      explanationFa: '«Semana passada» گذشته است → jantei (اول‌شخص مفرد گذشته).',
+      explanationFa:
+        '«Semana passada» گذشته است → jantei (اول‌شخص مفرد گذشته).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -564,7 +597,8 @@ export const aula10: CourseLesson = {
       promptFa: 'با توجه به «amanhã» فعل estar را صرف کنید.',
       options: [],
       answer: 'estarei',
-      explanationFa: '«Amanhã» آینده است → estarei (آیندهٔ estar، اول‌شخص مفرد).',
+      explanationFa:
+        '«Amanhã» آینده است → estarei (آیندهٔ estar، اول‌شخص مفرد).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -582,7 +616,8 @@ export const aula10: CourseLesson = {
     {
       id: 'course-aula-10-q28',
       type: 'fill-blank',
-      prompt: 'Verbo correto: No mês passado, os alunos ____ (estudar) geografia.',
+      prompt:
+        'Verbo correto: No mês passado, os alunos ____ (estudar) geografia.',
       promptFa: 'با توجه به «mês passado» فعل را برای «os alunos» صرف کنید.',
       options: [],
       answer: 'estudaram',
@@ -596,8 +631,10 @@ export const aula10: CourseLesson = {
       prompt: 'Interpretação: "Quem é Cristina?" Responda em português.',
       promptFa: 'بر اساس متن به پرتغالی پاسخ دهید: کریستینا کیست؟',
       options: [],
-      answer: 'Cristina é uma catadora de material reciclável; tem 32 anos e é casada.',
-      explanationFa: 'پاسخ از متن استخراج می‌شود: شغل، سن و وضعیت تأهل کریستینا.',
+      answer:
+        'Cristina é uma catadora de material reciclável; tem 32 anos e é casada.',
+      explanationFa:
+        'پاسخ از متن استخراج می‌شود: شغل، سن و وضعیت تأهل کریستینا.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -606,9 +643,15 @@ export const aula10: CourseLesson = {
       type: 'mcq',
       prompt: 'Interpretação: Para onde o casal pretende viajar?',
       promptFa: 'زوج قصد دارند به کجا سفر کنند؟',
-      options: ['Para o nordeste do Brasil', 'Para a Europa', 'Para São Paulo', 'Para Londres'],
+      options: [
+        'Para o nordeste do Brasil',
+        'Para a Europa',
+        'Para São Paulo',
+        'Para Londres',
+      ],
       answer: 'Para o nordeste do Brasil',
-      explanationFa: 'متن می‌گوید آن‌ها می‌خواهند شمال‌شرقِ برزیل (nordeste do Brasil) را ببینند.',
+      explanationFa:
+        'متن می‌گوید آن‌ها می‌خواهند شمال‌شرقِ برزیل (nordeste do Brasil) را ببینند.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -617,16 +660,23 @@ export const aula10: CourseLesson = {
       type: 'mcq',
       prompt: 'Interpretação: Qual é o sonho do casal?',
       promptFa: 'آرزوی این زوج چیست؟',
-      options: ['Ter o primeiro filho em cerca de dois anos', 'Comprar uma casa nova', 'Abrir um salão de beleza', 'Comprar um ônibus'],
+      options: [
+        'Ter o primeiro filho em cerca de dois anos',
+        'Comprar uma casa nova',
+        'Abrir um salão de beleza',
+        'Comprar um ônibus',
+      ],
       answer: 'Ter o primeiro filho em cerca de dois anos',
-      explanationFa: 'متن می‌گوید آرزوی زوج داشتنِ اولین فرزند تقریباً تا دو سال دیگر است.',
+      explanationFa:
+        'متن می‌گوید آرزوی زوج داشتنِ اولین فرزند تقریباً تا دو سال دیگر است.',
       cefr: 'A2',
       skill: 'reading',
     },
     {
       id: 'course-aula-10-q32',
       type: 'mcq',
-      prompt: 'Orientações da prova: quantas linhas, no mínimo, a redação precisa ter?',
+      prompt:
+        'Orientações da prova: quantas linhas, no mínimo, a redação precisa ter?',
       promptFa: 'بر اساس راهنما، انشا دست‌کم چند خط باید باشد؟',
       options: ['20 linhas', '10 linhas', '30 linhas', '15 linhas'],
       answer: '20 linhas',

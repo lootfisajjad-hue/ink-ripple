@@ -209,24 +209,97 @@ export const aula8: CourseLesson = {
       bodyFa:
         'این نمونه‌ها نشان می‌دهند چطور گذشتهٔ کاملِ سه فعل با ضمیرهای مختلف صرف می‌شود. دقت کنید که «a gente» همیشه مثل سوم‌شخص مفرد (deu، fez، foi) صرف می‌شود.',
       examples: [
-        { pt: 'Eu dei a nota.', fa: 'من نمره را دادم.', pron: 'اِئو دِی آ نُتا' },
-        { pt: 'Você deu um presente.', fa: 'تو یک هدیه دادی.', pron: 'وُسه دِئو اون پرِزِنتی' },
-        { pt: 'Ela deu uma ajuda.', fa: 'او کمکی کرد.', pron: 'اِلا دِئو اوما آژودا' },
-        { pt: 'Nós demos o nosso melhor.', fa: 'ما بهترین تلاش‌مان را کردیم.', pron: 'نُس دِموس او نُسو مِلیور' },
-        { pt: 'A gente deu um abraço.', fa: 'ما همدیگر را بغل کردیم.', pron: 'آ جِنتی دِئو اون آبراسو', note: '«a gente» = سوم‌شخص مفرد → deu.' },
-        { pt: 'Eles deram um show.', fa: 'آن‌ها اجرای درخشانی داشتند.', pron: 'اِلیس دِرام اون شُو' },
-        { pt: 'Eu fiz o jantar.', fa: 'من شام را درست کردم.', pron: 'اِئو فیس او ژانتار' },
-        { pt: 'Você fez uma boa prova.', fa: 'تو امتحان خوبی دادی.', pron: 'وُسه فِس اوما بُووا پرُوا' },
-        { pt: 'Ele fez 18 anos.', fa: 'او ۱۸ ساله شد.', pron: 'اِلی فِس دِزوئیتو آنوس' },
-        { pt: 'Nós fizemos um bolo.', fa: 'ما یک کیک درست کردیم.', pron: 'نُس فیزِموس اون بولو' },
-        { pt: 'A gente fez a lição.', fa: 'ما تکلیف را انجام دادیم.', pron: 'آ جِنتی فِس آ لیسائو' },
-        { pt: 'Eles fizeram o trabalho.', fa: 'آن‌ها کار را انجام دادند.', pron: 'اِلیس فیزِرام او ترابالیو' },
-        { pt: 'Eu fui ao parque.', fa: 'من به پارک رفتم.', pron: 'اِئو فُی آئو پارکی' },
-        { pt: 'Você foi ao shopping.', fa: 'تو به مرکز خرید رفتی.', pron: 'وُسه فُی آئو شُپینگ' },
-        { pt: 'Ela foi passear.', fa: 'او به گردش رفت.', pron: 'اِلا فُی پاسِیار' },
-        { pt: 'Nós fomos ao cinema.', fa: 'ما به سینما رفتیم.', pron: 'نُس فُموس آئو سینِما' },
-        { pt: 'A gente foi trabalhar.', fa: 'ما سرِ کار رفتیم.', pron: 'آ جِنتی فُی ترابایار' },
-        { pt: 'Elas foram brincar.', fa: 'آن‌ها (زنان) رفتند بازی کنند.', pron: 'اِلاس فُرام برینکار' },
+        {
+          pt: 'Eu dei a nota.',
+          fa: 'من نمره را دادم.',
+          pron: 'اِئو دِی آ نُتا',
+        },
+        {
+          pt: 'Você deu um presente.',
+          fa: 'تو یک هدیه دادی.',
+          pron: 'وُسه دِئو اون پرِزِنتی',
+        },
+        {
+          pt: 'Ela deu uma ajuda.',
+          fa: 'او کمکی کرد.',
+          pron: 'اِلا دِئو اوما آژودا',
+        },
+        {
+          pt: 'Nós demos o nosso melhor.',
+          fa: 'ما بهترین تلاش‌مان را کردیم.',
+          pron: 'نُس دِموس او نُسو مِلیور',
+        },
+        {
+          pt: 'A gente deu um abraço.',
+          fa: 'ما همدیگر را بغل کردیم.',
+          pron: 'آ جِنتی دِئو اون آبراسو',
+          note: '«a gente» = سوم‌شخص مفرد → deu.',
+        },
+        {
+          pt: 'Eles deram um show.',
+          fa: 'آن‌ها اجرای درخشانی داشتند.',
+          pron: 'اِلیس دِرام اون شُو',
+        },
+        {
+          pt: 'Eu fiz o jantar.',
+          fa: 'من شام را درست کردم.',
+          pron: 'اِئو فیس او ژانتار',
+        },
+        {
+          pt: 'Você fez uma boa prova.',
+          fa: 'تو امتحان خوبی دادی.',
+          pron: 'وُسه فِس اوما بُووا پرُوا',
+        },
+        {
+          pt: 'Ele fez 18 anos.',
+          fa: 'او ۱۸ ساله شد.',
+          pron: 'اِلی فِس دِزوئیتو آنوس',
+        },
+        {
+          pt: 'Nós fizemos um bolo.',
+          fa: 'ما یک کیک درست کردیم.',
+          pron: 'نُس فیزِموس اون بولو',
+        },
+        {
+          pt: 'A gente fez a lição.',
+          fa: 'ما تکلیف را انجام دادیم.',
+          pron: 'آ جِنتی فِس آ لیسائو',
+        },
+        {
+          pt: 'Eles fizeram o trabalho.',
+          fa: 'آن‌ها کار را انجام دادند.',
+          pron: 'اِلیس فیزِرام او ترابالیو',
+        },
+        {
+          pt: 'Eu fui ao parque.',
+          fa: 'من به پارک رفتم.',
+          pron: 'اِئو فُی آئو پارکی',
+        },
+        {
+          pt: 'Você foi ao shopping.',
+          fa: 'تو به مرکز خرید رفتی.',
+          pron: 'وُسه فُی آئو شُپینگ',
+        },
+        {
+          pt: 'Ela foi passear.',
+          fa: 'او به گردش رفت.',
+          pron: 'اِلا فُی پاسِیار',
+        },
+        {
+          pt: 'Nós fomos ao cinema.',
+          fa: 'ما به سینما رفتیم.',
+          pron: 'نُس فُموس آئو سینِما',
+        },
+        {
+          pt: 'A gente foi trabalhar.',
+          fa: 'ما سرِ کار رفتیم.',
+          pron: 'آ جِنتی فُی ترابایار',
+        },
+        {
+          pt: 'Elas foram brincar.',
+          fa: 'آن‌ها (زنان) رفتند بازی کنند.',
+          pron: 'اِلاس فُرام برینکار',
+        },
       ],
     },
     {
@@ -351,7 +424,8 @@ export const aula8: CourseLesson = {
       promptFa: 'خستگی حالتی موقتی است؛ کدام فعل درست است؟',
       options: ['estou', 'sou', 'é', 'estava'],
       answer: 'estou',
-      explanationFa: 'خستگی حالِ موقتی است → ESTAR اول‌شخص مفرد: «Eu estou cansado».',
+      explanationFa:
+        'خستگی حالِ موقتی است → ESTAR اول‌شخص مفرد: «Eu estou cansado».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -362,7 +436,8 @@ export const aula8: CourseLesson = {
       promptFa: 'کارِ در جریان (vendendo)؛ کدام فعل؟',
       options: ['está', 'é', 'sou', 'estão'],
       answer: 'está',
-      explanationFa: 'وجود «-ndo» یعنی کارِ در جریان → ESTAR: «Você está vendendo».',
+      explanationFa:
+        'وجود «-ndo» یعنی کارِ در جریان → ESTAR: «Você está vendendo».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -395,7 +470,8 @@ export const aula8: CourseLesson = {
       promptFa: 'با فعل درست کامل کنید (اول‌شخص جمع، کارِ در جریان).',
       options: [],
       answer: 'estamos',
-      explanationFa: 'کارِ در جریان → ESTAR اول‌شخص جمع: «Nós estamos fazendo».',
+      explanationFa:
+        'کارِ در جریان → ESTAR اول‌شخص جمع: «Nós estamos fazendo».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -406,7 +482,8 @@ export const aula8: CourseLesson = {
       promptFa: 'قید «agora» (الان) نشانهٔ حالتِ موقتی است؛ کدام فعل؟',
       options: ['estão', 'são', 'é', 'estamos'],
       answer: 'estão',
-      explanationFa: 'با «agora» حالت موقتی است → ESTAR جمع: «Vocês estão... agora».',
+      explanationFa:
+        'با «agora» حالت موقتی است → ESTAR جمع: «Vocês estão... agora».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -428,7 +505,8 @@ export const aula8: CourseLesson = {
       promptFa: 'با فعل درست کامل کنید (توجه به «agora»).',
       options: [],
       answer: 'estão',
-      explanationFa: 'با «agora» موقتی است → ESTAR: «Elas estão bem-sucedidas».',
+      explanationFa:
+        'با «agora» موقتی است → ESTAR: «Elas estão bem-sucedidas».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -450,7 +528,8 @@ export const aula8: CourseLesson = {
       promptFa: '«mês que vem» یعنی ماه آینده؛ کدام شکل درست است؟',
       options: ['vai dar', 'demos', 'davam', 'dou'],
       answer: 'vai dar',
-      explanationFa: 'آینده با «a gente» → «vai dar» (یا شکل ساده «dará»). «a gente» سوم‌شخص مفرد است.',
+      explanationFa:
+        'آینده با «a gente» → «vai dar» (یا شکل ساده «dará»). «a gente» سوم‌شخص مفرد است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -461,18 +540,22 @@ export const aula8: CourseLesson = {
       promptFa: 'فعل DAR در زمان حال، سوم‌شخص مفرد.',
       options: [],
       answer: 'dá',
-      explanationFa: 'حالِ سوم‌شخص مفردِ dar → «dá»: «A enfermeira dá o remédio».',
+      explanationFa:
+        'حالِ سوم‌شخص مفردِ dar → «dá»: «A enfermeira dá o remédio».',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-8-q12',
       type: 'fill-blank',
-      prompt: 'Nas décadas de 80 e 90 os artistas ___ autógrafos, hoje tiram selfies com os fãs.',
-      promptFa: 'عادتِ گذشته (دهه‌های ۸۰ و ۹۰)؛ فعل DAR در گذشتهٔ ناتمام، سوم‌شخص جمع.',
+      prompt:
+        'Nas décadas de 80 e 90 os artistas ___ autógrafos, hoje tiram selfies com os fãs.',
+      promptFa:
+        'عادتِ گذشته (دهه‌های ۸۰ و ۹۰)؛ فعل DAR در گذشتهٔ ناتمام، سوم‌شخص جمع.',
       options: [],
       answer: 'davam',
-      explanationFa: 'عادتِ گذشته → گذشتهٔ ناتمام: «os artistas davam autógrafos».',
+      explanationFa:
+        'عادتِ گذشته → گذشتهٔ ناتمام: «os artistas davam autógrafos».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -502,7 +585,8 @@ export const aula8: CourseLesson = {
       id: 'course-aula-8-q15',
       type: 'mcq',
       prompt: 'O que vocês ___ no domingo passado?',
-      promptFa: '«domingo passado» یعنی یکشنبهٔ گذشته؛ کدام شکل FAZER درست است؟',
+      promptFa:
+        '«domingo passado» یعنی یکشنبهٔ گذشته؛ کدام شکل FAZER درست است؟',
       options: ['fizeram', 'fazem', 'faziam', 'farão'],
       answer: 'fizeram',
       explanationFa: 'گذشتهٔ کاملِ سوم‌شخص جمعِ fazer → «fizeram».',
@@ -516,7 +600,8 @@ export const aula8: CourseLesson = {
       promptFa: 'عادت/کارِ معمول در زمان حال؛ فعل FAZER سوم‌شخص جمع.',
       options: [],
       answer: 'fazem',
-      explanationFa: 'کارِ معمول/همیشگی → حال: «O que vocês fazem no país de vocês?».',
+      explanationFa:
+        'کارِ معمول/همیشگی → حال: «O que vocês fazem no país de vocês?».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -549,7 +634,8 @@ export const aula8: CourseLesson = {
       promptFa: '«já» (تا حالا) نشانهٔ گذشته است؛ کدام شکل IR درست است؟',
       options: ['foi', 'vai', 'ia', 'irá'],
       answer: 'foi',
-      explanationFa: 'گذشتهٔ کاملِ سوم‌شخص مفردِ ir → «foi»: «Você já foi ao Maracanã?».',
+      explanationFa:
+        'گذشتهٔ کاملِ سوم‌شخص مفردِ ir → «foi»: «Você já foi ao Maracanã?».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -568,10 +654,12 @@ export const aula8: CourseLesson = {
       id: 'course-aula-8-q21',
       type: 'fill-blank',
       prompt: 'A gente sempre ___ na casa deles quando éramos crianças.',
-      promptFa: 'عادتِ گذشته (quando éramos crianças)؛ فعل IR در گذشتهٔ ناتمام، «a gente».',
+      promptFa:
+        'عادتِ گذشته (quando éramos crianças)؛ فعل IR در گذشتهٔ ناتمام، «a gente».',
       options: [],
       answer: 'ia',
-      explanationFa: 'عادتِ گذشته → گذشتهٔ ناتمام؛ «a gente» سوم‌شخص مفرد → «ia».',
+      explanationFa:
+        'عادتِ گذشته → گذشتهٔ ناتمام؛ «a gente» سوم‌شخص مفرد → «ia».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -582,7 +670,8 @@ export const aula8: CourseLesson = {
       promptFa: '«رئیس‌جمهور بودن» در گذشته؛ کدام فعل (SER)؟',
       options: ['foi', 'fui', 'era', 'vai'],
       answer: 'foi',
-      explanationFa: 'گذشتهٔ کاملِ SER سوم‌شخص مفرد → «foi». (شکلِ SER و IR یکی است.)',
+      explanationFa:
+        'گذشتهٔ کاملِ SER سوم‌شخص مفرد → «foi». (شکلِ SER و IR یکی است.)',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -593,7 +682,8 @@ export const aula8: CourseLesson = {
       promptFa: 'حرکت به مکان در گذشته؛ فعل IR اول‌شخص مفرد.',
       options: [],
       answer: 'fui',
-      explanationFa: 'گذشتهٔ کاملِ IR اول‌شخص مفرد → «fui»: «Eu nunca fui ao Rio».',
+      explanationFa:
+        'گذشتهٔ کاملِ IR اول‌شخص مفرد → «fui»: «Eu nunca fui ao Rio».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -604,7 +694,8 @@ export const aula8: CourseLesson = {
       promptFa: 'حرکت/رفتن در گذشته؛ فعل IR سوم‌شخص جمع.',
       options: [],
       answer: 'foram',
-      explanationFa: 'گذشتهٔ کاملِ IR سوم‌شخص جمع → «foram»: «Eles foram estudar...».',
+      explanationFa:
+        'گذشتهٔ کاملِ IR سوم‌شخص جمع → «foram»: «Eles foram estudar...».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -615,7 +706,8 @@ export const aula8: CourseLesson = {
       promptFa: 'حرکت به مکان در گذشته؛ فعل IR اول‌شخص جمع.',
       options: [],
       answer: 'fomos',
-      explanationFa: 'گذشتهٔ کاملِ IR اول‌شخص جمع → «fomos»: «Nós fomos à Índia».',
+      explanationFa:
+        'گذشتهٔ کاملِ IR اول‌شخص جمع → «fomos»: «Nós fomos à Índia».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -626,7 +718,8 @@ export const aula8: CourseLesson = {
       promptFa: 'در اینجا بعد از فعل «شغل» آمده؛ کدام فعل (SER در گذشته)؟',
       options: ['foi', 'vai', 'está', 'ia'],
       answer: 'foi',
-      explanationFa: 'چون بعدش شغل آمده، این SER است: «Ela foi professora» (معلم بود).',
+      explanationFa:
+        'چون بعدش شغل آمده، این SER است: «Ela foi professora» (معلم بود).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -634,10 +727,12 @@ export const aula8: CourseLesson = {
       id: 'course-aula-8-q27',
       type: 'fill-blank',
       prompt: 'Ele já ___ loiro, mas agora é ruivo.',
-      promptFa: 'ویژگیِ گذشته (قبلاً بلوند بود)؛ فعل SER گذشتهٔ کامل، سوم‌شخص مفرد.',
+      promptFa:
+        'ویژگیِ گذشته (قبلاً بلوند بود)؛ فعل SER گذشتهٔ کامل، سوم‌شخص مفرد.',
       options: [],
       answer: 'foi',
-      explanationFa: 'گذشتهٔ کاملِ SER → «foi»: «Ele já foi loiro» (قبلاً بلوند بود).',
+      explanationFa:
+        'گذشتهٔ کاملِ SER → «foi»: «Ele já foi loiro» (قبلاً بلوند بود).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -670,7 +765,8 @@ export const aula8: CourseLesson = {
       promptFa: 'گذشتهٔ کاملِ اول‌شخصِ فعل poder کدام است؟',
       options: ['Pude', 'Podia', 'Posso', 'Poderei'],
       answer: 'Pude',
-      explanationFa: 'گذشتهٔ کاملِ poder → «Pude»؛ گذشتهٔ ناتمام آن «Podia» است.',
+      explanationFa:
+        'گذشتهٔ کاملِ poder → «Pude»؛ گذشتهٔ ناتمام آن «Podia» است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -692,7 +788,8 @@ export const aula8: CourseLesson = {
       promptFa: 'گذشتهٔ کاملِ اول‌شخصِ فعل dizer را بگذارید.',
       options: [],
       answer: 'disse',
-      explanationFa: 'گذشتهٔ کاملِ dizer اول‌شخص → «disse»: «Eu disse a verdade».',
+      explanationFa:
+        'گذشتهٔ کاملِ dizer اول‌شخص → «disse»: «Eu disse a verdade».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -714,7 +811,8 @@ export const aula8: CourseLesson = {
       promptFa: 'زمان حال؛ فعل ler اول‌شخص مفرد.',
       options: [],
       answer: 'leio',
-      explanationFa: 'حالِ اول‌شخصِ ler → «leio»: «Eu sempre leio muitos livros».',
+      explanationFa:
+        'حالِ اول‌شخصِ ler → «leio»: «Eu sempre leio muitos livros».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -736,7 +834,8 @@ export const aula8: CourseLesson = {
       promptFa: 'اگر شادی ویژگیِ همیشگی باشد؛ کدام فعل؟',
       options: ['sou', 'estou', 'é', 'era'],
       answer: 'sou',
-      explanationFa: 'ویژگی همیشگی → SER: «Eu sou muito feliz». (اگر لحظه‌ای بود → estou.)',
+      explanationFa:
+        'ویژگی همیشگی → SER: «Eu sou muito feliz». (اگر لحظه‌ای بود → estou.)',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -758,7 +857,8 @@ export const aula8: CourseLesson = {
       promptFa: 'زمان حال؛ اصطلاح tomar banho، اول‌شخص مفرد.',
       options: [],
       answer: 'tomo',
-      explanationFa: 'حمام‌کردن → «tomar banho»: «Eu tomo banho todos os dias».',
+      explanationFa:
+        'حمام‌کردن → «tomar banho»: «Eu tomo banho todos os dias».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -791,7 +891,8 @@ export const aula8: CourseLesson = {
       promptFa: 'زمان حال؛ فعل falar با «a gente» (سوم‌شخص مفرد).',
       options: [],
       answer: 'fala',
-      explanationFa: '«a gente» سوم‌شخص مفرد است → «A gente fala bem português».',
+      explanationFa:
+        '«a gente» سوم‌شخص مفرد است → «A gente fala bem português».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -802,7 +903,8 @@ export const aula8: CourseLesson = {
       promptFa: 'زمان حال؛ فعل saber اول‌شخص جمع (جواب‌ها را می‌دانیم).',
       options: [],
       answer: 'sabemos',
-      explanationFa: 'حالِ اول‌شخص جمعِ saber → «sabemos»: «Nós sempre sabemos as respostas».',
+      explanationFa:
+        'حالِ اول‌شخص جمعِ saber → «sabemos»: «Nós sempre sabemos as respostas».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -824,7 +926,8 @@ export const aula8: CourseLesson = {
       promptFa: 'گذشته؛ حالتِ موقتیِ گرسنگی با فعل estar، گذشتهٔ ناتمام.',
       options: [],
       answer: 'estava',
-      explanationFa: 'حالتِ گذشته → گذشتهٔ ناتمامِ estar: «Eu estava com muita fome».',
+      explanationFa:
+        'حالتِ گذشته → گذشتهٔ ناتمامِ estar: «Eu estava com muita fome».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -835,7 +938,8 @@ export const aula8: CourseLesson = {
       promptFa: 'گذشته؛ فعل ficar (خوشحال شدم)، اول‌شخص گذشتهٔ کامل.',
       options: [],
       answer: 'fiquei',
-      explanationFa: 'گذشتهٔ کاملِ ficar → «fiquei»: «Eu fiquei muito feliz». (یا «estava» با معنای وضعیت.)',
+      explanationFa:
+        'گذشتهٔ کاملِ ficar → «fiquei»: «Eu fiquei muito feliz». (یا «estava» با معنای وضعیت.)',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -846,7 +950,8 @@ export const aula8: CourseLesson = {
       promptFa: 'برای هوا از فعل بی‌شخصِ fazer استفاده می‌شود؛ کدام شکل گذشته؟',
       options: ['fez', 'fazia', 'faz', 'fará'],
       answer: 'fez',
-      explanationFa: 'آب‌وهوا با fazer بی‌شخص: گذشتهٔ کامل → «Ontem fez muito frio».',
+      explanationFa:
+        'آب‌وهوا با fazer بی‌شخص: گذشتهٔ کامل → «Ontem fez muito frio».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -857,7 +962,8 @@ export const aula8: CourseLesson = {
       promptFa: 'گذشته؛ فعل بی‌شخصِ ter (باران بود)، گذشتهٔ کامل سوم‌شخص مفرد.',
       options: [],
       answer: 'teve',
-      explanationFa: 'گذشتهٔ کاملِ ter بی‌شخص → «teve»: «Ontem teve muita chuva» (یا «houve»).',
+      explanationFa:
+        'گذشتهٔ کاملِ ter بی‌شخص → «teve»: «Ontem teve muita chuva» (یا «houve»).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -879,7 +985,8 @@ export const aula8: CourseLesson = {
       promptFa: 'گذشته؛ فعل dormir اول‌شخص گذشتهٔ کامل.',
       options: [],
       answer: 'dormi',
-      explanationFa: 'گذشتهٔ کاملِ dormir → «dormi»: «Ontem eu dormi só um pouquinho».',
+      explanationFa:
+        'گذشتهٔ کاملِ dormir → «dormi»: «Ontem eu dormi só um pouquinho».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -890,7 +997,8 @@ export const aula8: CourseLesson = {
       promptFa: 'گذشته؛ فعل estudar اول‌شخص گذشتهٔ کامل.',
       options: [],
       answer: 'estudei',
-      explanationFa: 'گذشتهٔ کاملِ estudar → «estudei»: «Ontem eu estudei muito».',
+      explanationFa:
+        'گذشتهٔ کاملِ estudar → «estudei»: «Ontem eu estudei muito».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -912,7 +1020,8 @@ export const aula8: CourseLesson = {
       promptFa: 'گذشته؛ فعل trabalhar اول‌شخص گذشتهٔ کامل.',
       options: [],
       answer: 'trabalhei',
-      explanationFa: 'گذشتهٔ کاملِ trabalhar → «trabalhei»: «Ontem eu trabalhei muito na empresa».',
+      explanationFa:
+        'گذشتهٔ کاملِ trabalhar → «trabalhei»: «Ontem eu trabalhei muito na empresa».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -923,7 +1032,8 @@ export const aula8: CourseLesson = {
       promptFa: 'آینده؛ فعل IR اول‌شخص مفرد.',
       options: [],
       answer: 'irei',
-      explanationFa: 'آیندهٔ IR → «irei» (یا رایج‌تر «vou»): «No ano que vem eu irei ao Rio».',
+      explanationFa:
+        'آیندهٔ IR → «irei» (یا رایج‌تر «vou»): «No ano que vem eu irei ao Rio».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -934,7 +1044,8 @@ export const aula8: CourseLesson = {
       promptFa: 'آینده؛ فعل IR اول‌شخص جمع (خوب پیش خواهیم رفت).',
       options: [],
       answer: 'iremos',
-      explanationFa: 'آیندهٔ IR اول‌شخص جمع → «iremos»: «Nós iremos bem na prova» (یا «vamos bem»).',
+      explanationFa:
+        'آیندهٔ IR اول‌شخص جمع → «iremos»: «Nós iremos bem na prova» (یا «vamos bem»).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -945,7 +1056,8 @@ export const aula8: CourseLesson = {
       promptFa: 'آینده؛ فعل comprar اول‌شخص مفرد.',
       options: [],
       answer: 'comprarei',
-      explanationFa: 'آیندهٔ comprar → «comprarei» (یا «vou comprar»): «...eu comprarei um carro».',
+      explanationFa:
+        'آیندهٔ comprar → «comprarei» (یا «vou comprar»): «...eu comprarei um carro».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -967,7 +1079,8 @@ export const aula8: CourseLesson = {
       promptFa: 'آینده؛ فعل IR اول‌شخص مفرد.',
       options: [],
       answer: 'irei',
-      explanationFa: 'آیندهٔ IR → «irei» (یا «vou»): «Domingo que vem eu irei ao parque».',
+      explanationFa:
+        'آیندهٔ IR → «irei» (یا «vou»): «Domingo que vem eu irei ao parque».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -978,7 +1091,8 @@ export const aula8: CourseLesson = {
       promptFa: 'آینده؛ فعل FAZER اول‌شخص مفرد.',
       options: [],
       answer: 'farei',
-      explanationFa: 'آیندهٔ fazer → «farei»: «Amanhã eu farei minha lição de casa».',
+      explanationFa:
+        'آیندهٔ fazer → «farei»: «Amanhã eu farei minha lição de casa».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -989,7 +1103,8 @@ export const aula8: CourseLesson = {
       promptFa: 'آینده؛ فعل tomar اول‌شخص مفرد (واکسن زدن).',
       options: [],
       answer: 'tomarei',
-      explanationFa: 'آیندهٔ tomar → «tomarei»: «...eu tomarei mais uma dose da vacina».',
+      explanationFa:
+        'آیندهٔ tomar → «tomarei»: «...eu tomarei mais uma dose da vacina».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -1000,7 +1115,8 @@ export const aula8: CourseLesson = {
       promptFa: 'آینده؛ فعل vir سوم‌شخص جمع (دیرتر خواهند آمد).',
       options: [],
       answer: 'virão',
-      explanationFa: 'آیندهٔ vir سوم‌شخص جمع → «virão»: «Eles virão mais tarde» (یا «vão vir»).',
+      explanationFa:
+        'آیندهٔ vir سوم‌شخص جمع → «virão»: «Eles virão mais tarde» (یا «vão vir»).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -1022,29 +1138,34 @@ export const aula8: CourseLesson = {
       promptFa: 'آینده با «a gente» (سوم‌شخص مفرد)؛ کدام شکل SER؟',
       options: ['será', 'serão', 'seremos', 'foi'],
       answer: 'será',
-      explanationFa: '«a gente» سوم‌شخص مفرد است → آیندهٔ SER «será»: «A gente será muito feliz no Brasil» (یا «vai ser»).',
+      explanationFa:
+        '«a gente» سوم‌شخص مفرد است → آیندهٔ SER «será»: «A gente será muito feliz no Brasil» (یا «vai ser»).',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-8-q63',
       type: 'translate-fa-pt',
-      prompt: '«دیروز من به سینما رفتم و یک فیلم عالی دیدم.» را به پرتغالی بنویسید.',
+      prompt:
+        '«دیروز من به سینما رفتم و یک فیلم عالی دیدم.» را به پرتغالی بنویسید.',
       promptFa: 'با گذشتهٔ کاملِ ir و ver ترجمه کنید.',
       options: [],
       answer: 'Ontem eu fui ao cinema e vi um filme ótimo.',
-      explanationFa: 'ir → «fui»، ver → «vi». حرف اضافهٔ مکان بعد از fui نشان می‌دهد این IR است، نه SER.',
+      explanationFa:
+        'ir → «fui»، ver → «vi». حرف اضافهٔ مکان بعد از fui نشان می‌دهد این IR است، نه SER.',
       cefr: 'A2',
       skill: 'writing',
     },
     {
       id: 'course-aula-8-q64',
       type: 'translate-pt-fa',
-      prompt: 'Traduza para o persa: "Quando eu era criança, a gente ia à praia todo verão."',
+      prompt:
+        'Traduza para o persa: "Quando eu era criança, a gente ia à praia todo verão."',
       promptFa: 'این جمله را به فارسی ترجمه کنید (گذشتهٔ ناتمام).',
       options: [],
       answer: 'وقتی بچه بودم، هر تابستان به ساحل می‌رفتیم.',
-      explanationFa: 'گذشتهٔ ناتمام (era، ia) عادت و وضعیتِ ادامه‌دار در گذشته را نشان می‌دهد.',
+      explanationFa:
+        'گذشتهٔ ناتمام (era، ia) عادت و وضعیتِ ادامه‌دار در گذشته را نشان می‌دهد.',
       cefr: 'A2',
       skill: 'reading',
     },

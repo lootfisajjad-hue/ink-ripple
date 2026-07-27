@@ -22,7 +22,12 @@ export const aula2: CourseLesson = {
       bodyFa:
         'در موقعیت‌های رسمی (با غریبه، در اداره، محل کار، با افراد بزرگ‌تر) از این عبارت‌ها استفاده کنید. سلام بر اساس ساعت روز خیلی رایج است: صبح، بعدازظهر و شب هرکدام عبارت خودشان را دارند. عبارت‌های آشناییِ رسمی هم «Muito prazer!» (از آشنایی‌تان خوشوقتم) و پاسخ آن «O prazer é meu!» (افتخار از من است) هستند.',
       examples: [
-        { pt: 'Bom dia!', fa: 'صبح بخیر!', pron: 'بُن جیا', note: 'تا حدود ظهر.' },
+        {
+          pt: 'Bom dia!',
+          fa: 'صبح بخیر!',
+          pron: 'بُن جیا',
+          note: 'تا حدود ظهر.',
+        },
         {
           pt: 'Boa tarde!',
           fa: 'بعدازظهر بخیر!',
@@ -402,7 +407,8 @@ export const aula2: CourseLesson = {
       promptFa: 'شکل مؤنث «francês» کدام است؟',
       options: ['francesa', 'francês', 'francêsa', 'francesā'],
       answer: 'francesa',
-      explanationFa: 'پایانهٔ «-ês» مذکر است و مؤنث آن «-esa» می‌شود: francês/francesa.',
+      explanationFa:
+        'پایانهٔ «-ês» مذکر است و مؤنث آن «-esa» می‌شود: francês/francesa.',
       cefr: 'A1',
       skill: 'vocab',
     },
@@ -413,7 +419,8 @@ export const aula2: CourseLesson = {
       promptFa: 'این جمله را به پرتغالی برزیلی ترجمه کنید.',
       options: [],
       answer: 'Meu nome é Ana. Eu tenho trinta anos.',
-      explanationFa: 'برای سن از ter استفاده می‌شود؛ «sou trinta anos» اشتباه رایج است.',
+      explanationFa:
+        'برای سن از ter استفاده می‌شود؛ «sou trinta anos» اشتباه رایج است.',
       cefr: 'A1',
       skill: 'writing',
     },
@@ -443,10 +450,12 @@ export const aula2: CourseLesson = {
       id: 'course-aula-2-q7',
       type: 'mcq',
       prompt: 'Substitua pelo pronome: "Minha tia e minha avó" =',
-      promptFa: '«عمه‌ام و مادربزرگم» (دو زن، سوم‌شخص) با کدام ضمیر جایگزین می‌شود؟',
+      promptFa:
+        '«عمه‌ام و مادربزرگم» (دو زن، سوم‌شخص) با کدام ضمیر جایگزین می‌شود؟',
       options: ['Elas', 'Eles', 'Nós', 'Ela'],
       answer: 'Elas',
-      explanationFa: 'دو زن که درباره‌شان حرف می‌زنیم → سوم‌شخص جمع مؤنث «elas».',
+      explanationFa:
+        'دو زن که درباره‌شان حرف می‌زنیم → سوم‌شخص جمع مؤنث «elas».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -457,7 +466,8 @@ export const aula2: CourseLesson = {
       promptFa: '«ژوائو و ماریا» (یک مرد و یک زن) با کدام ضمیر جایگزین می‌شود؟',
       options: ['Eles', 'Elas', 'Nós', 'Vocês'],
       answer: 'Eles',
-      explanationFa: 'وقتی گروه مختلط (مرد+زن) باشد از شکل مذکر جمع «eles» استفاده می‌شود.',
+      explanationFa:
+        'وقتی گروه مختلط (مرد+زن) باشد از شکل مذکر جمع «eles» استفاده می‌شود.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -468,7 +478,8 @@ export const aula2: CourseLesson = {
       promptFa: '«خواهرم» (یک زن) با کدام ضمیر جایگزین می‌شود؟',
       options: ['Ela', 'Ele', 'Elas', 'Você'],
       answer: 'Ela',
-      explanationFa: 'یک زن که درباره‌اش حرف می‌زنیم → سوم‌شخص مفرد مؤنث «ela».',
+      explanationFa:
+        'یک زن که درباره‌اش حرف می‌زنیم → سوم‌شخص مفرد مؤنث «ela».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -476,10 +487,12 @@ export const aula2: CourseLesson = {
       id: 'course-aula-2-q10',
       type: 'mcq',
       prompt: 'Substitua pelo pronome: "Seus filhos" =',
-      promptFa: '«فرزندانِ او/شما» (دوم‌شخص جمع، افرادی که خطاب می‌کنیم) با کدام ضمیر؟',
+      promptFa:
+        '«فرزندانِ او/شما» (دوم‌شخص جمع، افرادی که خطاب می‌کنیم) با کدام ضمیر؟',
       options: ['Vocês', 'Nós', 'Eu', 'Ela'],
       answer: 'Vocês',
-      explanationFa: '«seus filhos» به مخاطبانی که با آن‌ها حرف می‌زنیم برمی‌گردد → «vocês».',
+      explanationFa:
+        '«seus filhos» به مخاطبانی که با آن‌ها حرف می‌زنیم برمی‌گردد → «vocês».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -501,7 +514,8 @@ export const aula2: CourseLesson = {
       promptFa: 'ضمیر مناسب را بگذارید (فعل foram سوم‌شخص جمع است).',
       options: [],
       answer: 'Eles',
-      explanationFa: '«foram» سوم‌شخص جمع است؛ «Eles» (یا Elas/Vocês) درست است.',
+      explanationFa:
+        '«foram» سوم‌شخص جمع است؛ «Eles» (یا Elas/Vocês) درست است.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -611,7 +625,8 @@ export const aula2: CourseLesson = {
       promptFa: 'اولی نقش/هویت و دومی کارِ در جریان است؛ دو فعل را بگذارید.',
       options: [],
       answer: 'sou / estou',
-      explanationFa: 'هویت → SER (sou estudante)؛ کارِ در جریان → ESTAR (estou estudando).',
+      explanationFa:
+        'هویت → SER (sou estudante)؛ کارِ در جریان → ESTAR (estou estudando).',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -644,7 +659,8 @@ export const aula2: CourseLesson = {
       promptFa: 'شکل غیررسمیِ «ما» که فعلش سوم‌شخص مفرد است؛ چه بگذاریم؟',
       options: [],
       answer: 'A gente',
-      explanationFa: '«a gente» یعنی «ما» غیررسمی و با فعل سوم‌شخص مفرد (é) می‌آید.',
+      explanationFa:
+        '«a gente» یعنی «ما» غیررسمی و با فعل سوم‌شخص مفرد (é) می‌آید.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -809,18 +825,21 @@ export const aula2: CourseLesson = {
       promptFa: 'کارِ در جریان با «a gente»؛ فعل درست را بگذارید.',
       options: [],
       answer: 'está',
-      explanationFa: 'کارِ در جریان → ESTAR؛ «a gente» سوم‌شخص مفرد → «está aprendendo».',
+      explanationFa:
+        'کارِ در جریان → ESTAR؛ «a gente» سوم‌شخص مفرد → «está aprendendo».',
       cefr: 'A1',
       skill: 'grammar',
     },
     {
       id: 'course-aula-2-q41',
       type: 'translate-fa-pt',
-      prompt: '«من در سائوپائولو زندگی می‌کنم و به‌عنوان فروشنده کار می‌کنم.» را به پرتغالی بنویسید.',
+      prompt:
+        '«من در سائوپائولو زندگی می‌کنم و به‌عنوان فروشنده کار می‌کنم.» را به پرتغالی بنویسید.',
       promptFa: 'با الگوی معرفی خود ترجمه کنید.',
       options: [],
       answer: 'Eu moro em São Paulo e trabalho como vendedora.',
-      explanationFa: '«morar em» برای محل زندگی و «trabalhar como» برای شغل به‌کار می‌رود.',
+      explanationFa:
+        '«morar em» برای محل زندگی و «trabalhar como» برای شغل به‌کار می‌رود.',
       cefr: 'A1',
       skill: 'writing',
     },
@@ -842,7 +861,8 @@ export const aula2: CourseLesson = {
       promptFa: '«برادرانم» با کدام ضمیر جایگزین می‌شود؟',
       options: ['Eles', 'Elas', 'Nós', 'Ele'],
       answer: 'Eles',
-      explanationFa: 'گروهی که درباره‌شان حرف می‌زنیم و مذکر/مختلط است → «Eles».',
+      explanationFa:
+        'گروهی که درباره‌شان حرف می‌زنیم و مذکر/مختلط است → «Eles».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -853,7 +873,8 @@ export const aula2: CourseLesson = {
       promptFa: '«فرزندانم» با کدام ضمیر جایگزین می‌شود؟',
       options: ['Eles', 'Elas', 'Vocês', 'Nós'],
       answer: 'Eles',
-      explanationFa: 'گروهِ فرزندان (مذکر/مختلط) که درباره‌شان حرف می‌زنیم → «Eles».',
+      explanationFa:
+        'گروهِ فرزندان (مذکر/مختلط) که درباره‌شان حرف می‌زنیم → «Eles».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -864,7 +885,8 @@ export const aula2: CourseLesson = {
       promptFa: '«خانواده‌ام» با کدام ضمیر جایگزین می‌شود؟',
       options: ['Ela', 'Eles', 'Nós', 'Elas'],
       answer: 'Ela',
-      explanationFa: '«família» واژه‌ای مؤنث و مفرد است → سوم‌شخص مفرد مؤنث «Ela».',
+      explanationFa:
+        '«família» واژه‌ای مؤنث و مفرد است → سوم‌شخص مفرد مؤنث «Ela».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -919,7 +941,8 @@ export const aula2: CourseLesson = {
       promptFa: 'کارِ در جریان است؛ فعل درست را بگذارید.',
       options: [],
       answer: 'estou',
-      explanationFa: 'کارِ در جریان (estar + gerúndio) → ESTAR اول‌شخص مفرد → «estou».',
+      explanationFa:
+        'کارِ در جریان (estar + gerúndio) → ESTAR اول‌شخص مفرد → «estou».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -930,7 +953,8 @@ export const aula2: CourseLesson = {
       promptFa: 'حضور موقت در یک مکان؛ فعل درست را بگذارید.',
       options: [],
       answer: 'estou',
-      explanationFa: 'حضور موقت در مکان → ESTAR: «Eu estou aqui faz 40 minutos».',
+      explanationFa:
+        'حضور موقت در مکان → ESTAR: «Eu estou aqui faz 40 minutos».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -985,7 +1009,8 @@ export const aula2: CourseLesson = {
       promptFa: 'دندان‌پزشک (یک مرد، سوم‌شخص مفرد)؛ کدام ضمیر؟',
       options: ['Ele', 'Ela', 'Você', 'Eles'],
       answer: 'Ele',
-      explanationFa: 'یک مرد که درباره‌اش حرف می‌زنیم → سوم‌شخص مفرد مذکر «Ele».',
+      explanationFa:
+        'یک مرد که درباره‌اش حرف می‌زنیم → سوم‌شخص مفرد مذکر «Ele».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -996,14 +1021,16 @@ export const aula2: CourseLesson = {
       promptFa: 'راننده (یک زن، سوم‌شخص مفرد)؛ کدام ضمیر؟',
       options: ['Ela', 'Ele', 'Nós', 'Elas'],
       answer: 'Ela',
-      explanationFa: 'یک زن که درباره‌اش حرف می‌زنیم → سوم‌شخص مفرد مؤنث «Ela».',
+      explanationFa:
+        'یک زن که درباره‌اش حرف می‌زنیم → سوم‌شخص مفرد مؤنث «Ela».',
       cefr: 'A1',
       skill: 'grammar',
     },
     {
       id: 'course-aula-2-q58',
       type: 'mcq',
-      prompt: 'Complete com o pronome: ________ são dentistas? [as pessoas com quem falamos]',
+      prompt:
+        'Complete com o pronome: ________ são dentistas? [as pessoas com quem falamos]',
       promptFa: 'کسانی که با آن‌ها حرف می‌زنیم (دوم‌شخص جمع)؛ کدام ضمیر؟',
       options: ['Vocês', 'Eles', 'Nós', 'Elas'],
       answer: 'Vocês',
@@ -1139,7 +1166,8 @@ export const aula2: CourseLesson = {
       promptFa: 'با فعل estar کامل کنید (سوم‌شخص مفرد، حالت موقتی).',
       options: [],
       answer: 'está',
-      explanationFa: 'بدخلقیِ امروز حالتی موقتی است → ESTAR سوم‌شخص مفرد → «está».',
+      explanationFa:
+        'بدخلقیِ امروز حالتی موقتی است → ESTAR سوم‌شخص مفرد → «está».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -1150,7 +1178,8 @@ export const aula2: CourseLesson = {
       promptFa: 'با فعل estar کامل کنید (سوم‌شخص مفرد، وضعیت هوا).',
       options: [],
       answer: 'está',
-      explanationFa: 'گرمای امروز وضعیتی موقتی است → ESTAR سوم‌شخص مفرد → «está».',
+      explanationFa:
+        'گرمای امروز وضعیتی موقتی است → ESTAR سوم‌شخص مفرد → «está».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -1161,18 +1190,21 @@ export const aula2: CourseLesson = {
       promptFa: 'با فعل estar کامل کنید (دوم‌شخص مفرد، حال احوال).',
       options: [],
       answer: 'está',
-      explanationFa: 'پرسش از حالِ لحظه‌ای → ESTAR؛ «você» سوم‌شخص مفرد → «está».',
+      explanationFa:
+        'پرسش از حالِ لحظه‌ای → ESTAR؛ «você» سوم‌شخص مفرد → «está».',
       cefr: 'A1',
       skill: 'grammar',
     },
     {
       id: 'course-aula-2-q73',
       type: 'fill-blank',
-      prompt: 'Complete com ESTAR: Eles querem fazer uma festa, mas nós ___ trabalhando agora.',
+      prompt:
+        'Complete com ESTAR: Eles querem fazer uma festa, mas nós ___ trabalhando agora.',
       promptFa: 'با فعل estar کامل کنید (اول‌شخص جمع، کارِ در جریان).',
       options: [],
       answer: 'estamos',
-      explanationFa: 'کارِ در جریان → ESTAR؛ اول‌شخص جمع → «estamos trabalhando».',
+      explanationFa:
+        'کارِ در جریان → ESTAR؛ اول‌شخص جمع → «estamos trabalhando».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -1205,7 +1237,8 @@ export const aula2: CourseLesson = {
       promptFa: '«خوب بودن» در این جمله حالِ لحظه‌ای است؛ کدام فعل؟',
       options: ['estamos', 'somos', 'são', 'está'],
       answer: 'estamos',
-      explanationFa: 'حالِ لحظه‌ای (خوب بودن) → ESTAR اول‌شخص جمع → «estamos bem».',
+      explanationFa:
+        'حالِ لحظه‌ای (خوب بودن) → ESTAR اول‌شخص جمع → «estamos bem».',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -1216,7 +1249,8 @@ export const aula2: CourseLesson = {
       promptFa: 'خوش‌برخوردی ویژگیِ ثابت است؛ کدام فعل؟',
       options: ['são', 'estão', 'somos', 'é'],
       answer: 'são',
-      explanationFa: 'خوش‌برخوردی ویژگی ثابت شخصیت است → SER؛ سوم‌شخص جمع → «são».',
+      explanationFa:
+        'خوش‌برخوردی ویژگی ثابت شخصیت است → SER؛ سوم‌شخص جمع → «são».',
       cefr: 'A1',
       skill: 'grammar',
     },

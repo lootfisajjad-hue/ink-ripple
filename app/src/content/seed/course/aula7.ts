@@ -439,25 +439,29 @@ export const aula7: CourseLesson = {
       promptFa: 'کدام وجه فعلی نشان‌دهندهٔ کنشِ قطعی و واقعی است؟',
       options: ['Indicativo', 'Subjuntivo', 'Imperativo', 'Infinitivo'],
       answer: 'Indicativo',
-      explanationFa: 'وجه اخباری (indicativo) واقعیت را نشان می‌دهد؛ التزامی احتمال و امری دستور را.',
+      explanationFa:
+        'وجه اخباری (indicativo) واقعیت را نشان می‌دهد؛ التزامی احتمال و امری دستور را.',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-7-q2',
       type: 'mcq',
-      prompt: 'Em quantos aspectos um verbo pode flexionar-se? (número, pessoa, modo, tempo, aspecto, voz)',
+      prompt:
+        'Em quantos aspectos um verbo pode flexionar-se? (número, pessoa, modo, tempo, aspecto, voz)',
       promptFa: 'فعل در چند چیز صرف می‌شود؟',
       options: ['seis', 'quatro', 'três', 'dois'],
       answer: 'seis',
-      explanationFa: 'فعل در شش چیز صرف می‌شود: شمار، شخص، وجه، زمان، نمود و صدا.',
+      explanationFa:
+        'فعل در شش چیز صرف می‌شود: شمار، شخص، وجه، زمان، نمود و صدا.',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-7-q3',
       type: 'mcq',
-      prompt: 'Que tempo do indicativo indica uma ação repetitiva ou habitual no passado?',
+      prompt:
+        'Que tempo do indicativo indica uma ação repetitiva ou habitual no passado?',
       promptFa: 'کدام زمانِ اخباری کنشِ تکراری یا عادتیِ گذشته را نشان می‌دهد؟',
       options: [
         'Pretérito Imperfeito',
@@ -466,7 +470,8 @@ export const aula7: CourseLesson = {
         'Futuro',
       ],
       answer: 'Pretérito Imperfeito',
-      explanationFa: 'ماضی استمراری (imperfeito) کنشِ تکراری/مستمرِ گذشته را نشان می‌دهد؛ ماضی مطلق کنشِ یک‌بار و تمام‌شده.',
+      explanationFa:
+        'ماضی استمراری (imperfeito) کنشِ تکراری/مستمرِ گذشته را نشان می‌دهد؛ ماضی مطلق کنشِ یک‌بار و تمام‌شده.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -477,7 +482,8 @@ export const aula7: CourseLesson = {
       promptFa: 'کدام فعل بی‌قاعده است (ریشه‌اش عوض می‌شود)؟',
       options: ['ir', 'falar', 'comer', 'partir'],
       answer: 'ir',
-      explanationFa: 'IR بی‌قاعده است (vou/vai/vamos/vão)؛ falar، comer و partir باقاعده‌اند.',
+      explanationFa:
+        'IR بی‌قاعده است (vou/vai/vamos/vão)؛ falar، comer و partir باقاعده‌اند.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -485,7 +491,8 @@ export const aula7: CourseLesson = {
       id: 'course-aula-7-q5',
       type: 'fill-blank',
       prompt: 'Eu ______ na aula atrasado. (ENTRAR, pretérito perfeito)',
-      promptFa: 'با ماضی مطلقِ فعل ENTRAR کامل کنید: من با تأخیر وارد کلاس شدم.',
+      promptFa:
+        'با ماضی مطلقِ فعل ENTRAR کامل کنید: من با تأخیر وارد کلاس شدم.',
       options: [],
       answer: 'entrei',
       explanationFa: 'ماضی مطلقِ اول‌شخص مفردِ entrar می‌شود «entrei».',
@@ -496,21 +503,26 @@ export const aula7: CourseLesson = {
       id: 'course-aula-7-q6',
       type: 'fill-blank',
       prompt: 'Amanhã nós ______ para trabalhar às 8h. (ENTRAR, futuro)',
-      promptFa: 'با آیندهٔ فعل ENTRAR کامل کنید (قیدِ amanhã = فردا): ما فردا ساعت ۸ برای کار وارد می‌شویم.',
+      promptFa:
+        'با آیندهٔ فعل ENTRAR کامل کنید (قیدِ amanhã = فردا): ما فردا ساعت ۸ برای کار وارد می‌شویم.',
       options: [],
       answer: 'entraremos',
-      explanationFa: 'قیدِ «amanhã» زمانِ آینده می‌طلبد؛ آیندهٔ اول‌شخص جمعِ entrar = «entraremos».',
+      explanationFa:
+        'قیدِ «amanhã» زمانِ آینده می‌طلبد؛ آیندهٔ اول‌شخص جمعِ entrar = «entraremos».',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-7-q7',
       type: 'fill-blank',
-      prompt: 'Eles ______ em contato por telefone. (ENTRAR, pretérito perfeito)',
-      promptFa: 'با ماضی مطلقِ فعل ENTRAR کامل کنید: آن‌ها با تلفن تماس گرفتند.',
+      prompt:
+        'Eles ______ em contato por telefone. (ENTRAR, pretérito perfeito)',
+      promptFa:
+        'با ماضی مطلقِ فعل ENTRAR کامل کنید: آن‌ها با تلفن تماس گرفتند.',
       options: [],
       answer: 'entraram',
-      explanationFa: 'ماضی مطلقِ سوم‌شخص جمعِ entrar = «entraram» (پایانهٔ ‑am → گذشته). «entrar em contato» یعنی تماس گرفتن.',
+      explanationFa:
+        'ماضی مطلقِ سوم‌شخص جمعِ entrar = «entraram» (پایانهٔ ‑am → گذشته). «entrar em contato» یعنی تماس گرفتن.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -529,21 +541,26 @@ export const aula7: CourseLesson = {
       id: 'course-aula-7-q9',
       type: 'fill-blank',
       prompt: 'Minha mãe ______ todo o café ontem. (BEBER, pretérito perfeito)',
-      promptFa: 'با ماضی مطلقِ فعل BEBER کامل کنید (قیدِ ontem = دیروز): مادرم دیروز همهٔ قهوه را نوشید.',
+      promptFa:
+        'با ماضی مطلقِ فعل BEBER کامل کنید (قیدِ ontem = دیروز): مادرم دیروز همهٔ قهوه را نوشید.',
       options: [],
       answer: 'bebeu',
-      explanationFa: 'قیدِ «ontem» کنشِ تمام‌شده می‌طلبد؛ ماضی مطلقِ سوم‌شخص مفردِ beber = «bebeu».',
+      explanationFa:
+        'قیدِ «ontem» کنشِ تمام‌شده می‌طلبد؛ ماضی مطلقِ سوم‌شخص مفردِ beber = «bebeu».',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-7-q10',
       type: 'fill-blank',
-      prompt: 'Antigamente eu ______ muito leite. (BEBER, pretérito imperfeito)',
-      promptFa: 'با ماضی استمراریِ فعل BEBER کامل کنید (قیدِ antigamente = قدیم‌ها): قدیم‌ها من شیرِ زیادی می‌نوشیدم.',
+      prompt:
+        'Antigamente eu ______ muito leite. (BEBER, pretérito imperfeito)',
+      promptFa:
+        'با ماضی استمراریِ فعل BEBER کامل کنید (قیدِ antigamente = قدیم‌ها): قدیم‌ها من شیرِ زیادی می‌نوشیدم.',
       options: [],
       answer: 'bebia',
-      explanationFa: 'قیدِ «antigamente» عادتِ گذشته را می‌رساند → ماضی استمراری؛ اول‌شخص مفردِ beber = «bebia».',
+      explanationFa:
+        'قیدِ «antigamente» عادتِ گذشته را می‌رساند → ماضی استمراری؛ اول‌شخص مفردِ beber = «bebia».',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -551,7 +568,8 @@ export const aula7: CourseLesson = {
       id: 'course-aula-7-q11',
       type: 'fill-blank',
       prompt: 'Ela ______ a porta para ele entrar. (ABRIR, pretérito perfeito)',
-      promptFa: 'با ماضی مطلقِ فعل ABRIR کامل کنید: او در را باز کرد تا او وارد شود.',
+      promptFa:
+        'با ماضی مطلقِ فعل ABRIR کامل کنید: او در را باز کرد تا او وارد شود.',
       options: [],
       answer: 'abriu',
       explanationFa: 'ماضی مطلقِ سوم‌شخص مفردِ abrir = «abriu».',
@@ -562,7 +580,8 @@ export const aula7: CourseLesson = {
       id: 'course-aula-7-q12',
       type: 'fill-blank',
       prompt: 'Nós ______ as janelas todos os dias. (ABRIR, presente)',
-      promptFa: 'با زمان حالِ فعل ABRIR کامل کنید (todos os dias = هر روز): ما هر روز پنجره‌ها را باز می‌کنیم.',
+      promptFa:
+        'با زمان حالِ فعل ABRIR کامل کنید (todos os dias = هر روز): ما هر روز پنجره‌ها را باز می‌کنیم.',
       options: [],
       answer: 'abrimos',
       explanationFa: 'کنشِ عادتیِ حال؛ حالِ اول‌شخص جمعِ abrir = «abrimos».',
@@ -573,10 +592,12 @@ export const aula7: CourseLesson = {
       id: 'course-aula-7-q13',
       type: 'fill-blank',
       prompt: 'Ontem eles ______ às 10h. (ABRIR, pretérito perfeito)',
-      promptFa: 'با ماضی مطلقِ فعل ABRIR کامل کنید (قیدِ ontem = دیروز): دیروز آن‌ها ساعت ۱۰ باز کردند.',
+      promptFa:
+        'با ماضی مطلقِ فعل ABRIR کامل کنید (قیدِ ontem = دیروز): دیروز آن‌ها ساعت ۱۰ باز کردند.',
       options: [],
       answer: 'abriram',
-      explanationFa: 'قیدِ «ontem» + سوم‌شخص جمعِ گذشته = «abriram» (پایانهٔ ‑am → گذشته).',
+      explanationFa:
+        'قیدِ «ontem» + سوم‌شخص جمعِ گذشته = «abriram» (پایانهٔ ‑am → گذشته).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -584,10 +605,12 @@ export const aula7: CourseLesson = {
       id: 'course-aula-7-q14',
       type: 'fill-blank',
       prompt: 'Amanhã eles ______ ao meio-dia. (ABRIR, futuro)',
-      promptFa: 'با آیندهٔ فعل ABRIR کامل کنید (قیدِ amanhã = فردا): فردا آن‌ها ظهر باز خواهند کرد.',
+      promptFa:
+        'با آیندهٔ فعل ABRIR کامل کنید (قیدِ amanhã = فردا): فردا آن‌ها ظهر باز خواهند کرد.',
       options: [],
       answer: 'abrirão',
-      explanationFa: 'قیدِ «amanhã» + سوم‌شخص جمعِ آینده = «abrirão» (پایانهٔ ‑ão → آینده).',
+      explanationFa:
+        'قیدِ «amanhã» + سوم‌شخص جمعِ آینده = «abrirão» (پایانهٔ ‑ão → آینده).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -598,7 +621,8 @@ export const aula7: CourseLesson = {
       promptFa: 'شکلِ آینده را انتخاب کنید: «آن‌ها فردا سالاد ... .»',
       options: ['comerão', 'comeram', 'comem', 'comiam'],
       answer: 'comerão',
-      explanationFa: 'پایانهٔ ‑ão نشانهٔ آینده است (comeRÃO)، درحالی‌که ‑am (comeram) گذشته است.',
+      explanationFa:
+        'پایانهٔ ‑ão نشانهٔ آینده است (comeRÃO)، درحالی‌که ‑am (comeram) گذشته است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -609,7 +633,8 @@ export const aula7: CourseLesson = {
       promptFa: 'شکلِ گذشته را انتخاب کنید: «والدینم دیروز ... .»',
       options: ['viajaram', 'viajarão', 'viajam', 'viajarem'],
       answer: 'viajaram',
-      explanationFa: 'پایانهٔ ‑am + قیدِ «ontem» → گذشته (viaJAram)؛ viajaRÃO آینده است.',
+      explanationFa:
+        'پایانهٔ ‑am + قیدِ «ontem» → گذشته (viaJAram)؛ viajaRÃO آینده است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -620,7 +645,8 @@ export const aula7: CourseLesson = {
       promptFa: 'کلمات را مرتب کنید تا جملهٔ درست ساخته شود.',
       options: ['português', 'Nós', 'bem', 'falamos'],
       answer: 'Nós falamos bem português.',
-      explanationFa: 'ترتیب: فاعل + فعل + قید + مفعول → «Nós falamos bem português» (ما پرتغالی را خوب حرف می‌زنیم).',
+      explanationFa:
+        'ترتیب: فاعل + فعل + قید + مفعول → «Nós falamos bem português» (ما پرتغالی را خوب حرف می‌زنیم).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -631,7 +657,8 @@ export const aula7: CourseLesson = {
       promptFa: 'با زمان حال ترجمه کنید (کنشِ عادتی).',
       options: [],
       answer: 'Tomo banho todos os dias.',
-      explanationFa: 'کنشِ عادتی با زمان حال بیان می‌شود؛ «tomar banho» یعنی دوش گرفتن.',
+      explanationFa:
+        'کنشِ عادتی با زمان حال بیان می‌شود؛ «tomar banho» یعنی دوش گرفتن.',
       cefr: 'A2',
       skill: 'writing',
     },
@@ -642,7 +669,8 @@ export const aula7: CourseLesson = {
       promptFa: 'این جملهٔ ماضی مطلق را به فارسی ترجمه کنید.',
       options: [],
       answer: 'سالِ گذشته خانه‌ام را خریدم.',
-      explanationFa: '«comprei» ماضی مطلقِ اول‌شخص است و کنشِ تمام‌شده در گذشته را نشان می‌دهد.',
+      explanationFa:
+        '«comprei» ماضی مطلقِ اول‌شخص است و کنشِ تمام‌شده در گذشته را نشان می‌دهد.',
       cefr: 'A2',
       skill: 'reading',
     },

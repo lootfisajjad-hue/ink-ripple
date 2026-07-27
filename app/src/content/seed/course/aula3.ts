@@ -325,7 +325,8 @@ export const aula3: CourseLesson = {
       promptFa: 'کدام ضمیر ملکی با «casa» (مؤنث مفرد) هماهنگ است؟',
       options: ['Minha', 'Meu', 'Meus', 'Minhas'],
       answer: 'Minha',
-      explanationFa: 'casa مؤنث مفرد است؛ ضمیر ملکی هم باید مؤنث مفرد باشد → minha.',
+      explanationFa:
+        'casa مؤنث مفرد است؛ ضمیر ملکی هم باید مؤنث مفرد باشد → minha.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -380,7 +381,8 @@ export const aula3: CourseLesson = {
       promptFa: 'با ضمیر ملکیِ سوم‌شخص کامل کنید (amiga مؤنث مفرد).',
       options: [],
       answer: 'sua',
-      explanationFa: 'صاحب سوم‌شخص و amiga مؤنث مفرد → sua (یا «amiga dele» برای رفع ابهام).',
+      explanationFa:
+        'صاحب سوم‌شخص و amiga مؤنث مفرد → sua (یا «amiga dele» برای رفع ابهام).',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -424,7 +426,8 @@ export const aula3: CourseLesson = {
       promptFa: 'با ضمیر ملکیِ «من» (moto مؤنث) کامل کنید.',
       options: [],
       answer: 'minha',
-      explanationFa: 'moto مؤنث مفرد و صاحب «eu» → minha؛ اشتباه رایج «meu moto» است.',
+      explanationFa:
+        'moto مؤنث مفرد و صاحب «eu» → minha؛ اشتباه رایج «meu moto» است.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -468,15 +471,18 @@ export const aula3: CourseLesson = {
       promptFa: 'با ضمیر ملکیِ «a gente» (= ما) و loja مؤنث کامل کنید.',
       options: [],
       answer: 'nossa',
-      explanationFa: '«a gente» معنی «ما» می‌دهد و از nosso/nossa استفاده می‌کند؛ loja مؤنث → nossa.',
+      explanationFa:
+        '«a gente» معنی «ما» می‌دهد و از nosso/nossa استفاده می‌کند؛ loja مؤنث → nossa.',
       cefr: 'A1',
       skill: 'grammar',
     },
     {
       id: 'course-aula-3-q15',
       type: 'fill-blank',
-      prompt: 'Ontem à noite, eu liguei para ___ irmão que mora em outro país. (MEU/MINHA/NOSSO/NOSSA)',
-      promptFa: 'با یکی از MEU/MINHA/NOSSO/NOSSA کامل کنید (irmão مذکر، صاحب «eu»).',
+      prompt:
+        'Ontem à noite, eu liguei para ___ irmão que mora em outro país. (MEU/MINHA/NOSSO/NOSSA)',
+      promptFa:
+        'با یکی از MEU/MINHA/NOSSO/NOSSA کامل کنید (irmão مذکر، صاحب «eu»).',
       options: [],
       answer: 'meu',
       explanationFa: 'irmão مذکر مفرد و صاحب «eu» → meu.',
@@ -487,18 +493,22 @@ export const aula3: CourseLesson = {
       id: 'course-aula-3-q16',
       type: 'fill-blank',
       prompt: 'Encontramos ___ apartamento ideal. (MEU/MINHA/NOSSO/NOSSA)',
-      promptFa: 'با یکی از MEU/MINHA/NOSSO/NOSSA کامل کنید (فعل encontramos = ما، apartamento مذکر).',
+      promptFa:
+        'با یکی از MEU/MINHA/NOSSO/NOSSA کامل کنید (فعل encontramos = ما، apartamento مذکر).',
       options: [],
       answer: 'nosso',
-      explanationFa: '«encontramos» اول‌شخص جمع است → ما؛ apartamento مذکر → nosso.',
+      explanationFa:
+        '«encontramos» اول‌شخص جمع است → ما؛ apartamento مذکر → nosso.',
       cefr: 'A1',
       skill: 'grammar',
     },
     {
       id: 'course-aula-3-q17',
       type: 'fill-blank',
-      prompt: 'Queremos melhorar ___ comunicação com as pessoas. (MEU/MINHA/NOSSO/NOSSA)',
-      promptFa: 'با یکی از MEU/MINHA/NOSSO/NOSSA کامل کنید (queremos = ما، comunicação مؤنث).',
+      prompt:
+        'Queremos melhorar ___ comunicação com as pessoas. (MEU/MINHA/NOSSO/NOSSA)',
+      promptFa:
+        'با یکی از MEU/MINHA/NOSSO/NOSSA کامل کنید (queremos = ما، comunicação مؤنث).',
       options: [],
       answer: 'nossa',
       explanationFa: '«queremos» اول‌شخص جمع → ما؛ comunicação مؤنث → nossa.',
@@ -508,8 +518,10 @@ export const aula3: CourseLesson = {
     {
       id: 'course-aula-3-q18',
       type: 'fill-blank',
-      prompt: 'Ontem preparei ___ mochila com roupa de ginástica. (MEU/MINHA/NOSSO/NOSSA)',
-      promptFa: 'با یکی از MEU/MINHA/NOSSO/NOSSA کامل کنید (preparei = من، mochila مؤنث).',
+      prompt:
+        'Ontem preparei ___ mochila com roupa de ginástica. (MEU/MINHA/NOSSO/NOSSA)',
+      promptFa:
+        'با یکی از MEU/MINHA/NOSSO/NOSSA کامل کنید (preparei = من، mochila مؤنث).',
       options: [],
       answer: 'minha',
       explanationFa: '«preparei» اول‌شخص مفرد → من؛ mochila مؤنث → minha.',
@@ -519,8 +531,10 @@ export const aula3: CourseLesson = {
     {
       id: 'course-aula-3-q19',
       type: 'fill-blank',
-      prompt: 'Eu falei com você e pedi emprestado o ___ celular e também a ___ senha do Wi-Fi. (SEU/SUA)',
-      promptFa: 'دو جای خالی را با SEU/SUA پر کنید (celular مذکر، senha مؤنث؛ صاحب «você»).',
+      prompt:
+        'Eu falei com você e pedi emprestado o ___ celular e também a ___ senha do Wi-Fi. (SEU/SUA)',
+      promptFa:
+        'دو جای خالی را با SEU/SUA پر کنید (celular مذکر، senha مؤنث؛ صاحب «você»).',
       options: [],
       answer: 'seu / sua',
       explanationFa: 'celular مذکر → seu؛ senha مؤنث → sua؛ صاحب «você».',
@@ -530,7 +544,8 @@ export const aula3: CourseLesson = {
     {
       id: 'course-aula-3-q20',
       type: 'mcq',
-      prompt: 'Eu falei com o Márcio e pedi emprestado o celular e a senha do Wi-Fi ___.',
+      prompt:
+        'Eu falei com o Márcio e pedi emprestado o celular e a senha do Wi-Fi ___.',
       promptFa: 'برای «مالِ مارسیو» (یک مرد) کدام درست است؟',
       options: ['dele', 'dela', 'deles', 'seu'],
       answer: 'dele',
@@ -541,8 +556,10 @@ export const aula3: CourseLesson = {
     {
       id: 'course-aula-3-q21',
       type: 'mcq',
-      prompt: 'Vi uma foto na casa da Marisa e perguntei se era dela ou de ___ irmã.',
-      promptFa: 'کدام ضمیر ملکی جای خالی را کامل می‌کند (irmã مؤنث، اشاره به خواهرِ خودِ ماریسا)؟',
+      prompt:
+        'Vi uma foto na casa da Marisa e perguntei se era dela ou de ___ irmã.',
+      promptFa:
+        'کدام ضمیر ملکی جای خالی را کامل می‌کند (irmã مؤنث، اشاره به خواهرِ خودِ ماریسا)؟',
       options: ['sua', 'seu', 'dele', 'suas'],
       answer: 'sua',
       explanationFa: 'irmã مؤنث مفرد → sua (خواهرش).',
@@ -572,7 +589,8 @@ export const aula3: CourseLesson = {
         'só muda no feminino',
       ],
       answer: 'varia em gênero e número',
-      explanationFa: 'صفت هم در جنس (مذکر/مؤنث) و هم در شمار (مفرد/جمع) تغییر می‌کند.',
+      explanationFa:
+        'صفت هم در جنس (مذکر/مؤنث) و هم در شمار (مفرد/جمع) تغییر می‌کند.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -667,7 +685,8 @@ export const aula3: CourseLesson = {
     {
       id: 'course-aula-3-q32',
       type: 'mcq',
-      prompt: 'Complete com adjetivo adequado: O menino é muito ___, sempre acerta as questões.',
+      prompt:
+        'Complete com adjetivo adequado: O menino é muito ___, sempre acerta as questões.',
       promptFa: 'کدام صفت مناسب است (پسری که همیشه درست جواب می‌دهد)؟',
       options: ['inteligente', 'preguiçoso', 'triste', 'lento'],
       answer: 'inteligente',
@@ -678,7 +697,8 @@ export const aula3: CourseLesson = {
     {
       id: 'course-aula-3-q33',
       type: 'mcq',
-      prompt: 'Complete com adjetivo adequado: Mamãe precisa de uma roupa ___ para ir ao casamento.',
+      prompt:
+        'Complete com adjetivo adequado: Mamãe precisa de uma roupa ___ para ir ao casamento.',
       promptFa: 'کدام صفت برای «لباسِ عروسی» مناسب است؟',
       options: ['elegante', 'suja', 'velha', 'rasgada'],
       answer: 'elegante',
@@ -689,18 +709,21 @@ export const aula3: CourseLesson = {
     {
       id: 'course-aula-3-q34',
       type: 'mcq',
-      prompt: 'Complete com adjetivo adequado: Não assisti ao filme porque ele é ___ demais.',
+      prompt:
+        'Complete com adjetivo adequado: Não assisti ao filme porque ele é ___ demais.',
       promptFa: 'کدام صفت مناسب است (دلیلِ ندیدنِ فیلم)؟',
       options: ['longo', 'curto', 'bonito', 'novo'],
       answer: 'longo',
-      explanationFa: 'اگر فیلم را ندیدیم چون بیش از حد … بود، «longo demais» (خیلی طولانی) منطقی است.',
+      explanationFa:
+        'اگر فیلم را ندیدیم چون بیش از حد … بود، «longo demais» (خیلی طولانی) منطقی است.',
       cefr: 'A1',
       skill: 'vocab',
     },
     {
       id: 'course-aula-3-q35',
       type: 'translate-pt-fa',
-      prompt: 'Menino que tem coragem = menino ___. Traduza o adjetivo para o persa.',
+      prompt:
+        'Menino que tem coragem = menino ___. Traduza o adjetivo para o persa.',
       promptFa: 'صفتِ متناظرِ «menino corajoso» را به فارسی بنویسید.',
       options: [],
       answer: 'شجاع',
@@ -723,7 +746,8 @@ export const aula3: CourseLesson = {
       id: 'course-aula-3-q37',
       type: 'fill-blank',
       prompt: 'Pessoa que tem preguiça = pessoa ___.',
-      promptFa: 'عبارت را با صفتِ درست (مؤنث، چون pessoa مؤنث است) جایگزین کنید.',
+      promptFa:
+        'عبارت را با صفتِ درست (مؤنث، چون pessoa مؤنث است) جایگزین کنید.',
       options: [],
       answer: 'preguiçosa',
       explanationFa: 'pessoa مؤنث است → preguiçosa (تنبل).',
@@ -789,7 +813,8 @@ export const aula3: CourseLesson = {
       id: 'course-aula-3-q43',
       type: 'order-words',
       prompt: 'Ordene: [dele / o / é / carro]',
-      promptFa: 'واژه‌ها را مرتب کنید تا جملهٔ «ماشین مالِ اوست (مرد)» ساخته شود.',
+      promptFa:
+        'واژه‌ها را مرتب کنید تا جملهٔ «ماشین مالِ اوست (مرد)» ساخته شود.',
       options: ['dele', 'o', 'é', 'carro'],
       answer: 'o carro é dele',
       explanationFa: 'ساختار: حرف تعریف + اسم + فعل + dele → «o carro é dele».',
@@ -799,7 +824,8 @@ export const aula3: CourseLesson = {
     {
       id: 'course-aula-3-q44',
       type: 'translate-pt-fa',
-      prompt: 'Traduza para o persa: "Em que espelho ficou perdida a minha face?"',
+      prompt:
+        'Traduza para o persa: "Em que espelho ficou perdida a minha face?"',
       promptFa: 'این مصرع از شعر Retrato را به فارسی ترجمه کنید.',
       options: [],
       answer: 'در کدام آینه چهرهٔ من گم شد؟',
@@ -814,7 +840,8 @@ export const aula3: CourseLesson = {
       promptFa: 'با ضمیر ملکی کامل کنید (carro مذکر مفرد؛ مثلاً «مالِ من»).',
       options: [],
       answer: 'meu',
-      explanationFa: 'carro مذکر مفرد است؛ شکل مذکر مفرد لازم است → meu (یا seu/dele بسته به صاحب).',
+      explanationFa:
+        'carro مذکر مفرد است؛ شکل مذکر مفرد لازم است → meu (یا seu/dele بسته به صاحب).',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -847,7 +874,8 @@ export const aula3: CourseLesson = {
       promptFa: 'با ضمیر ملکی کامل کنید (parecer مذکر مفرد؛ نظرِ کسی).',
       options: [],
       answer: 'seu',
-      explanationFa: 'parecer مذکر مفرد است → seu (نظرِ تو/شما/او)؛ برای رفع ابهام dele/dela هم ممکن است.',
+      explanationFa:
+        'parecer مذکر مفرد است → seu (نظرِ تو/شما/او)؛ برای رفع ابهام dele/dela هم ممکن است.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -866,10 +894,12 @@ export const aula3: CourseLesson = {
       id: 'course-aula-3-q50',
       type: 'fill-blank',
       prompt: 'Tenho DVDs ___ em casa. (adjetivo adequado)',
-      promptFa: 'با صفتی مناسب کامل کنید (DVDs مذکر جمع؛ صفت باید مذکر جمع باشد).',
+      promptFa:
+        'با صفتی مناسب کامل کنید (DVDs مذکر جمع؛ صفت باید مذکر جمع باشد).',
       options: [],
       answer: 'novos',
-      explanationFa: 'DVDs مذکر جمع است؛ نمونهٔ صفتِ مناسب → novos (نو). صفت در جنس و شمار هماهنگ می‌شود.',
+      explanationFa:
+        'DVDs مذکر جمع است؛ نمونهٔ صفتِ مناسب → novos (نو). صفت در جنس و شمار هماهنگ می‌شود.',
       cefr: 'A1',
       skill: 'vocab',
     },
@@ -880,7 +910,8 @@ export const aula3: CourseLesson = {
       promptFa: 'با صفتی مناسب کامل کنید (todos مذکر جمع).',
       options: [],
       answer: 'surpresos',
-      explanationFa: 'todos مذکر جمع → صفت هم مذکر جمع؛ نمونهٔ مناسب surpresos (شگفت‌زده).',
+      explanationFa:
+        'todos مذکر جمع → صفت هم مذکر جمع؛ نمونهٔ مناسب surpresos (شگفت‌زده).',
       cefr: 'A1',
       skill: 'vocab',
     },
@@ -888,21 +919,25 @@ export const aula3: CourseLesson = {
       id: 'course-aula-3-q52',
       type: 'fill-blank',
       prompt: 'O filme era ___, por isso fiquei ___. (adjetivo adequado)',
-      promptFa: 'با صفتی مناسب هر دو جای خالی را کامل کنید (فیلم و حالِ گوینده).',
+      promptFa:
+        'با صفتی مناسب هر دو جای خالی را کامل کنید (فیلم و حالِ گوینده).',
       options: [],
       answer: 'triste',
-      explanationFa: 'یک انتخابِ منطقی: «O filme era triste, por isso fiquei triste» (فیلم غمگین بود، پس غمگین شدم). triste یک شکل برای هر دو جنس دارد.',
+      explanationFa:
+        'یک انتخابِ منطقی: «O filme era triste, por isso fiquei triste» (فیلم غمگین بود، پس غمگین شدم). triste یک شکل برای هر دو جنس دارد.',
       cefr: 'A1',
       skill: 'vocab',
     },
     {
       id: 'course-aula-3-q53',
       type: 'fill-blank',
-      prompt: 'A partida estava ___, mesmo assim eles ganharam. (adjetivo adequado)',
+      prompt:
+        'A partida estava ___, mesmo assim eles ganharam. (adjetivo adequado)',
       promptFa: 'با صفتی مناسب کامل کنید (partida مؤنث مفرد).',
       options: [],
       answer: 'difícil',
-      explanationFa: 'نمونهٔ مناسب: partida (بازی) difícil (سخت)؛ difícil یک شکل برای هر دو جنس دارد.',
+      explanationFa:
+        'نمونهٔ مناسب: partida (بازی) difícil (سخت)؛ difícil یک شکل برای هر دو جنس دارد.',
       cefr: 'A1',
       skill: 'vocab',
     },
@@ -913,18 +948,21 @@ export const aula3: CourseLesson = {
       promptFa: 'با صفتی مناسب کامل کنید (caderno مذکر مفرد).',
       options: [],
       answer: 'novo',
-      explanationFa: 'caderno مذکر مفرد → صفت مذکر مفرد؛ نمونهٔ مناسب novo (نو).',
+      explanationFa:
+        'caderno مذکر مفرد → صفت مذکر مفرد؛ نمونهٔ مناسب novo (نو).',
       cefr: 'A1',
       skill: 'vocab',
     },
     {
       id: 'course-aula-3-q55',
       type: 'fill-blank',
-      prompt: 'Janaina escreveu uma carta muito ___ para seu tio. (adjetivo adequado)',
+      prompt:
+        'Janaina escreveu uma carta muito ___ para seu tio. (adjetivo adequado)',
       promptFa: 'با صفتی مناسب کامل کنید (carta مؤنث مفرد).',
       options: [],
       answer: 'carinhosa',
-      explanationFa: 'carta مؤنث مفرد → صفت مؤنث مفرد؛ نمونهٔ مناسب carinhosa (محبت‌آمیز).',
+      explanationFa:
+        'carta مؤنث مفرد → صفت مؤنث مفرد؛ نمونهٔ مناسب carinhosa (محبت‌آمیز).',
       cefr: 'A1',
       skill: 'vocab',
     },

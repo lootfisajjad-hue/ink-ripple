@@ -291,7 +291,8 @@ export const aula9: CourseLesson = {
       type: 'fill-blank',
       prompt:
         'Complete o diálogo com o verbo SER (presente): Como ___ seu nome? — Meu nome ___ Carol. E você, qual ___ seu nome? — Eu ___ a Andreia. Você ___ estudante? — ___, sim. E você também ___ estudante? — Não, eu ___ professora.',
-      promptFa: 'گفت‌وگوی معرفی را با فعل SER در زمان حال کامل کنید (به‌ترتیب هشت جای خالی).',
+      promptFa:
+        'گفت‌وگوی معرفی را با فعل SER در زمان حال کامل کنید (به‌ترتیب هشت جای خالی).',
       options: [],
       answer: ['é', 'é', 'é', 'sou', 'é', 'Sou', 'é', 'sou'],
       explanationFa:
@@ -467,7 +468,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q17',
       type: 'fill-blank',
-      prompt: 'No meu país, eu ___ como professor. (trabalhar, pretérito imperfeito)',
+      prompt:
+        'No meu país, eu ___ como professor. (trabalhar, pretérito imperfeito)',
       promptFa: 'فعل trabalhar را در گذشتهٔ استمراری صرف کنید (eu).',
       options: [],
       answer: 'trabalhava',
@@ -478,7 +480,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q18',
       type: 'fill-blank',
-      prompt: 'No meu país, eu ___ arroz todos os dias. (comer, pretérito imperfeito)',
+      prompt:
+        'No meu país, eu ___ arroz todos os dias. (comer, pretérito imperfeito)',
       promptFa: 'فعل comer را در گذشتهٔ استمراری صرف کنید (eu).',
       options: [],
       answer: 'comia',
@@ -489,7 +492,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q19',
       type: 'fill-blank',
-      prompt: 'No meu país, eu ___ a minha casa com amigos. (dividir, pretérito imperfeito)',
+      prompt:
+        'No meu país, eu ___ a minha casa com amigos. (dividir, pretérito imperfeito)',
       promptFa: 'فعل dividir را در گذشتهٔ استمراری صرف کنید (eu).',
       options: [],
       answer: 'dividia',
@@ -500,7 +504,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q20',
       type: 'fill-blank',
-      prompt: 'No meu país, eu ___ café no café da manhã. (tomar, pretérito imperfeito)',
+      prompt:
+        'No meu país, eu ___ café no café da manhã. (tomar, pretérito imperfeito)',
       promptFa: 'فعل tomar را در گذشتهٔ استمراری صرف کنید (eu).',
       options: [],
       answer: 'tomava',
@@ -511,7 +516,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q21',
       type: 'fill-blank',
-      prompt: 'Na minha cidade, eu ___ de caminhar no parque. (gostar, pretérito imperfeito)',
+      prompt:
+        'Na minha cidade, eu ___ de caminhar no parque. (gostar, pretérito imperfeito)',
       promptFa: 'فعل gostar را در گذشتهٔ استمراری صرف کنید (eu).',
       options: [],
       answer: 'gostava',
@@ -590,7 +596,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q28',
       type: 'fill-blank',
-      prompt: 'Eu ___ e ___ trabalho todos os dias. (acordar / procurar, presente)',
+      prompt:
+        'Eu ___ e ___ trabalho todos os dias. (acordar / procurar, presente)',
       promptFa: 'دو فعل را در زمان حال صرف کنید (eu): acordar و procurar.',
       options: [],
       answer: ['acordo', 'procuro'],
@@ -646,7 +653,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q33',
       type: 'fill-blank',
-      prompt: 'Eu já ___ a minha Carteira de Trabalho. (tirar, pretérito perfeito)',
+      prompt:
+        'Eu já ___ a minha Carteira de Trabalho. (tirar, pretérito perfeito)',
       promptFa: 'فعل tirar را در گذشتهٔ کامل صرف کنید (eu).',
       options: [],
       answer: 'tirei',
@@ -681,7 +689,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q36',
       type: 'fill-blank',
-      prompt: 'Eu já ___ meu Contrato de Trabalho. (assinar, pretérito perfeito)',
+      prompt:
+        'Eu já ___ meu Contrato de Trabalho. (assinar, pretérito perfeito)',
       promptFa: 'فعل assinar را در گذشتهٔ کامل صرف کنید (eu).',
       options: [],
       answer: 'assinei',
@@ -693,7 +702,8 @@ export const aula9: CourseLesson = {
       id: 'course-aula-9-q37',
       type: 'fill-blank',
       prompt: 'A empresa me ___ por 90 dias. (contratar, pretérito perfeito)',
-      promptFa: 'فعل contratar را در گذشتهٔ کامل صرف کنید (a empresa = سوم‌شخص مفرد).',
+      promptFa:
+        'فعل contratar را در گذشتهٔ کامل صرف کنید (a empresa = سوم‌شخص مفرد).',
       options: [],
       answer: 'contratou',
       explanationFa: '‑AR گذشتهٔ کامل سوم‌شخص → contratou.',
@@ -705,7 +715,8 @@ export const aula9: CourseLesson = {
       type: 'fill-blank',
       prompt:
         'Eu já ___ 12 horas por dia em uma confecção, mas depois ___ que o trabalho decente é de no máximo 8 horas. (trabalhar / descobrir, pretérito perfeito)',
-      promptFa: 'دو فعل را در گذشتهٔ کامل صرف کنید (eu): trabalhar و descobrir.',
+      promptFa:
+        'دو فعل را در گذشتهٔ کامل صرف کنید (eu): trabalhar و descobrir.',
       options: [],
       answer: ['trabalhei', 'descobri'],
       explanationFa: '‑AR → trabalhei؛ ‑IR → descobri (اول‌شخص).',
@@ -729,10 +740,12 @@ export const aula9: CourseLesson = {
       type: 'fill-blank',
       prompt:
         'Meu chefe me ___ que a hora extra não pode passar de duas horas por dia. (explicar, pretérito perfeito)',
-      promptFa: 'فعل explicar را در گذشتهٔ کامل صرف کنید (meu chefe = سوم‌شخص مفرد).',
+      promptFa:
+        'فعل explicar را در گذشتهٔ کامل صرف کنید (meu chefe = سوم‌شخص مفرد).',
       options: [],
       answer: 'explicou',
-      explanationFa: 'explicar سوم‌شخص → explicou. (اول‌شخص می‌شد expliquei با qu.)',
+      explanationFa:
+        'explicar سوم‌شخص → explicou. (اول‌شخص می‌شد expliquei با qu.)',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -777,10 +790,12 @@ export const aula9: CourseLesson = {
       type: 'fill-blank',
       prompt:
         'Meu amigo ___ R$ 600,00 de salário, então eu ___ que não está dentro da Lei. (receber / explicar, pretérito perfeito)',
-      promptFa: 'دو فعل را در گذشتهٔ کامل صرف کنید: receber (سوم‌شخص) و explicar (eu).',
+      promptFa:
+        'دو فعل را در گذشتهٔ کامل صرف کنید: receber (سوم‌شخص) و explicar (eu).',
       options: [],
       answer: ['recebeu', 'expliquei'],
-      explanationFa: 'receber سوم‌شخص → recebeu؛ explicar اول‌شخص → expliquei (با qu).',
+      explanationFa:
+        'receber سوم‌شخص → recebeu؛ explicar اول‌شخص → expliquei (با qu).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -810,7 +825,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q47',
       type: 'fill-blank',
-      prompt: 'Eu e meus pais ___ em outro continente. (morar, pretérito imperfeito)',
+      prompt:
+        'Eu e meus pais ___ em outro continente. (morar, pretérito imperfeito)',
       promptFa: 'فعل morar را در گذشتهٔ استمراری صرف کنید (nós).',
       options: [],
       answer: 'morávamos',
@@ -832,7 +848,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q49',
       type: 'fill-blank',
-      prompt: 'Minha avó ___ o Brasil como país de refúgio. (escolher, pretérito perfeito)',
+      prompt:
+        'Minha avó ___ o Brasil como país de refúgio. (escolher, pretérito perfeito)',
       promptFa: 'فعل escolher را در گذشتهٔ کامل صرف کنید (سوم‌شخص مفرد).',
       options: [],
       answer: 'escolheu',
@@ -865,7 +882,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q52',
       type: 'fill-blank',
-      prompt: 'Meu primo ___ roupas quentes porque estava frio ontem. (vestir, pretérito perfeito)',
+      prompt:
+        'Meu primo ___ roupas quentes porque estava frio ontem. (vestir, pretérito perfeito)',
       promptFa: 'فعل vestir را در گذشتهٔ کامل صرف کنید (سوم‌شخص مفرد).',
       options: [],
       answer: 'vestiu',
@@ -876,7 +894,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q53',
       type: 'fill-blank',
-      prompt: 'Eu ___ roupas leves porque semana passada estava quente. (vestir, pretérito perfeito)',
+      prompt:
+        'Eu ___ roupas leves porque semana passada estava quente. (vestir, pretérito perfeito)',
       promptFa: 'فعل vestir را در گذشتهٔ کامل صرف کنید (eu).',
       options: [],
       answer: 'vesti',
@@ -887,7 +906,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q54',
       type: 'fill-blank',
-      prompt: 'Nós não ___ calças ontem porque fez calor. (vestir, pretérito perfeito)',
+      prompt:
+        'Nós não ___ calças ontem porque fez calor. (vestir, pretérito perfeito)',
       promptFa: 'فعل vestir را در گذشتهٔ کامل صرف کنید (nós).',
       options: [],
       answer: 'vestimos',
@@ -898,7 +918,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q55',
       type: 'fill-blank',
-      prompt: 'Eu ___ como motorista no ano passado. (trabalhar, pretérito perfeito)',
+      prompt:
+        'Eu ___ como motorista no ano passado. (trabalhar, pretérito perfeito)',
       promptFa: 'فعل trabalhar را در گذشتهٔ کامل صرف کنید (eu).',
       options: [],
       answer: 'trabalhei',
@@ -909,7 +930,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q56',
       type: 'fill-blank',
-      prompt: 'Os meus amigos ___ muito durante o verão passado. (trabalhar, pretérito perfeito)',
+      prompt:
+        'Os meus amigos ___ muito durante o verão passado. (trabalhar, pretérito perfeito)',
       promptFa: 'فعل trabalhar را در گذشتهٔ کامل صرف کنید (سوم‌شخص جمع).',
       options: [],
       answer: 'trabalharam',
@@ -920,7 +942,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q57',
       type: 'fill-blank',
-      prompt: 'Meu pai ___ muitos anos na mesma empresa. (trabalhar, pretérito perfeito)',
+      prompt:
+        'Meu pai ___ muitos anos na mesma empresa. (trabalhar, pretérito perfeito)',
       promptFa: 'فعل trabalhar را در گذشتهٔ کامل صرف کنید (سوم‌شخص مفرد).',
       options: [],
       answer: 'trabalhou',
@@ -931,7 +954,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q58',
       type: 'fill-blank',
-      prompt: 'Eu ___ um texto sobre profissões na escola. (escrever, pretérito perfeito)',
+      prompt:
+        'Eu ___ um texto sobre profissões na escola. (escrever, pretérito perfeito)',
       promptFa: 'فعل escrever را در گذشتهٔ کامل صرف کنید (eu).',
       options: [],
       answer: 'escrevi',
@@ -942,7 +966,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q59',
       type: 'fill-blank',
-      prompt: 'O carteiro ___ cartas para mim semana passada. (entregar, pretérito perfeito)',
+      prompt:
+        'O carteiro ___ cartas para mim semana passada. (entregar, pretérito perfeito)',
       promptFa: 'فعل entregar را در گذشتهٔ کامل صرف کنید (سوم‌شخص مفرد).',
       options: [],
       answer: 'entregou',
@@ -953,7 +978,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q60',
       type: 'fill-blank',
-      prompt: 'A professora ___ as lições no caderno ontem. (escrever, pretérito perfeito)',
+      prompt:
+        'A professora ___ as lições no caderno ontem. (escrever, pretérito perfeito)',
       promptFa: 'فعل escrever را در گذشتهٔ کامل صرف کنید (سوم‌شخص مفرد).',
       options: [],
       answer: 'escreveu',
@@ -976,7 +1002,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q62',
       type: 'fill-blank',
-      prompt: 'A taxista e o motorista ___ a dirigir quando eram jovens. (aprender, pretérito perfeito)',
+      prompt:
+        'A taxista e o motorista ___ a dirigir quando eram jovens. (aprender, pretérito perfeito)',
       promptFa: 'فعل aprender را در گذشتهٔ کامل صرف کنید (سوم‌شخص جمع).',
       options: [],
       answer: 'aprenderam',
@@ -987,7 +1014,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q63',
       type: 'fill-blank',
-      prompt: 'Eu não ___ o carro depois da festa porque eu tinha bebido. (dirigir, pretérito perfeito)',
+      prompt:
+        'Eu não ___ o carro depois da festa porque eu tinha bebido. (dirigir, pretérito perfeito)',
       promptFa: 'فعل dirigir را در گذشتهٔ کامل صرف کنید (eu).',
       options: [],
       answer: 'dirigi',
@@ -998,7 +1026,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q64',
       type: 'fill-blank',
-      prompt: 'Karen ___ leite com mel ontem à noite. (tomar, pretérito perfeito)',
+      prompt:
+        'Karen ___ leite com mel ontem à noite. (tomar, pretérito perfeito)',
       promptFa: 'فعل tomar را در گذشتهٔ کامل صرف کنید (سوم‌شخص مفرد).',
       options: [],
       answer: 'tomou',
@@ -1042,7 +1071,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q68',
       type: 'fill-blank',
-      prompt: 'Eu não ___ quando cheguei porque estava com muito sono. (comer, pretérito perfeito)',
+      prompt:
+        'Eu não ___ quando cheguei porque estava com muito sono. (comer, pretérito perfeito)',
       promptFa: 'فعل comer را در گذشتهٔ کامل صرف کنید (eu).',
       options: [],
       answer: 'comi',
@@ -1053,7 +1083,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q69',
       type: 'fill-blank',
-      prompt: 'Rogério ___ frango assado, arroz e batatas fritas. (comer, pretérito perfeito)',
+      prompt:
+        'Rogério ___ frango assado, arroz e batatas fritas. (comer, pretérito perfeito)',
       promptFa: 'فعل comer را در گذشتهٔ کامل صرف کنید (سوم‌شخص مفرد).',
       options: [],
       answer: 'comeu',
@@ -1064,7 +1095,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q70',
       type: 'fill-blank',
-      prompt: 'Você já ___, agora já pode ir dormir. (comer, pretérito perfeito)',
+      prompt:
+        'Você já ___, agora já pode ir dormir. (comer, pretérito perfeito)',
       promptFa: 'فعل comer را در گذشتهٔ کامل صرف کنید (você).',
       options: [],
       answer: 'comeu',
@@ -1109,7 +1141,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q74',
       type: 'fill-blank',
-      prompt: 'Ana e Estevam ___ um bolo na padaria. (pedir, pretérito perfeito)',
+      prompt:
+        'Ana e Estevam ___ um bolo na padaria. (pedir, pretérito perfeito)',
       promptFa: 'فعل pedir را در گذشتهٔ کامل صرف کنید (سوم‌شخص جمع).',
       options: [],
       answer: 'pediram',
@@ -1120,7 +1153,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q75',
       type: 'fill-blank',
-      prompt: 'Ele ___ brigadeiro de sobremesa de novo. (pedir, pretérito perfeito)',
+      prompt:
+        'Ele ___ brigadeiro de sobremesa de novo. (pedir, pretérito perfeito)',
       promptFa: 'فعل pedir را در گذشتهٔ کامل صرف کنید (ele).',
       options: [],
       answer: 'pediu',
@@ -1133,10 +1167,12 @@ export const aula9: CourseLesson = {
       type: 'fill-blank',
       prompt:
         'Amanhã eu ___ (ir) à praia com os meus amigos e depois nós ___ (ir) ao cinema juntos! (futuro)',
-      promptFa: 'با ساختار آینده کامل کنید (خودِ فعل ir است، فقط ir را صرف کنید).',
+      promptFa:
+        'با ساختار آینده کامل کنید (خودِ فعل ir است، فقط ir را صرف کنید).',
       options: [],
       answer: ['vou', 'vamos'],
-      explanationFa: 'وقتی فعل «ir» است فقط آن را صرف می‌کنیم: eu vou / nós vamos.',
+      explanationFa:
+        'وقتی فعل «ir» است فقط آن را صرف می‌کنیم: eu vou / nós vamos.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -1148,14 +1184,16 @@ export const aula9: CourseLesson = {
       promptFa: 'با ساختار آینده کامل کنید: fazer (با vamos + مصدر) و ir.',
       options: [],
       answer: ['vamos fazer', 'vamos'],
-      explanationFa: 'آینده = ir در حال + مصدر: «vamos fazer»؛ برای خودِ ir فقط «vamos».',
+      explanationFa:
+        'آینده = ir در حال + مصدر: «vamos fazer»؛ برای خودِ ir فقط «vamos».',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-9-q78',
       type: 'fill-blank',
-      prompt: 'Hoje eu ___ (comprar) algumas frutas no mercado para fazer uma salada de frutas. (futuro)',
+      prompt:
+        'Hoje eu ___ (comprar) algumas frutas no mercado para fazer uma salada de frutas. (futuro)',
       promptFa: 'با ساختار آینده کامل کنید (eu + comprar).',
       options: [],
       answer: 'vou comprar',
@@ -1166,7 +1204,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q79',
       type: 'mcq',
-      prompt: 'Tenho certeza que amanhã ___ um grande dia para você! (futuro, ser)',
+      prompt:
+        'Tenho certeza que amanhã ___ um grande dia para você! (futuro, ser)',
       promptFa: 'کدام شکلِ آینده برای فعل ser درست است؟',
       options: ['vai ser', 'vou ser', 'vamos ser', 'vão ser'],
       answer: 'vai ser',
@@ -1177,7 +1216,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q80',
       type: 'fill-blank',
-      prompt: 'Hoje, mais tarde, nós ___ (estar) todos juntos para a festa de casamento. (futuro)',
+      prompt:
+        'Hoje, mais tarde, nós ___ (estar) todos juntos para a festa de casamento. (futuro)',
       promptFa: 'با ساختار آینده کامل کنید (nós + estar).',
       options: [],
       answer: 'vamos estar',
@@ -1188,7 +1228,8 @@ export const aula9: CourseLesson = {
     {
       id: 'course-aula-9-q81',
       type: 'fill-blank',
-      prompt: 'Terça-feira ___ (falar) com o meu professor de português sobre as minhas dúvidas. (futuro)',
+      prompt:
+        'Terça-feira ___ (falar) com o meu professor de português sobre as minhas dúvidas. (futuro)',
       promptFa: 'با ساختار آینده کامل کنید (فاعل «من» ضمنی + falar).',
       options: [],
       answer: 'vou falar',

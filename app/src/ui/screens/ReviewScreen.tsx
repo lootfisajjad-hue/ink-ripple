@@ -5,10 +5,14 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Button, Card } from '../components/kit';
+import { Button, Card, StarRating } from '../components/kit';
 import { useSpeak } from '../hooks/useSpeak';
 import { useSession } from '@/app/store/session';
-import { getDueCards, gradeCard } from '@/infra/db/flashcards';
+import {
+  getDueCards,
+  gradeCard,
+  setCardImportance,
+} from '@/infra/db/flashcards';
 import { logActivity } from '@/infra/db/activity';
 import { RATINGS, type Rating } from '@/domain/srs/fsrs';
 import type { Flashcard } from '@/infra/db/db';
@@ -49,6 +53,14 @@ export function ReviewScreen() {
     setReviewed((r) => r + 1);
     setFlipped(false);
     setQueue((q) => q.slice(1));
+  }
+
+  async function rateImportance(stars: number) {
+    if (!card) return;
+    await setCardImportance(card.id, stars);
+    setQueue((q) =>
+      q.map((c) => (c.id === card.id ? { ...c, importance: stars } : c)),
+    );
   }
 
   if (loading) return <div className="empty-state">{t('common.loading')}</div>;
@@ -102,6 +114,19 @@ export function ReviewScreen() {
           🔊
         </button>
       </Card>
+
+      <div
+        className="row-between mt-4"
+        style={{ alignItems: 'center', gap: 8 }}
+      >
+        <span className="muted" style={{ fontSize: '0.9rem' }}>
+          {t('flashcards.importance')}
+        </span>
+        <StarRating
+          value={card.importance ?? 0}
+          onChange={(s) => void rateImportance(s)}
+        />
+      </div>
 
       {flipped ? (
         <div className="rating-row mt-4">

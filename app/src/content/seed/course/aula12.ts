@@ -21,7 +21,8 @@ export const aula12: CourseLesson = {
   ],
   sections: [
     {
-      headingFa: '۱. مطابقت اسمی ـ قاعدهٔ کلی (Concordância Nominal — Regra Geral)',
+      headingFa:
+        '۱. مطابقت اسمی ـ قاعدهٔ کلی (Concordância Nominal — Regra Geral)',
       bodyFa:
         'در مطابقت اسمی، حرف تعریف (artigo)، ضمیر (pronome)، عدد (numeral) و صفت (adjetivo) باید در جنس (مذکر/مؤنث) و شمار (مفرد/جمع) با اسمی (substantivo) که به آن اشاره دارند هماهنگ باشند.\n\nمثال کلیدی جزوه:\nOs nossos dois brinquedos preferidos estão quebrados.\n= اسباب‌بازی‌های موردعلاقهٔ ما هر دو شکسته‌اند.\n\nتحلیل: اسمِ مرکزی «brinquedos» مذکر و جمع است. پس همهٔ همراهانش هم مذکرِ جمع‌اند:\n- Os = حرف تعریفِ مذکرِ جمع\n- nossos = ضمیرِ مذکرِ جمع\n- dois = عددِ مذکر\n- preferidos = صفتِ مذکرِ جمع\n\nچون همه به «brinquedos» (مذکر/جمع) اشاره دارند، همگی مذکرِ جمع شده‌اند. نکته برای فارسی‌زبان: در فارسی صفت با جنس و شمار تغییر نمی‌کند، اما در پرتغالی حتماً باید تغییر کند.',
       examples: [
@@ -421,7 +422,8 @@ export const aula12: CourseLesson = {
       id: 'course-aula-12-q1',
       type: 'mcq',
       prompt: 'Todos os meninos e meninas nessa escola são ______.',
-      promptFa: 'گزینهٔ درست را برای مطابقت انتخاب کنید (گروه مختلط مذکر+مؤنث).',
+      promptFa:
+        'گزینهٔ درست را برای مطابقت انتخاب کنید (گروه مختلط مذکر+مؤنث).',
       options: ['estrangeiros', 'estrangeiras', 'estrangeiro', 'estrangeira'],
       answer: 'estrangeiros',
       explanationFa:
@@ -472,7 +474,8 @@ export const aula12: CourseLesson = {
       promptFa: 'کدام درست است؟',
       options: ['menos', 'menas', 'menores', 'menor'],
       answer: 'menos',
-      explanationFa: '«menos» همیشه ثابت است؛ واژهٔ «menas» در پرتغالی وجود ندارد.',
+      explanationFa:
+        '«menos» همیشه ثابت است؛ واژهٔ «menas» در پرتغالی وجود ندارد.',
       cefr: 'B1',
       skill: 'grammar',
     },
@@ -491,7 +494,8 @@ export const aula12: CourseLesson = {
     {
       id: 'course-aula-12-q7',
       type: 'fill-blank',
-      prompt: 'Eu estou ____ com o banco. E vocês estão ____ também? (quite/quites)',
+      prompt:
+        'Eu estou ____ com o banco. E vocês estão ____ também? (quite/quites)',
       promptFa: 'دو شکل درست «quite» را به‌ترتیب بگذارید (مفرد / جمع).',
       options: [],
       answer: 'quite / quites',
@@ -507,8 +511,7 @@ export const aula12: CourseLesson = {
       promptFa: 'جمله را با اصلاح خطای مطابقت بازنویسی کنید.',
       options: [],
       answer: 'O carro tinha um dos faróis queimados.',
-      explanationFa:
-        '«farol» مذکر است، پس «um dos faróis» درست است، نه «uma».',
+      explanationFa: '«farol» مذکر است، پس «um dos faróis» درست است، نه «uma».',
       cefr: 'B1',
       skill: 'writing',
     },
@@ -809,7 +812,8 @@ export const aula12: CourseLesson = {
       promptFa: 'خطای مطابقت را اصلاح کنید.',
       options: [],
       answer: 'Segue anexa a fatura.',
-      explanationFa: '«anexo» صفت است و با «fatura» (مؤنث مفرد) مطابقت می‌کند → anexa.',
+      explanationFa:
+        '«anexo» صفت است و با «fatura» (مؤنث مفرد) مطابقت می‌کند → anexa.',
       cefr: 'B1',
       skill: 'writing',
     },
@@ -872,7 +876,8 @@ export const aula12: CourseLesson = {
     {
       id: 'course-aula-12-q40',
       type: 'translate-fa-pt',
-      prompt: '«من و دوستم فردا به مرکز خرید خواهیم رفت.» را به پرتغالی بنویسید.',
+      prompt:
+        '«من و دوستم فردا به مرکز خرید خواهیم رفت.» را به پرتغالی بنویسید.',
       promptFa: 'با توجه به فاعل مرکب با «eu» ترجمه کنید.',
       options: [],
       answer: 'Eu e meu amigo iremos ao Shopping amanhã.',

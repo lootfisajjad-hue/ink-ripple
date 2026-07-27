@@ -110,6 +110,46 @@ export function SpeakerIcon() {
   );
 }
 
+/**
+ * A 1–5 star importance rating. Click a star to set; click the same star again
+ * to clear. Read-only when onChange is omitted.
+ */
+export function StarRating({
+  value,
+  onChange,
+  size = 26,
+  label,
+}: {
+  value: number;
+  onChange?: (stars: number) => void;
+  size?: number;
+  label?: string;
+}) {
+  const readOnly = !onChange;
+  return (
+    <div
+      className={`star-rating ${readOnly ? 'star-readonly' : ''}`}
+      role={readOnly ? 'img' : 'radiogroup'}
+      aria-label={label ?? `اهمیت: ${value} از ۵`}
+    >
+      {[1, 2, 3, 4, 5].map((n) => (
+        <button
+          key={n}
+          type="button"
+          className={`star ${n <= value ? 'star-on' : ''}`}
+          style={{ fontSize: size }}
+          disabled={readOnly}
+          aria-label={`${n} ستاره`}
+          aria-pressed={n <= value}
+          onClick={() => onChange?.(n === value ? 0 : n)}
+        >
+          {n <= value ? '★' : '☆'}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 export function Badge({
   children,
   tone = 'neutral',

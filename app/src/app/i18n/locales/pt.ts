@@ -142,6 +142,8 @@ export const pt: Translation = {
     sessionDone: 'A revisão de hoje acabou!',
     reviewedCount: '{{count}} cartões revisados',
     addToDeck: 'Adicionar aos flashcards',
+    importance: 'Importância (estrelas)',
+    importantFirst: 'Mais importantes primeiro',
     myMistakes: 'Meus erros',
   },
   citizenship: {

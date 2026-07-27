@@ -567,7 +567,8 @@ export const aula1: CourseLesson = {
       promptFa: 'جای خالی را کامل کنید.',
       options: [],
       answer: 'AVANÇAR',
-      explanationFa: 'پیش از A از سدیلها استفاده می‌کنیم: AVANÇAR (پیشروی کردن).',
+      explanationFa:
+        'پیش از A از سدیلها استفاده می‌کنیم: AVANÇAR (پیشروی کردن).',
       cefr: 'A1',
       skill: 'writing',
     },
@@ -623,7 +624,8 @@ export const aula1: CourseLesson = {
       promptFa: 'جای خالی را کامل کنید.',
       options: [],
       answer: 'ENDEREÇO',
-      explanationFa: 'پیش از O از سدیلها استفاده می‌کنیم: ENDEREÇO (نشانی / آدرس).',
+      explanationFa:
+        'پیش از O از سدیلها استفاده می‌کنیم: ENDEREÇO (نشانی / آدرس).',
       cefr: 'A1',
       skill: 'writing',
     },

@@ -185,7 +185,8 @@ export const aula6: CourseLesson = {
       ],
     },
     {
-      headingFa: '۱۰. ویرگول ـ برای توضیح و اصلاح (isto é, ou seja, na verdade)',
+      headingFa:
+        '۱۰. ویرگول ـ برای توضیح و اصلاح (isto é, ou seja, na verdade)',
       bodyFa:
         'برای جداکردنِ کلمه‌ها یا عبارت‌هایی که توضیح یا اصلاح می‌آورند از ویرگول استفاده می‌کنیم؛ عبارت‌هایی مانند isto é (یعنی)، ou seja (به عبارت دیگر / یعنی)، na verdade (در واقع).',
       examples: [
@@ -336,9 +337,15 @@ export const aula6: CourseLesson = {
       type: 'mcq',
       prompt: 'Qual sinal indica o final de uma frase e marca uma pausa longa?',
       promptFa: 'کدام علامت پایانِ جمله و مکثی طولانی را نشان می‌دهد؟',
-      options: ['Ponto final (.)', 'Vírgula (,)', 'Dois pontos (:)', 'Ponto de interrogação (?)'],
+      options: [
+        'Ponto final (.)',
+        'Vírgula (,)',
+        'Dois pontos (:)',
+        'Ponto de interrogação (?)',
+      ],
       answer: 'Ponto final (.)',
-      explanationFa: 'نقطهٔ پایانی (.) جمله را می‌بندد و مکثی نسبتاً طولانی را نشان می‌دهد.',
+      explanationFa:
+        'نقطهٔ پایانی (.) جمله را می‌بندد و مکثی نسبتاً طولانی را نشان می‌دهد.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -349,15 +356,18 @@ export const aula6: CourseLesson = {
       promptFa: 'اختصارِ «senhor» (آقا) کدام است؟',
       options: ['Sr.', 'Sra.', 'Dr.', 'Av.'],
       answer: 'Sr.',
-      explanationFa: '«Sr.» اختصارِ senhor و «Sra.» یا «Sr.ª» اختصارِ senhora (خانم) است.',
+      explanationFa:
+        '«Sr.» اختصارِ senhor و «Sra.» یا «Sr.ª» اختصارِ senhora (خانم) است.',
       cefr: 'A2',
       skill: 'vocab',
     },
     {
       id: 'course-aula-6-q3',
       type: 'mcq',
-      prompt: 'O título "Sinais de Pontuação" (sem verbo) deve levar ponto final?',
-      promptFa: 'عنوانِ «Sinais de Pontuação» که فعل ندارد، آیا نقطهٔ پایانی می‌گیرد؟',
+      prompt:
+        'O título "Sinais de Pontuação" (sem verbo) deve levar ponto final?',
+      promptFa:
+        'عنوانِ «Sinais de Pontuação» که فعل ندارد، آیا نقطهٔ پایانی می‌گیرد؟',
       options: [
         'Não, pois não tem verbo.',
         'Sim, todo título leva ponto.',
@@ -365,18 +375,22 @@ export const aula6: CourseLesson = {
         'Nunca se usa ponto em frases.',
       ],
       answer: 'Não, pois não tem verbo.',
-      explanationFa: 'عنوانِ بدون فعل نقطهٔ پایانی نمی‌گیرد؛ فقط عنوانِ دارای فعل نقطه‌پذیر است.',
+      explanationFa:
+        'عنوانِ بدون فعل نقطهٔ پایانی نمی‌گیرد؛ فقط عنوانِ دارای فعل نقطه‌پذیر است.',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-6-q4',
       type: 'mcq',
-      prompt: 'Em "Valdete, minha antiga empregada, esteve aqui", a vírgula separa um(a):',
-      promptFa: 'در جملهٔ «Valdete, minha antiga empregada, esteve aqui» ویرگول چه چیزی را جدا کرده؟',
+      prompt:
+        'Em "Valdete, minha antiga empregada, esteve aqui", a vírgula separa um(a):',
+      promptFa:
+        'در جملهٔ «Valdete, minha antiga empregada, esteve aqui» ویرگول چه چیزی را جدا کرده؟',
       options: ['Aposto', 'Vocativo', 'Oposição', 'Enumeração'],
       answer: 'Aposto',
-      explanationFa: '«minha antiga empregada» بدل (aposto) است و توضیح می‌دهد والدِتی کیست.',
+      explanationFa:
+        '«minha antiga empregada» بدل (aposto) است و توضیح می‌دهد والدِتی کیست.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -398,7 +412,8 @@ export const aula6: CourseLesson = {
       promptFa: 'در فهرست، پیش از عضوِ آخر چه کلمه‌ای می‌آید؟',
       options: [],
       answer: 'e',
-      explanationFa: 'در برشماری، پیش از آخرین عضو به‌جای ویرگول حرف ربطِ «e» (و) می‌آید.',
+      explanationFa:
+        'در برشماری، پیش از آخرین عضو به‌جای ویرگول حرف ربطِ «e» (و) می‌آید.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -407,9 +422,15 @@ export const aula6: CourseLesson = {
       type: 'mcq',
       prompt: 'Qual sinal se usa antes de uma enumeração, explicação ou fala?',
       promptFa: 'پیش از فهرست، توضیح یا نقل‌قول از کدام علامت استفاده می‌شود؟',
-      options: ['Dois pontos (:)', 'Ponto final (.)', 'Ponto de exclamação (!)', 'Vírgula (,)'],
+      options: [
+        'Dois pontos (:)',
+        'Ponto final (.)',
+        'Ponto de exclamação (!)',
+        'Vírgula (,)',
+      ],
       answer: 'Dois pontos (:)',
-      explanationFa: 'دو نقطه (:) پیش از توضیح، نقل‌قول یا شروعِ فهرست به‌کار می‌رود.',
+      explanationFa:
+        'دو نقطه (:) پیش از توضیح، نقل‌قول یا شروعِ فهرست به‌کار می‌رود.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -420,7 +441,8 @@ export const aula6: CourseLesson = {
       promptFa: 'کدام علامت جملهٔ «Estou furiosa com você___» را کامل می‌کند؟',
       options: ['!', '.', '?', ':'],
       answer: '!',
-      explanationFa: 'این جمله خشم را بیان می‌کند، پس با علامت تعجب (!) تمام می‌شود.',
+      explanationFa:
+        'این جمله خشم را بیان می‌کند، پس با علامت تعجب (!) تمام می‌شود.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -428,7 +450,8 @@ export const aula6: CourseLesson = {
       id: 'course-aula-6-q9',
       type: 'mcq',
       prompt: 'Que sinal completa: "Qual a importância da água no planeta___"',
-      promptFa: 'کدام علامت جملهٔ «Qual a importância da água no planeta___» را کامل می‌کند؟',
+      promptFa:
+        'کدام علامت جملهٔ «Qual a importância da água no planeta___» را کامل می‌کند؟',
       options: ['?', '!', '.', ','],
       answer: '?',
       explanationFa: 'این یک پرسش است، پس با علامت پرسش (?) تمام می‌شود.',
@@ -478,7 +501,8 @@ export const aula6: CourseLesson = {
       type: 'fill-blank',
       prompt:
         'Pontue: "A verdade___ minha querida amiga___ é que já não sou a mesma pessoa___"',
-      promptFa: 'جملهٔ ۲ تمرینِ نقطه‌گذاری: سه علامت را بگذارید (توجه به منادا).',
+      promptFa:
+        'جملهٔ ۲ تمرینِ نقطه‌گذاری: سه علامت را بگذارید (توجه به منادا).',
       options: [],
       answer: ', , .',
       explanationFa:
@@ -490,7 +514,8 @@ export const aula6: CourseLesson = {
       id: 'course-aula-6-q13',
       type: 'fill-blank',
       prompt: 'Pontue: "Bom dia___ André___"',
-      promptFa: 'جملهٔ ۳ تمرینِ نقطه‌گذاری: دو علامت را بگذارید (احوال‌پرسی + منادا).',
+      promptFa:
+        'جملهٔ ۳ تمرینِ نقطه‌گذاری: دو علامت را بگذارید (احوال‌پرسی + منادا).',
       options: [],
       answer: ', !',
       explanationFa:
@@ -540,7 +565,8 @@ export const aula6: CourseLesson = {
       promptFa: 'جملهٔ ۷ تمرینِ نقطه‌گذاری: یک علامت بگذارید.',
       options: [],
       answer: '.',
-      explanationFa: 'یک جملهٔ خبریِ ساده است و با نقطه تمام می‌شود: «Gosto de brincar com meus filhos.»',
+      explanationFa:
+        'یک جملهٔ خبریِ ساده است و با نقطه تمام می‌شود: «Gosto de brincar com meus filhos.»',
       cefr: 'A2',
       skill: 'writing',
     },
@@ -549,7 +575,8 @@ export const aula6: CourseLesson = {
       type: 'fill-blank',
       prompt:
         'Pontue: "No dia da prova___ não esqueça de levar___ documento de identidade com foto___ caneta preta ou azul___ lápis___ borracha___ lanche e água."',
-      promptFa: 'جملهٔ ۸ تمرینِ نقطه‌گذاری: شش علامتِ خالی را به‌ترتیب بگذارید (منادا/فهرست).',
+      promptFa:
+        'جملهٔ ۸ تمرینِ نقطه‌گذاری: شش علامتِ خالی را به‌ترتیب بگذارید (منادا/فهرست).',
       options: [],
       answer: ', : , , , ,',
       explanationFa:
@@ -560,33 +587,42 @@ export const aula6: CourseLesson = {
     {
       id: 'course-aula-6-q19',
       type: 'translate-fa-pt',
-      prompt: 'Complete com ponto final (.): "Eu acho ___" — escreva uma frase completa.',
-      promptFa: 'تمرینِ «Complete»: با نقطهٔ پایانی جمله را کامل کنید: «Eu acho ___» (یک جملهٔ خبری بنویسید).',
+      prompt:
+        'Complete com ponto final (.): "Eu acho ___" — escreva uma frase completa.',
+      promptFa:
+        'تمرینِ «Complete»: با نقطهٔ پایانی جمله را کامل کنید: «Eu acho ___» (یک جملهٔ خبری بنویسید).',
       options: [],
       answer: 'Eu acho que o português é uma língua bonita.',
-      explanationFa: 'جملهٔ خبری با نقطهٔ پایانی تمام می‌شود؛ هر جملهٔ کاملِ درست پذیرفته است. نمونه: «Eu acho que o português é uma língua bonita.»',
+      explanationFa:
+        'جملهٔ خبری با نقطهٔ پایانی تمام می‌شود؛ هر جملهٔ کاملِ درست پذیرفته است. نمونه: «Eu acho que o português é uma língua bonita.»',
       cefr: 'A2',
       skill: 'writing',
     },
     {
       id: 'course-aula-6-q20',
       type: 'translate-fa-pt',
-      prompt: 'Complete com ponto de interrogação (?): "Qual é ___" — escreva uma pergunta completa.',
-      promptFa: 'تمرینِ «Complete»: با علامت پرسش جمله را کامل کنید: «Qual é ___» (یک پرسش کامل بنویسید).',
+      prompt:
+        'Complete com ponto de interrogação (?): "Qual é ___" — escreva uma pergunta completa.',
+      promptFa:
+        'تمرینِ «Complete»: با علامت پرسش جمله را کامل کنید: «Qual é ___» (یک پرسش کامل بنویسید).',
       options: [],
       answer: 'Qual é o seu nome?',
-      explanationFa: 'جملهٔ پرسشی با علامت پرسش تمام می‌شود؛ هر پرسشِ درست پذیرفته است. نمونه: «Qual é o seu nome?»',
+      explanationFa:
+        'جملهٔ پرسشی با علامت پرسش تمام می‌شود؛ هر پرسشِ درست پذیرفته است. نمونه: «Qual é o seu nome?»',
       cefr: 'A2',
       skill: 'writing',
     },
     {
       id: 'course-aula-6-q21',
       type: 'translate-fa-pt',
-      prompt: 'Complete com ponto de exclamação (!): "Nossa, como ___" — escreva uma exclamação completa.',
-      promptFa: 'تمرینِ «Complete»: با علامت تعجب جمله را کامل کنید: «Nossa, como ___» (یک جملهٔ تعجبی کامل بنویسید).',
+      prompt:
+        'Complete com ponto de exclamação (!): "Nossa, como ___" — escreva uma exclamação completa.',
+      promptFa:
+        'تمرینِ «Complete»: با علامت تعجب جمله را کامل کنید: «Nossa, como ___» (یک جملهٔ تعجبی کامل بنویسید).',
       options: [],
       answer: 'Nossa, como você cresceu!',
-      explanationFa: 'جملهٔ تعجبی با علامت تعجب تمام می‌شود؛ هر جملهٔ درست پذیرفته است. نمونه: «Nossa, como você cresceu!»',
+      explanationFa:
+        'جملهٔ تعجبی با علامت تعجب تمام می‌شود؛ هر جملهٔ درست پذیرفته است. نمونه: «Nossa, como você cresceu!»',
       cefr: 'A2',
       skill: 'writing',
     },
@@ -597,15 +633,18 @@ export const aula6: CourseLesson = {
       promptFa: 'پیش از «porém» در رابطهٔ تقابل، چه چیزی می‌گذاریم؟',
       options: ['Vírgula (,)', 'Ponto final (.)', 'Dois pontos (:)', 'Nada'],
       answer: 'Vírgula (,)',
-      explanationFa: 'پیش از حروفِ ربطِ تقابلی مانند mas و porém و entretanto ویرگول می‌آید.',
+      explanationFa:
+        'پیش از حروفِ ربطِ تقابلی مانند mas و porém و entretanto ویرگول می‌آید.',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-6-q23',
       type: 'order-words',
-      prompt: 'Ordene: "clássica / João / adora / música / , / porém / rock / , / seus / amigos / preferem"',
-      promptFa: 'کلمه‌ها را مرتب کنید تا جملهٔ درست با ویرگول و «porém» ساخته شود.',
+      prompt:
+        'Ordene: "clássica / João / adora / música / , / porém / rock / , / seus / amigos / preferem"',
+      promptFa:
+        'کلمه‌ها را مرتب کنید تا جملهٔ درست با ویرگول و «porém» ساخته شود.',
       options: [],
       answer: 'João adora música clássica, porém, seus amigos preferem rock.',
       explanationFa:
@@ -616,44 +655,56 @@ export const aula6: CourseLesson = {
     {
       id: 'course-aula-6-q24',
       type: 'translate-pt-fa',
-      prompt: 'Traduza para o persa: "Na matemática as quatro operações essenciais são: adição, subtração, multiplicação e divisão."',
+      prompt:
+        'Traduza para o persa: "Na matemática as quatro operações essenciais são: adição, subtração, multiplicação e divisão."',
       promptFa: 'این جملهٔ دارای دو نقطه و فهرست را به فارسی ترجمه کنید.',
       options: [],
-      answer: 'در ریاضیات چهار عملِ اصلی عبارت‌اند از: جمع، تفریق، ضرب و تقسیم.',
-      explanationFa: 'دو نقطه پیش از فهرست می‌آید و اعضای فهرست با ویرگول و «e» جدا می‌شوند.',
+      answer:
+        'در ریاضیات چهار عملِ اصلی عبارت‌اند از: جمع، تفریق، ضرب و تقسیم.',
+      explanationFa:
+        'دو نقطه پیش از فهرست می‌آید و اعضای فهرست با ویرگول و «e» جدا می‌شوند.',
       cefr: 'A2',
       skill: 'reading',
     },
     {
       id: 'course-aula-6-q25',
       type: 'translate-fa-pt',
-      prompt: 'Complete com ponto final (.): "A gente sempre ___" — escreva uma frase completa.',
-      promptFa: 'تمرینِ «Complete»: با نقطهٔ پایانی جمله را کامل کنید: «A gente sempre ___» (یک جملهٔ خبری بنویسید).',
+      prompt:
+        'Complete com ponto final (.): "A gente sempre ___" — escreva uma frase completa.',
+      promptFa:
+        'تمرینِ «Complete»: با نقطهٔ پایانی جمله را کامل کنید: «A gente sempre ___» (یک جملهٔ خبری بنویسید).',
       options: [],
       answer: 'A gente sempre estuda português à noite.',
-      explanationFa: 'جملهٔ خبری با نقطهٔ پایانی تمام می‌شود؛ هر جملهٔ کاملِ درست پذیرفته است. نمونه: «A gente sempre estuda português à noite.»',
+      explanationFa:
+        'جملهٔ خبری با نقطهٔ پایانی تمام می‌شود؛ هر جملهٔ کاملِ درست پذیرفته است. نمونه: «A gente sempre estuda português à noite.»',
       cefr: 'A2',
       skill: 'writing',
     },
     {
       id: 'course-aula-6-q26',
       type: 'translate-fa-pt',
-      prompt: 'Complete com ponto de interrogação (?): "Por que ___" — escreva uma pergunta completa.',
-      promptFa: 'تمرینِ «Complete»: با علامت پرسش جمله را کامل کنید: «Por que ___» (یک پرسش کامل بنویسید).',
+      prompt:
+        'Complete com ponto de interrogação (?): "Por que ___" — escreva uma pergunta completa.',
+      promptFa:
+        'تمرینِ «Complete»: با علامت پرسش جمله را کامل کنید: «Por que ___» (یک پرسش کامل بنویسید).',
       options: [],
       answer: 'Por que você não veio à aula?',
-      explanationFa: 'جملهٔ پرسشی با علامت پرسش تمام می‌شود؛ هر پرسشِ درست پذیرفته است. نمونه: «Por que você não veio à aula?»',
+      explanationFa:
+        'جملهٔ پرسشی با علامت پرسش تمام می‌شود؛ هر پرسشِ درست پذیرفته است. نمونه: «Por que você não veio à aula?»',
       cefr: 'A2',
       skill: 'writing',
     },
     {
       id: 'course-aula-6-q27',
       type: 'translate-fa-pt',
-      prompt: 'Complete com ponto de exclamação (!): "Que ___" — escreva uma exclamação completa.',
-      promptFa: 'تمرینِ «Complete»: با علامت تعجب جمله را کامل کنید: «Que ___» (یک جملهٔ تعجبی کامل بنویسید).',
+      prompt:
+        'Complete com ponto de exclamação (!): "Que ___" — escreva uma exclamação completa.',
+      promptFa:
+        'تمرینِ «Complete»: با علامت تعجب جمله را کامل کنید: «Que ___» (یک جملهٔ تعجبی کامل بنویسید).',
       options: [],
       answer: 'Que dia maravilhoso!',
-      explanationFa: 'جملهٔ تعجبی با علامت تعجب تمام می‌شود؛ هر جملهٔ درست پذیرفته است. نمونه: «Que dia maravilhoso!»',
+      explanationFa:
+        'جملهٔ تعجبی با علامت تعجب تمام می‌شود؛ هر جملهٔ درست پذیرفته است. نمونه: «Que dia maravilhoso!»',
       cefr: 'A2',
       skill: 'writing',
     },

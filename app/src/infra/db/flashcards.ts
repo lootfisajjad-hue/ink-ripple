@@ -59,10 +59,47 @@ export async function getDueCards(
   const all = deck
     ? await db.flashcards.where({ profileId, deck }).toArray()
     : await db.flashcards.where('profileId').equals(profileId).toArray();
-  return all
-    .filter((c) => isDue(c.memory, ts))
-    .sort((a, b) => a.memory.due.localeCompare(b.memory.due))
-    .slice(0, limit);
+  return (
+    all
+      .filter((c) => isDue(c.memory, ts))
+      // most important first (5★ → 1★, unrated last), then by due date
+      .sort(
+        (a, b) =>
+          (b.importance ?? 0) - (a.importance ?? 0) ||
+          a.memory.due.localeCompare(b.memory.due),
+      )
+      .slice(0, limit)
+  );
+}
+
+/** Set a card's user importance (1..5 stars; 0 clears it). */
+export async function setCardImportance(
+  cardId: string,
+  stars: number,
+): Promise<void> {
+  const card = await db.flashcards.get(cardId);
+  if (!card) return;
+  const importance = Math.min(Math.max(Math.round(stars), 0), 5);
+  await db.flashcards.put({
+    ...card,
+    importance,
+    updatedAt: now(),
+  });
+}
+
+/** All cards for a profile, most-important first (for browsing/rating). */
+export async function getAllCards(
+  profileId: string,
+  deck?: string,
+): Promise<Flashcard[]> {
+  const all = deck
+    ? await db.flashcards.where({ profileId, deck }).toArray()
+    : await db.flashcards.where('profileId').equals(profileId).toArray();
+  return all.sort(
+    (a, b) =>
+      (b.importance ?? 0) - (a.importance ?? 0) ||
+      a.front.localeCompare(b.front),
+  );
 }
 
 export async function countDue(profileId: string): Promise<number> {

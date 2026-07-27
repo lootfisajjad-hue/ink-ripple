@@ -59,7 +59,8 @@ export const aula11: CourseLesson = {
       ],
     },
     {
-      headingFa: '۳. فن دوم: خلاصه‌کردن ایده‌های اصلی (Sintetizar as principais ideias)',
+      headingFa:
+        '۳. فن دوم: خلاصه‌کردن ایده‌های اصلی (Sintetizar as principais ideias)',
       bodyFa:
         'خلاصه‌ای (resumo) بسازید که موضوع‌ها یا مطالب اصلیِ متن را نشان بدهد. برای این کار فنِ قبلی (با دقت خواندن) خیلی مهم است و مکمل این فن است. بنابراین با دقت بخوانید و کم‌کم واژه‌های کلیدی (palavras-chave) متن را علامت بزنید.',
       examples: [
@@ -421,9 +422,15 @@ export const aula11: CourseLesson = {
     {
       id: 'course-aula-11-q4',
       type: 'mcq',
-      prompt: 'Complete: "É possível compreender um texto sem interpretá-lo, porém não é possível interpretá-lo sem ___."',
+      prompt:
+        'Complete: "É possível compreender um texto sem interpretá-lo, porém não é possível interpretá-lo sem ___."',
       promptFa: 'جملهٔ کلیدی را کامل کنید.',
-      options: ['compreendê-lo', 'lê-lo em voz alta', 'resumi-lo', 'traduzi-lo'],
+      options: [
+        'compreendê-lo',
+        'lê-lo em voz alta',
+        'resumi-lo',
+        'traduzi-lo',
+      ],
       answer: 'compreendê-lo',
       explanationFa: 'نمی‌توان متنی را تفسیر کرد بدون آنکه آن را فهمیده باشیم.',
       cefr: 'A2',
@@ -433,10 +440,12 @@ export const aula11: CourseLesson = {
       id: 'course-aula-11-q5',
       type: 'translate-pt-fa',
       prompt: 'Texto 1 (Flávio): "Quem joga vôlei no clube da cidade?"',
-      promptFa: 'به این پرسش دربارهٔ متن فلاویو پاسخ دهید: چه کسانی در باشگاه شهر والیبال بازی می‌کنند؟',
+      promptFa:
+        'به این پرسش دربارهٔ متن فلاویو پاسخ دهید: چه کسانی در باشگاه شهر والیبال بازی می‌کنند؟',
       options: [],
       answer: 'A Sofia e o Eduardo.',
-      explanationFa: 'در متن: «A Sofia e o Eduardo jogam vôlei num clube da cidade» ← سوفیا و ادواردو.',
+      explanationFa:
+        'در متن: «A Sofia e o Eduardo jogam vôlei num clube da cidade» ← سوفیا و ادواردو.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -469,7 +478,8 @@ export const aula11: CourseLesson = {
         'É a irmã da Sofia.',
       ],
       answer: 'É a professora de português do Flávio.',
-      explanationFa: 'متن: «O nome da minha professora de português é Luiza e ela é brasileira».',
+      explanationFa:
+        'متن: «O nome da minha professora de português é Luiza e ela é brasileira».',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -491,7 +501,8 @@ export const aula11: CourseLesson = {
       promptFa: 'چه کسی ایدهٔ مسابقه گذاشتن را داشت؟',
       options: ['O jabuti', 'O coelho', 'Os dois juntos', 'Ninguém'],
       answer: 'O jabuti',
-      explanationFa: 'متن: «O jabuti resolveu apostar uma corrida com o coelho».',
+      explanationFa:
+        'متن: «O jabuti resolveu apostar uma corrida com o coelho».',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -509,7 +520,8 @@ export const aula11: CourseLesson = {
     {
       id: 'course-aula-11-q11',
       type: 'translate-pt-fa',
-      prompt: 'Texto 2 (Jabuti): "O que aconteceu com o coelho durante a corrida?"',
+      prompt:
+        'Texto 2 (Jabuti): "O que aconteceu com o coelho durante a corrida?"',
       promptFa: 'در طول مسابقه چه اتفاقی برای خرگوش افتاد؟',
       options: [],
       answer: 'Ele pegou no sono (dormiu) e não viu o jabuti passar.',
@@ -524,7 +536,8 @@ export const aula11: CourseLesson = {
       promptFa: 'چه کسی برندهٔ مسابقه شد؟',
       options: ['O jabuti', 'O coelho', 'Empataram', 'Ninguém venceu'],
       answer: 'O jabuti',
-      explanationFa: 'در پایان لاک‌پشت فریاد می‌زد: «Venci! Venci!» ← لاک‌پشت برد.',
+      explanationFa:
+        'در پایان لاک‌پشت فریاد می‌زد: «Venci! Venci!» ← لاک‌پشت برد.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -533,7 +546,12 @@ export const aula11: CourseLesson = {
       type: 'mcq',
       prompt: 'Texto 3 (Nomes): Quais são os nomes mais comuns no Brasil?',
       promptFa: 'رایج‌ترین نام‌ها در برزیل کدام‌اند؟',
-      options: ['João e Maria', 'Pedro e Ana', 'Michael e Elvis', 'Zé e Aninha'],
+      options: [
+        'João e Maria',
+        'Pedro e Ana',
+        'Michael e Elvis',
+        'Zé e Aninha',
+      ],
       answer: 'João e Maria',
       explanationFa: 'متن: «Os nomes João e Maria são os mais comuns».',
       cefr: 'A2',
@@ -542,7 +560,8 @@ export const aula11: CourseLesson = {
     {
       id: 'course-aula-11-q14',
       type: 'translate-pt-fa',
-      prompt: 'Texto 3 (Nomes): "Por que algumas pessoas registram seus filhos com os mesmos nomes de parentes?"',
+      prompt:
+        'Texto 3 (Nomes): "Por que algumas pessoas registram seus filhos com os mesmos nomes de parentes?"',
       promptFa: 'چرا بعضی افراد فرزندشان را با نام بستگان ثبت می‌کنند؟',
       options: [],
       answer: 'Como forma de homenagem aos mais velhos.',
@@ -553,7 +572,8 @@ export const aula11: CourseLesson = {
     {
       id: 'course-aula-11-q15',
       type: 'mcq',
-      prompt: 'Texto 3 (Nomes): É comum encontrar crianças com nomes iguais aos de pessoas famosas?',
+      prompt:
+        'Texto 3 (Nomes): É comum encontrar crianças com nomes iguais aos de pessoas famosas?',
       promptFa: 'آیا رایج است بچه‌هایی با نام افراد مشهور پیدا شوند؟',
       options: [
         'Sim, como "Michael Jackson" ou "Elvis Presley".',
@@ -585,7 +605,8 @@ export const aula11: CourseLesson = {
       promptFa: 'حرفهٔ هنریکه چیست؟',
       options: ['Cantor', 'Professor', 'Médico', 'Advogado'],
       answer: 'Cantor',
-      explanationFa: 'متن: «Henrique decidiu ser cantor e faz apresentações em bares e restaurantes».',
+      explanationFa:
+        'متن: «Henrique decidiu ser cantor e faz apresentações em bares e restaurantes».',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -625,7 +646,8 @@ export const aula11: CourseLesson = {
       promptFa: 'چه کسی می‌خواهد دندان‌پزشک شود؟',
       options: ['Eva', 'Ana', 'Amália', 'Ricardo'],
       answer: 'Eva',
-      explanationFa: 'متن: «Eva está no último ano de odontologia... ela será dentista».',
+      explanationFa:
+        'متن: «Eva está no último ano de odontologia... ela será dentista».',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -640,7 +662,8 @@ export const aula11: CourseLesson = {
         'Não, ele estuda Direito.',
         'Sim, terminou o curso este ano.',
       ],
-      answer: 'Ainda não; ele se formou em publicidade e planeja cursar jornalismo.',
+      answer:
+        'Ainda não; ele se formou em publicidade e planeja cursar jornalismo.',
       explanationFa:
         'ریکاردو در تبلیغات فارغ‌التحصیل شد و برنامه دارد روزنامه‌نگاری بخواند؛ هنوز آن را نمی‌خواند.',
       cefr: 'A2',
@@ -649,7 +672,8 @@ export const aula11: CourseLesson = {
     {
       id: 'course-aula-11-q22',
       type: 'mcq',
-      prompt: 'Texto 4 (Profissões): O que se comemora no dia primeiro de maio?',
+      prompt:
+        'Texto 4 (Profissões): O que se comemora no dia primeiro de maio?',
       promptFa: 'روز اول ماه مه چه چیزی جشن گرفته می‌شود؟',
       options: [
         'O Dia do Trabalho',
@@ -658,7 +682,8 @@ export const aula11: CourseLesson = {
         'O Dia do Professor',
       ],
       answer: 'O Dia do Trabalho',
-      explanationFa: 'متن: «No dia primeiro de maio é comemorado o Dia do Trabalho».',
+      explanationFa:
+        'متن: «No dia primeiro de maio é comemorado o Dia do Trabalho».',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -669,7 +694,8 @@ export const aula11: CourseLesson = {
       promptFa: 'حرفهٔ روبرتو چیست؟',
       options: ['Cozinheiro', 'Garçom', 'Médico', 'Professor'],
       answer: 'Cozinheiro',
-      explanationFa: 'روبرتو در کشورش آشپز (cozinheiro) بود و رستوران خودش را داشت.',
+      explanationFa:
+        'روبرتو در کشورش آشپز (cozinheiro) بود و رستوران خودش را داشت.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -693,7 +719,8 @@ export const aula11: CourseLesson = {
     {
       id: 'course-aula-11-q25',
       type: 'translate-fa-pt',
-      prompt: 'Sobre VOCÊ: «شغل من در کشورم ... بود.» را به پرتغالی کامل کنید (نمونه با معلم).',
+      prompt:
+        'Sobre VOCÊ: «شغل من در کشورم ... بود.» را به پرتغالی کامل کنید (نمونه با معلم).',
       promptFa: 'به پرتغالی دربارهٔ خودتان بنویسید (نمونه با شغل معلم).',
       options: [],
       answer: 'No meu país eu era professor(a).',
@@ -705,21 +732,27 @@ export const aula11: CourseLesson = {
     {
       id: 'course-aula-11-q26',
       type: 'translate-fa-pt',
-      prompt: 'Sobre VOCÊ: «می‌خواهم در برزیل به‌عنوان آشپز کار کنم.» را به پرتغالی بنویسید.',
-      promptFa: 'پاسخ به پرسش «Que profissão gostaria de exercer no Brasil?» را بنویسید (نمونه: آشپز).',
+      prompt:
+        'Sobre VOCÊ: «می‌خواهم در برزیل به‌عنوان آشپز کار کنم.» را به پرتغالی بنویسید.',
+      promptFa:
+        'پاسخ به پرسش «Que profissão gostaria de exercer no Brasil?» را بنویسید (نمونه: آشپز).',
       options: [],
       answer: 'Eu gostaria de trabalhar como cozinheiro(a) no Brasil.',
-      explanationFa: '«gostaria de + مصدر» برای بیان آرزو/تمایل مؤدبانه به‌کار می‌رود.',
+      explanationFa:
+        '«gostaria de + مصدر» برای بیان آرزو/تمایل مؤدبانه به‌کار می‌رود.',
       cefr: 'A2',
       skill: 'writing',
     },
     {
       id: 'course-aula-11-q33',
       type: 'translate-fa-pt',
-      prompt: 'Sobre VOCÊ: «شغل فعلی من ... است.» را به پرتغالی بنویسید (پاسخ به "Qual seu emprego atual?").',
-      promptFa: 'به پرسش «Qual seu emprego atual?» (شغل فعلی شما چیست؟) دربارهٔ خودتان به پرتغالی پاسخ دهید (نمونه: آشپز).',
+      prompt:
+        'Sobre VOCÊ: «شغل فعلی من ... است.» را به پرتغالی بنویسید (پاسخ به "Qual seu emprego atual?").',
+      promptFa:
+        'به پرسش «Qual seu emprego atual?» (شغل فعلی شما چیست؟) دربارهٔ خودتان به پرتغالی پاسخ دهید (نمونه: آشپز).',
       options: [],
-      answer: 'Meu emprego atual é cozinheiro(a). / Atualmente eu trabalho como cozinheiro(a).',
+      answer:
+        'Meu emprego atual é cozinheiro(a). / Atualmente eu trabalho como cozinheiro(a).',
       explanationFa:
         'برای شغل فعلی از زمان حال استفاده کن: «Meu emprego atual é...» یا «Atualmente eu trabalho como...». این پاسخ به دومین پرسشِ بخش «Responda sobre VOCÊ» است.',
       cefr: 'A2',
@@ -730,7 +763,12 @@ export const aula11: CourseLesson = {
       type: 'mcq',
       prompt: 'Texto 6 (Restaurante): Onde a Sra. Dandara chegou?',
       promptFa: 'خانم داندارا به کجا رسید؟',
-      options: ['A um restaurante', 'A um hospital', 'A uma escola', 'A um clube'],
+      options: [
+        'A um restaurante',
+        'A um hospital',
+        'A uma escola',
+        'A um clube',
+      ],
       answer: 'A um restaurante',
       explanationFa: 'گفت‌وگو در رستوران است؛ او دنبال میز خالی و منو بود.',
       cefr: 'A2',
@@ -743,14 +781,16 @@ export const aula11: CourseLesson = {
       promptFa: 'چه کسی از او پذیرایی کرد؟',
       options: ['Júlio, o garçom', 'Andreia', 'Roberto', 'A cozinheira'],
       answer: 'Júlio, o garçom',
-      explanationFa: 'ژولیو که پیشخدمت (garçom) است او را همراهی کرد و سفارش گرفت.',
+      explanationFa:
+        'ژولیو که پیشخدمت (garçom) است او را همراهی کرد و سفارش گرفت.',
       cefr: 'A2',
       skill: 'reading',
     },
     {
       id: 'course-aula-11-q29',
       type: 'translate-pt-fa',
-      prompt: 'Texto 6 (Restaurante): "Por que a senhora não precisou ver o cardápio?"',
+      prompt:
+        'Texto 6 (Restaurante): "Por que a senhora não precisou ver o cardápio?"',
       promptFa: 'چرا خانم لازم نداشت منو را ببیند؟',
       options: [],
       answer: 'Porque já comeu ali na semana passada e queria o mesmo prato.',
@@ -766,7 +806,8 @@ export const aula11: CourseLesson = {
       promptFa: 'برای نوشیدنی چه سفارش داد؟',
       options: ['Suco de abacaxi', 'Suco de laranja', 'Água com gás', 'Café'],
       answer: 'Suco de abacaxi',
-      explanationFa: 'متن: «Pode ser um suco de abacaxi, por favor» ← آب‌آناناس.',
+      explanationFa:
+        'متن: «Pode ser um suco de abacaxi, por favor» ← آب‌آناناس.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -785,8 +826,10 @@ export const aula11: CourseLesson = {
     {
       id: 'course-aula-11-q32',
       type: 'fill-blank',
-      prompt: 'A informação da compreensão está ___ do texto; a da interpretação está ___ do texto.',
-      promptFa: 'جای خالی را با «dentro/fora» پر کنید: اطلاعاتِ فهم درونِ ... و اطلاعاتِ تفسیر بیرونِ ... متن است.',
+      prompt:
+        'A informação da compreensão está ___ do texto; a da interpretação está ___ do texto.',
+      promptFa:
+        'جای خالی را با «dentro/fora» پر کنید: اطلاعاتِ فهم درونِ ... و اطلاعاتِ تفسیر بیرونِ ... متن است.',
       options: [],
       answer: 'dentro / fora',
       explanationFa:

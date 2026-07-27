@@ -9,6 +9,7 @@ import {
   countDue,
   recordMistake,
   getDeckSummaries,
+  setCardImportance,
 } from '@/infra/db/flashcards';
 
 const PROFILE = 'p1';
@@ -78,6 +79,45 @@ describe('flashcard service (IndexedDB)', () => {
     const summaries = await getDeckSummaries(PROFILE);
     const mistakes = summaries.find((s) => s.deck === 'mistakes');
     expect(mistakes?.total).toBe(1);
+  });
+
+  it('lets the user set importance and clamps it to 0..5', async () => {
+    const card = await addCard(PROFILE, {
+      itemId: 'imp',
+      itemType: 'vocab',
+      deck: 'vocab',
+      front: 'importante',
+      back: 'مهم',
+    });
+    await setCardImportance(card.id, 5);
+    expect((await db.flashcards.get(card.id))!.importance).toBe(5);
+    await setCardImportance(card.id, 9); // clamps to 5
+    expect((await db.flashcards.get(card.id))!.importance).toBe(5);
+    await setCardImportance(card.id, 0); // clear
+    expect((await db.flashcards.get(card.id))!.importance).toBe(0);
+  });
+
+  it('orders due cards most-important first', async () => {
+    const low = await addCard(PROFILE, {
+      itemId: 'low',
+      itemType: 'vocab',
+      deck: 'vocab',
+      front: 'a',
+      back: 'a',
+    });
+    const high = await addCard(PROFILE, {
+      itemId: 'high',
+      itemType: 'vocab',
+      deck: 'vocab',
+      front: 'b',
+      back: 'b',
+    });
+    await setCardImportance(low.id, 1);
+    await setCardImportance(high.id, 5);
+    const due = await getDueCards(PROFILE);
+    const iLow = due.findIndex((c) => c.itemId === 'low');
+    const iHigh = due.findIndex((c) => c.itemId === 'high');
+    expect(iHigh).toBeLessThan(iLow); // 5★ before 1★
   });
 
   it('isolates cards between profiles', async () => {

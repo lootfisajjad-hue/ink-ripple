@@ -140,6 +140,8 @@ export const fa = {
     sessionDone: 'مرور امروز تمام شد!',
     reviewedCount: '{{count}} کارت مرور شد',
     addToDeck: 'افزودن به فلش‌کارت',
+    importance: 'اهمیت (ستاره‌دار)',
+    importantFirst: 'مهم‌ترها اول',
     myMistakes: 'اشتباهات من',
   },
   citizenship: {

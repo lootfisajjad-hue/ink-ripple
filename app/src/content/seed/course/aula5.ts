@@ -97,7 +97,8 @@ export const aula5: CourseLesson = {
       ],
     },
     {
-      headingFa: '۵. ساختار سه‌بخشی متن (Introdução, Desenvolvimento, Conclusão)',
+      headingFa:
+        '۵. ساختار سه‌بخشی متن (Introdução, Desenvolvimento, Conclusão)',
       bodyFa:
         'هر نوع متنی که به‌کار برود، محتوا در طول متن گسترش می‌یابد و به این بخش‌ها تقسیم می‌شود:\n\n۱. Introdução (مقدمه) — تعیین حدود موضوع (delimitação do tema). موضوعی را که انشا درباره‌اش است نشان می‌دهد.\n\n۲. Desenvolvimento (تنه/گسترش) — استدلال‌آوری یا پیشرفت موضوعی (argumentação ou progressão temática). ایده‌ها گسترش می‌یابند و در همان حال نظرها بیان و از آن‌ها دفاع می‌شود.\n\n۳. Conclusão (نتیجه‌گیری) — سرانجام و جمع‌بندیِ استدلال‌های ارائه‌شده (desfecho para os argumentos apresentados).',
       examples: [
@@ -119,7 +120,8 @@ export const aula5: CourseLesson = {
       ],
     },
     {
-      headingFa: '۶. نمونهٔ متن استدلالیِ استدلال‌محور (Dissertativo Argumentativo)',
+      headingFa:
+        '۶. نمونهٔ متن استدلالیِ استدلال‌محور (Dissertativo Argumentativo)',
       bodyFa:
         'در این نمونه، نویسنده دربارهٔ اهمیت حفظ محیط‌زیست نظر می‌دهد و از آن دفاع می‌کند. متن کامل:\n\n«Em pleno século XXI é salutar refletir sobre a importância de preservação do meio ambiente bem como atuar em prol de uma sociedade mais consciente e limpa. Já ficou mais que claro que a maioria dos problemas os quais enfrentamos atualmente nas grandes cidades, foram gerados pela ação humana. De tal modo, podemos pensar nas grandes construções, alicerçadas na urbanização desenfreada, ou no simples ato de jogar lixo nas ruas.\n\nA poluição gerada e impregnada nas grandes cidades foi em grande parte fruto da urbanização desenfreada ou da atuação de indústrias; porém, deveres não cumpridos pelos homens também proporcionaram toda essa "sujidade". Nesse sentido, vale lembrar que pequenos atos podem produzir grandes mudanças se realizados por todos os cidadãos.\n\nPortanto, um conselho deveras importante: ao invés de jogar o lixo (seja um papelzinho de bala, ou uma anotação de um telefone) nas ruas, guarde-o no bolso e atire somente quando encontrar uma lixeira. Seja um cidadão consciente! Não jogue lixo nas ruas!»',
       examples: [
@@ -301,7 +303,8 @@ export const aula5: CourseLesson = {
       promptFa: 'کدام نوع متن برای بیان نظر شما به‌کار می‌رود؟',
       options: ['Dissertativo', 'Descritivo', 'Narrativo', 'Poético'],
       answer: 'Dissertativo',
-      explanationFa: 'متن Dissertativo (استدلالی) برای بیان و دفاع از نظر نویسنده است.',
+      explanationFa:
+        'متن Dissertativo (استدلالی) برای بیان و دفاع از نظر نویسنده است.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -309,10 +312,12 @@ export const aula5: CourseLesson = {
       id: 'course-aula-5-q2',
       type: 'mcq',
       prompt: 'Qual tipo de texto conta uma história ou narra um fato?',
-      promptFa: 'کدام نوع متن یک داستان تعریف می‌کند یا واقعه‌ای را نقل می‌کند؟',
+      promptFa:
+        'کدام نوع متن یک داستان تعریف می‌کند یا واقعه‌ای را نقل می‌کند؟',
       options: ['Narrativo', 'Dissertativo', 'Descritivo', 'Argumentativo'],
       answer: 'Narrativo',
-      explanationFa: 'در متن Narrativo (روایی) یک داستان تعریف یا یک فاکت نقل می‌شود.',
+      explanationFa:
+        'در متن Narrativo (روایی) یک داستان تعریف یا یک فاکت نقل می‌شود.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -328,7 +333,8 @@ export const aula5: CourseLesson = {
         'narrar um fato do passado',
       ],
       answer: 'contar algo de forma detalhada',
-      explanationFa: 'توصیف یعنی تعریف چیزی به‌شکل مفصل با جزئیات، ویژگی‌ها و احساس‌ها.',
+      explanationFa:
+        'توصیف یعنی تعریف چیزی به‌شکل مفصل با جزئیات، ویژگی‌ها و احساس‌ها.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -339,7 +345,8 @@ export const aula5: CourseLesson = {
       promptFa: 'سه بخش یک انشا را به ترتیب درست بچینید.',
       options: ['Conclusão', 'Introdução', 'Desenvolvimento'],
       answer: 'Introdução / Desenvolvimento / Conclusão',
-      explanationFa: 'ترتیب درست: مقدمه، سپس تنه (گسترش)، و در پایان نتیجه‌گیری.',
+      explanationFa:
+        'ترتیب درست: مقدمه، سپس تنه (گسترش)، و در پایان نتیجه‌گیری.',
       cefr: 'A2',
       skill: 'writing',
     },
@@ -350,7 +357,8 @@ export const aula5: CourseLesson = {
       promptFa: 'تعیین حدود موضوع در کدام بخش انشا انجام می‌شود؟',
       options: ['Introdução', 'Desenvolvimento', 'Conclusão', 'Título'],
       answer: 'Introdução',
-      explanationFa: 'Introdução (مقدمه) موضوع را معرفی و حدود آن را تعیین می‌کند.',
+      explanationFa:
+        'Introdução (مقدمه) موضوع را معرفی و حدود آن را تعیین می‌کند.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -361,7 +369,8 @@ export const aula5: CourseLesson = {
       promptFa: 'سرانجام و جمع‌بندیِ استدلال‌ها در کدام بخش ارائه می‌شود؟',
       options: ['Conclusão', 'Introdução', 'Desenvolvimento', 'Rascunho'],
       answer: 'Conclusão',
-      explanationFa: 'Conclusão (نتیجه‌گیری) سرانجام استدلال‌های ارائه‌شده را می‌آورد.',
+      explanationFa:
+        'Conclusão (نتیجه‌گیری) سرانجام استدلال‌های ارائه‌شده را می‌آورد.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -370,17 +379,25 @@ export const aula5: CourseLesson = {
       type: 'mcq',
       prompt: 'Qual é um dos fatores mais importantes no texto dissertativo?',
       promptFa: 'کدام مورد یکی از مهم‌ترین عوامل در متن استدلالی است؟',
-      options: ['A coerência', 'O número de páginas', 'A cor da caneta', 'O tamanho da letra'],
+      options: [
+        'A coerência',
+        'O número de páginas',
+        'A cor da caneta',
+        'O tamanho da letra',
+      ],
       answer: 'A coerência',
-      explanationFa: 'coerência (انسجام و پیوستگی منطقی) مهم‌ترین عوامل متن استدلالی است.',
+      explanationFa:
+        'coerência (انسجام و پیوستگی منطقی) مهم‌ترین عوامل متن استدلالی است.',
       cefr: 'A2',
       skill: 'reading',
     },
     {
       id: 'course-aula-5-q8',
       type: 'mcq',
-      prompt: 'O texto sobre "aquecimento global" que só explica o assunto é do tipo:',
-      promptFa: 'متن دربارهٔ «گرمایش جهانی» که فقط موضوع را توضیح می‌دهد از چه نوعی است؟',
+      prompt:
+        'O texto sobre "aquecimento global" que só explica o assunto é do tipo:',
+      promptFa:
+        'متن دربارهٔ «گرمایش جهانی» که فقط موضوع را توضیح می‌دهد از چه نوعی است؟',
       options: [
         'Dissertativo expositivo',
         'Dissertativo argumentativo',
@@ -388,18 +405,22 @@ export const aula5: CourseLesson = {
         'Narrativo',
       ],
       answer: 'Dissertativo expositivo',
-      explanationFa: 'متن تشریحی (expositivo) موضوع را بی‌طرفانه و بر پایهٔ اطلاعات توضیح می‌دهد.',
+      explanationFa:
+        'متن تشریحی (expositivo) موضوع را بی‌طرفانه و بر پایهٔ اطلاعات توضیح می‌دهد.',
       cefr: 'A2',
       skill: 'reading',
     },
     {
       id: 'course-aula-5-q9',
       type: 'mcq',
-      prompt: 'A descrição "era magra, alta (1,75), cabelos pretos e curtos" é uma descrição:',
-      promptFa: 'توصیف «لاغر، بلندقد (۱٬۷۵)، موهای مشکی و کوتاه» چه نوع توصیفی است؟',
+      prompt:
+        'A descrição "era magra, alta (1,75), cabelos pretos e curtos" é uma descrição:',
+      promptFa:
+        'توصیف «لاغر، بلندقد (۱٬۷۵)، موهای مشکی و کوتاه» چه نوع توصیفی است؟',
       options: ['Objetiva', 'Subjetiva', 'Narrativa', 'Argumentativa'],
       answer: 'Objetiva',
-      explanationFa: 'داده‌های عینی و قابل‌اندازه‌گیری بدون احساس شخصی → توصیف objetiva.',
+      explanationFa:
+        'داده‌های عینی و قابل‌اندازه‌گیری بدون احساس شخصی → توصیف objetiva.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -415,7 +436,8 @@ export const aula5: CourseLesson = {
         'esconde as falas',
       ],
       answer: 'reproduz exatamente as falas das personagens',
-      explanationFa: 'گفتار مستقیم عینِ کلمات شخصیت‌ها را (معمولاً با خط تیره) بازتولید می‌کند.',
+      explanationFa:
+        'گفتار مستقیم عینِ کلمات شخصیت‌ها را (معمولاً با خط تیره) بازتولید می‌کند.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -431,18 +453,21 @@ export const aula5: CourseLesson = {
         '– Sim, professor!',
       ],
       answer: 'O professor disse que isso era ótimo.',
-      explanationFa: 'استفاده از «que» و فعلِ گزارشی و تبدیل é به era نشانهٔ گفتار غیرمستقیم است.',
+      explanationFa:
+        'استفاده از «que» و فعلِ گزارشی و تبدیل é به era نشانهٔ گفتار غیرمستقیم است.',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-5-q12',
       type: 'translate-pt-fa',
-      prompt: 'Traduza para o persa: "Seja um cidadão consciente! Não jogue lixo nas ruas!"',
+      prompt:
+        'Traduza para o persa: "Seja um cidadão consciente! Não jogue lixo nas ruas!"',
       promptFa: 'این جملهٔ پایانیِ متن استدلالی را به فارسی ترجمه کنید.',
       options: [],
       answer: 'یک شهروند آگاه باش! زباله در خیابان نریز!',
-      explanationFa: 'این جمله نمونه‌ای از نتیجه‌گیریِ دعوت‌کننده به عمل در متن استدلال‌محور است.',
+      explanationFa:
+        'این جمله نمونه‌ای از نتیجه‌گیریِ دعوت‌کننده به عمل در متن استدلال‌محور است.',
       cefr: 'A2',
       skill: 'writing',
     },
@@ -464,18 +489,21 @@ export const aula5: CourseLesson = {
       promptFa: 'طبق قواعد آزمون، باید با چه چیزی بنویسید؟',
       options: ['à caneta', 'a lápis', 'no computador', 'a giz'],
       answer: 'à caneta',
-      explanationFa: 'قاعده می‌گوید «Escreva à caneta» یعنی با خودکار بنویسید (و پیش‌نویس تهیه کنید).',
+      explanationFa:
+        'قاعده می‌گوید «Escreva à caneta» یعنی با خودکار بنویسید (و پیش‌نویس تهیه کنید).',
       cefr: 'A2',
       skill: 'reading',
     },
     {
       id: 'course-aula-5-q15',
       type: 'translate-fa-pt',
-      prompt: '«موضوع انشای آنلاین: تفاوت‌ها و شباهت‌ها میان کشور شما و برزیل.» را به پرتغالی بنویسید.',
+      prompt:
+        '«موضوع انشای آنلاین: تفاوت‌ها و شباهت‌ها میان کشور شما و برزیل.» را به پرتغالی بنویسید.',
       promptFa: 'موضوع آزمون آنلاین را به پرتغالی برزیلی بنویسید.',
       options: [],
       answer: 'Diferenças e semelhanças entre o seu país e o Brasil.',
-      explanationFa: 'diferenças = تفاوت‌ها، semelhanças = شباهت‌ها؛ این موضوعِ تحویلِ اجباریِ آزمون آنلاین است.',
+      explanationFa:
+        'diferenças = تفاوت‌ها، semelhanças = شباهت‌ها؛ این موضوعِ تحویلِ اجباریِ آزمون آنلاین است.',
       cefr: 'A2',
       skill: 'writing',
     },
@@ -484,9 +512,15 @@ export const aula5: CourseLesson = {
       type: 'mcq',
       prompt: 'O que deve ser feito ANTES de escrever a redação final?',
       promptFa: 'پیش از نوشتن انشای نهایی چه کاری باید انجام شود؟',
-      options: ['um rascunho', 'uma conclusão', 'um título longo', 'uma descrição objetiva'],
+      options: [
+        'um rascunho',
+        'uma conclusão',
+        'um título longo',
+        'uma descrição objetiva',
+      ],
       answer: 'um rascunho',
-      explanationFa: 'قاعده می‌گوید «Faça um rascunho antes» یعنی ابتدا یک پیش‌نویس تهیه کنید.',
+      explanationFa:
+        'قاعده می‌گوید «Faça um rascunho antes» یعنی ابتدا یک پیش‌نویس تهیه کنید.',
       cefr: 'A2',
       skill: 'reading',
     },

@@ -604,7 +604,8 @@ export const aula14: CourseLesson = {
       promptFa: 'در جملهٔ «Estou com medo» کدام کلمه حرف اضافه است؟',
       options: ['com', 'estou', 'medo', 'eu'],
       answer: 'com',
-      explanationFa: '«com» رابطهٔ بین estou و medo را می‌سازد و حرف اضافه است.',
+      explanationFa:
+        '«com» رابطهٔ بین estou و medo را می‌سازد و حرف اضافه است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -642,7 +643,8 @@ export const aula14: CourseLesson = {
         'Esta casa é na madeira.',
       ],
       answer: 'Esta casa é de madeira.',
-      explanationFa: 'برای جنس/ماده، DE ثابت می‌ماند و با حرف تعریف ادغام نمی‌شود.',
+      explanationFa:
+        'برای جنس/ماده، DE ثابت می‌ماند و با حرف تعریف ادغام نمی‌شود.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -651,7 +653,12 @@ export const aula14: CourseLesson = {
       type: 'mcq',
       prompt: '"Vou pro Rio" — a forma escrita formal é:',
       promptFa: 'شکل نوشتاریِ رسمیِ «Vou pro Rio» چیست؟',
-      options: ['Vou para o Rio.', 'Vou pra Rio.', 'Vou por o Rio.', 'Vou no Rio.'],
+      options: [
+        'Vou para o Rio.',
+        'Vou pra Rio.',
+        'Vou por o Rio.',
+        'Vou no Rio.',
+      ],
       answer: 'Vou para o Rio.',
       explanationFa: 'pro = para o؛ در نوشتار رسمی باید «para o» نوشته شود.',
       cefr: 'A2',
@@ -752,11 +759,13 @@ export const aula14: CourseLesson = {
     {
       id: 'course-aula-14-q13',
       type: 'fill-blank',
-      prompt: '___ mim e você existe uma antiga amizade. (preposição essencial)',
+      prompt:
+        '___ mim e você existe uma antiga amizade. (preposição essencial)',
       promptFa: 'با حرف اضافهٔ اصلی کامل کنید (رابطهٔ «بین»).',
       options: [],
       answer: 'Entre',
-      explanationFa: '«Entre mim e você» یعنی بین من و تو؛ entre حرف اضافهٔ اصلی است.',
+      explanationFa:
+        '«Entre mim e você» یعنی بین من و تو؛ entre حرف اضافهٔ اصلی است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -767,7 +776,8 @@ export const aula14: CourseLesson = {
       promptFa: 'با حرف اضافهٔ اصلی کامل کنید (هدف/برای این‌که).',
       options: [],
       answer: 'Para',
-      explanationFa: '«Para você estudar» یعنی برای این‌که درس بخوانی؛ para حرف اضافهٔ اصلی است.',
+      explanationFa:
+        '«Para você estudar» یعنی برای این‌که درس بخوانی؛ para حرف اضافهٔ اصلی است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -778,7 +788,8 @@ export const aula14: CourseLesson = {
       promptFa: 'با حرف اضافهٔ اصلی کامل کنید (همراهی).',
       options: [],
       answer: 'com',
-      explanationFa: '«mora com seus pais» یعنی با والدینش زندگی می‌کند؛ com حرف اضافهٔ اصلی است.',
+      explanationFa:
+        '«mora com seus pais» یعنی با والدینش زندگی می‌کند؛ com حرف اضافهٔ اصلی است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -789,18 +800,21 @@ export const aula14: CourseLesson = {
       promptFa: 'با حرف اضافهٔ عارضی کامل کنید (با ارائهٔ/به‌واسطهٔ سند).',
       options: [],
       answer: 'Mediante',
-      explanationFa: '«Mediante o documento» یعنی با ارائهٔ سند؛ mediante حرف اضافهٔ عارضی است.',
+      explanationFa:
+        '«Mediante o documento» یعنی با ارائهٔ سند؛ mediante حرف اضافهٔ عارضی است.',
       cefr: 'A2',
       skill: 'grammar',
     },
     {
       id: 'course-aula-14-q17',
       type: 'fill-blank',
-      prompt: 'Ele trabalha ___ garçom naquele restaurante novo. (preposição acidental)',
+      prompt:
+        'Ele trabalha ___ garçom naquele restaurante novo. (preposição acidental)',
       promptFa: 'با حرف اضافهٔ عارضی کامل کنید (به‌عنوانِ).',
       options: [],
       answer: 'como',
-      explanationFa: '«trabalha como garçom» یعنی به‌عنوان پیشخدمت کار می‌کند؛ como اینجا حرف اضافهٔ عارضی است.',
+      explanationFa:
+        '«trabalha como garçom» یعنی به‌عنوان پیشخدمت کار می‌کند؛ como اینجا حرف اضافهٔ عارضی است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -811,7 +825,8 @@ export const aula14: CourseLesson = {
       promptFa: 'با حرف اضافهٔ عارضی کامل کنید (در طولِ).',
       options: [],
       answer: 'Durante',
-      explanationFa: '«Durante a aula» یعنی در طول کلاس؛ durante حرف اضافهٔ عارضی است.',
+      explanationFa:
+        '«Durante a aula» یعنی در طول کلاس؛ durante حرف اضافهٔ عارضی است.',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -822,7 +837,8 @@ export const aula14: CourseLesson = {
       promptFa: 'با حرف اضافهٔ عارضی کامل کنید (به‌جز).',
       options: [],
       answer: 'exceto',
-      explanationFa: '«exceto o João» یعنی به‌جز ژوائو؛ exceto حرف اضافهٔ عارضی است (menos/salvo هم درست‌اند).',
+      explanationFa:
+        '«exceto o João» یعنی به‌جز ژوائو؛ exceto حرف اضافهٔ عارضی است (menos/salvo هم درست‌اند).',
       cefr: 'A2',
       skill: 'grammar',
     },
@@ -839,7 +855,8 @@ export const aula14: CourseLesson = {
         'sempre, muitos, tudo',
       ],
       answer: 'às (a), no (em), como, para',
-      explanationFa: 'às = a + as (crase)، no = em + o، como و para همگی حرف اضافه‌اند.',
+      explanationFa:
+        'às = a + as (crase)، no = em + o، como و para همگی حرف اضافه‌اند.',
       cefr: 'A2',
       skill: 'reading',
     },
@@ -879,7 +896,8 @@ export const aula14: CourseLesson = {
     {
       id: 'course-aula-14-q24',
       type: 'fill-blank',
-      prompt: 'Fui tomar banho ___ banheiro ___ andar de cima. (em + o) / (de + o)',
+      prompt:
+        'Fui tomar banho ___ banheiro ___ andar de cima. (em + o) / (de + o)',
       promptFa: 'دو ادغام em + o و de + o را به‌ترتیب بگذارید.',
       options: [],
       answer: 'no / do',
@@ -901,7 +919,8 @@ export const aula14: CourseLesson = {
     {
       id: 'course-aula-14-q26',
       type: 'fill-blank',
-      prompt: '...imaginando as histórias das pessoas que trabalham ___. (em + eles)',
+      prompt:
+        '...imaginando as histórias das pessoas que trabalham ___. (em + eles)',
       promptFa: 'ادغام em + eles را بگذارید.',
       options: [],
       answer: 'neles',
@@ -912,7 +931,8 @@ export const aula14: CourseLesson = {
     {
       id: 'course-aula-14-q27',
       type: 'fill-blank',
-      prompt: 'Gosto muito de viajar ___ histórias da minha própria mente. (em + as)',
+      prompt:
+        'Gosto muito de viajar ___ histórias da minha própria mente. (em + as)',
       promptFa: 'ادغام em + as را بگذارید.',
       options: [],
       answer: 'nas',
@@ -927,14 +947,16 @@ export const aula14: CourseLesson = {
       promptFa: 'با حرف اضافهٔ PARA ترجمه کنید.',
       options: [],
       answer: 'Eu vou para a escola para aprender.',
-      explanationFa: 'PARA هم برای مقصد (para a escola) و هم برای هدف (para aprender) به‌کار می‌رود.',
+      explanationFa:
+        'PARA هم برای مقصد (para a escola) و هم برای هدف (para aprender) به‌کار می‌رود.',
       cefr: 'A2',
       skill: 'writing',
     },
     {
       id: 'course-aula-14-q29',
       type: 'translate-pt-fa',
-      prompt: 'Traduza para o persa: "Ela sempre sobe o edifício pelas escadas."',
+      prompt:
+        'Traduza para o persa: "Ela sempre sobe o edifício pelas escadas."',
       promptFa: 'این جمله را به فارسی ترجمه کنید.',
       options: [],
       answer: 'او همیشه از پله‌ها بالای ساختمان می‌رود.',

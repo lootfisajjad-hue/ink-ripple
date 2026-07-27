@@ -193,10 +193,20 @@ export const aula4: CourseLesson = {
       bodyFa:
         'حرف تعریف معرفه برای اشاره به چیزِ مشخص و شناخته‌شده به‌کار می‌رود. جدول کامل:\n\n            مفرد        جمع\nمذکر:      O           OS\nمؤنث:      A           AS\n\nنکته: حرف تعریف معرفه پیش از اسم می‌آید و می‌تواند پیش از ضمایر صفتیِ ملکی و اسم‌های خاص هم بیاید؛ یعنی کاربرد آن پیش از ملکی و اسم خاص اجباری نیست.',
       examples: [
-        { pt: 'O carro', fa: 'ماشین (آن ماشین مشخص)', pron: 'او کارو', note: 'مذکر مفرد.' },
+        {
+          pt: 'O carro',
+          fa: 'ماشین (آن ماشین مشخص)',
+          pron: 'او کارو',
+          note: 'مذکر مفرد.',
+        },
         { pt: 'Os nomes', fa: 'نام‌ها', pron: 'اوس نُمیس', note: 'مذکر جمع.' },
         { pt: 'A caneta', fa: 'خودکار', pron: 'آ کانِتا', note: 'مؤنث مفرد.' },
-        { pt: 'As meninas', fa: 'دخترها', pron: 'آس مِنیناس', note: 'مؤنث جمع.' },
+        {
+          pt: 'As meninas',
+          fa: 'دخترها',
+          pron: 'آس مِنیناس',
+          note: 'مؤنث جمع.',
+        },
       ],
     },
     {
@@ -284,9 +294,24 @@ export const aula4: CourseLesson = {
         'حرف تعریف نکره اسم را نامشخص و کلی معرفی می‌کند، بدون اینکه فرد یا شیء خاصی را مشخص کند. جدول کامل:\n\n            مفرد        جمع\nمذکر:      UM          UNS\nمؤنث:      UMA         UMAS\n\nنکته: حرف تعریف نکره پیش از اسم می‌آید. «uns/umas» در فارسی معادل «چندتا / یک‌سری» است.',
       examples: [
         { pt: 'Um nome', fa: 'یک نام', pron: 'اون نُمی', note: 'مذکر مفرد.' },
-        { pt: 'Uns nomes', fa: 'چند نام', pron: 'اونس نُمیس', note: 'مذکر جمع.' },
-        { pt: 'Uma caneta', fa: 'یک خودکار', pron: 'اوما کانِتا', note: 'مؤنث مفرد.' },
-        { pt: 'Umas canetas', fa: 'چند خودکار', pron: 'اوماس کانِتاس', note: 'مؤنث جمع.' },
+        {
+          pt: 'Uns nomes',
+          fa: 'چند نام',
+          pron: 'اونس نُمیس',
+          note: 'مذکر جمع.',
+        },
+        {
+          pt: 'Uma caneta',
+          fa: 'یک خودکار',
+          pron: 'اوما کانِتا',
+          note: 'مؤنث مفرد.',
+        },
+        {
+          pt: 'Umas canetas',
+          fa: 'چند خودکار',
+          pron: 'اوماس کانِتاس',
+          note: 'مؤنث جمع.',
+        },
         {
           pt: 'Comprei uns remédios na farmácia hoje de manhã.',
           fa: 'امروز صبح چند دارو از داروخانه خریدم.',
@@ -440,9 +465,15 @@ export const aula4: CourseLesson = {
       type: 'mcq',
       prompt: 'Escreva 52 por extenso:',
       promptFa: 'عدد ۵۲ را به حروف انتخاب کنید:',
-      options: ['cinquenta e dois', 'cinco e dois', 'quarenta e dois', 'cinquenta e duas'],
+      options: [
+        'cinquenta e dois',
+        'cinco e dois',
+        'quarenta e dois',
+        'cinquenta e duas',
+      ],
       answer: 'cinquenta e dois',
-      explanationFa: '۵۲ = cinquenta e dois. برای اشیای مذکر «dois» و برای مؤنث «duas».',
+      explanationFa:
+        '۵۲ = cinquenta e dois. برای اشیای مذکر «dois» و برای مؤنث «duas».',
       cefr: 'A1',
       skill: 'writing',
     },
@@ -469,7 +500,8 @@ export const aula4: CourseLesson = {
         'um mil setecentos',
       ],
       answer: 'mil e setecentos',
-      explanationFa: '۱۷۰۰ به صدگانِ کامل (setecentos) ختم می‌شود، پس «e» می‌آید: mil e setecentos.',
+      explanationFa:
+        '۱۷۰۰ به صدگانِ کامل (setecentos) ختم می‌شود، پس «e» می‌آید: mil e setecentos.',
       cefr: 'A1',
       skill: 'writing',
     },
@@ -480,7 +512,8 @@ export const aula4: CourseLesson = {
       promptFa: 'عدد ۱۲۳۰ را به حروف بنویسید.',
       options: [],
       answer: 'mil duzentos e trinta',
-      explanationFa: '۱۲۳۰ به صدگانِ کامل ختم نمی‌شود، پس میان هزار و صد «e» نمی‌آید: mil duzentos e trinta.',
+      explanationFa:
+        '۱۲۳۰ به صدگانِ کامل ختم نمی‌شود، پس میان هزار و صد «e» نمی‌آید: mil duzentos e trinta.',
       cefr: 'A1',
       skill: 'writing',
     },
@@ -518,7 +551,8 @@ export const aula4: CourseLesson = {
         'Porque é maior que mil',
       ],
       answer: 'Porque o número termina em centena exata',
-      explanationFa: 'قاعده: میان هزارگان و صدگان فقط وقتی «e» می‌آید که عدد به صدگانِ کامل ختم شود (cem).',
+      explanationFa:
+        'قاعده: میان هزارگان و صدگان فقط وقتی «e» می‌آید که عدد به صدگانِ کامل ختم شود (cem).',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -529,7 +563,8 @@ export const aula4: CourseLesson = {
       promptFa: 'واژهٔ «ambos» یعنی چه؟',
       options: ['os dois', 'nenhum', 'muitos', 'alguns'],
       answer: 'os dois',
-      explanationFa: '«ambos» یعنی «os dois» (هر دو / آن دو) و جزو اعداد اصلی است.',
+      explanationFa:
+        '«ambos» یعنی «os dois» (هر دو / آن دو) و جزو اعداد اصلی است.',
       cefr: 'A1',
       skill: 'vocab',
     },
@@ -551,7 +586,8 @@ export const aula4: CourseLesson = {
       promptFa: 'اعداد ترتیبی چه چیزی را نشان می‌دهند؟',
       options: ['ordem ou posição', 'quantidade exata', 'gênero', 'preço'],
       answer: 'ordem ou posição',
-      explanationFa: 'اعداد ترتیبی (ordinais) ترتیب یا جایگاه در یک مجموعه را نشان می‌دهند.',
+      explanationFa:
+        'اعداد ترتیبی (ordinais) ترتیب یا جایگاه در یک مجموعه را نشان می‌دهند.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -582,12 +618,7 @@ export const aula4: CourseLesson = {
       type: 'mcq',
       prompt: 'Escreva o ordinal 13.º por extenso (Carmem):',
       promptFa: 'رتبهٔ ۱۳اُم را انتخاب کنید:',
-      options: [
-        'décimo terceiro',
-        'treze',
-        'trigésimo',
-        'décimo três',
-      ],
+      options: ['décimo terceiro', 'treze', 'trigésimo', 'décimo três'],
       answer: 'décimo terceiro',
       explanationFa: '۱۳اُم = décimo terceiro (سیزدهم).',
       cefr: 'A1',
@@ -649,7 +680,8 @@ export const aula4: CourseLesson = {
         'tempo e modo',
       ],
       answer: 'gênero e número',
-      explanationFa: 'حرف تعریف باید در جنس (مذکر/مؤنث) و شمار (مفرد/جمع) با اسم هماهنگ باشد.',
+      explanationFa:
+        'حرف تعریف باید در جنس (مذکر/مؤنث) و شمار (مفرد/جمع) با اسم هماهنگ باشد.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -711,7 +743,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q25',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo definido: ___ água da piscina estava morna.',
+      prompt:
+        'Complete com o artigo definido: ___ água da piscina estava morna.',
       promptFa: 'حرف تعریف معرفهٔ درست را بگذارید (água مؤنث مفرد).',
       options: [],
       answer: 'A',
@@ -742,7 +775,8 @@ export const aula4: CourseLesson = {
         'nunca é obrigatório',
       ],
       answer: 'antes de nomes próprios e possessivos',
-      explanationFa: 'پیش از اسم خاص و ضمیر ملکی اختیاری است: O Paulo یا Paulo؛ O meu carro یا meu carro.',
+      explanationFa:
+        'پیش از اسم خاص و ضمیر ملکی اختیاری است: O Paulo یا Paulo؛ O meu carro یا meu carro.',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -753,7 +787,8 @@ export const aula4: CourseLesson = {
       promptFa: 'کدام کشور با حرف تعریف می‌آید؟',
       options: ['O Brasil', 'Portugal', 'Cuba', 'São Paulo'],
       answer: 'O Brasil',
-      explanationFa: 'برخی کشورها حرف تعریف می‌گیرند (O Brasil, A Bahia) و برخی نه (Portugal, Cuba).',
+      explanationFa:
+        'برخی کشورها حرف تعریف می‌گیرند (O Brasil, A Bahia) و برخی نه (Portugal, Cuba).',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -804,7 +839,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q33',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo indefinido: Chamei ___ meninos para brincar.',
+      prompt:
+        'Complete com o artigo indefinido: Chamei ___ meninos para brincar.',
       promptFa: 'حرف تعریف نکرهٔ درست را بگذارید (meninos مذکر جمع).',
       options: [],
       answer: 'uns',
@@ -815,7 +851,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q34',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo indefinido: Comprei ___ camisa para o meu pai.',
+      prompt:
+        'Complete com o artigo indefinido: Comprei ___ camisa para o meu pai.',
       promptFa: 'حرف تعریف نکرهٔ درست را بگذارید (camisa مؤنث مفرد).',
       options: [],
       answer: 'uma',
@@ -830,7 +867,8 @@ export const aula4: CourseLesson = {
       promptFa: 'در جملهٔ «Apenas um garoto compareceu»، واژهٔ «um» چیست؟',
       options: ['numeral', 'artigo indefinido', 'artigo definido', 'pronome'],
       answer: 'numeral',
-      explanationFa: '«apenas» (فقط) مقدار دقیق را می‌رساند؛ پس «um» عدد است (جمع: dois).',
+      explanationFa:
+        '«apenas» (فقط) مقدار دقیق را می‌رساند؛ پس «um» عدد است (جمع: dois).',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -838,10 +876,12 @@ export const aula4: CourseLesson = {
       id: 'course-aula-4-q36',
       type: 'mcq',
       prompt: 'Em "Um garoto estava circulando no pátio", "um" é:',
-      promptFa: 'در جملهٔ «Um garoto estava circulando no pátio»، واژهٔ «um» چیست؟',
+      promptFa:
+        'در جملهٔ «Um garoto estava circulando no pátio»، واژهٔ «um» چیست؟',
       options: ['artigo indefinido', 'numeral', 'artigo definido', 'verbo'],
       answer: 'artigo indefinido',
-      explanationFa: 'اشاره به موجودی نامشخص است، نه مقدار دقیق → حرف تعریف نکره (جمع: uns).',
+      explanationFa:
+        'اشاره به موجودی نامشخص است، نه مقدار دقیق → حرف تعریف نکره (جمع: uns).',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -863,7 +903,8 @@ export const aula4: CourseLesson = {
       promptFa: 'عدد ۳۲۳۰ را به حروف بنویسید.',
       options: [],
       answer: 'três mil duzentos e trinta',
-      explanationFa: '۳۲۳۰ به صدگانِ کامل ختم نمی‌شود، پس میان هزار و صد «e» نمی‌آید: três mil duzentos e trinta.',
+      explanationFa:
+        '۳۲۳۰ به صدگانِ کامل ختم نمی‌شود، پس میان هزار و صد «e» نمی‌آید: três mil duzentos e trinta.',
       cefr: 'A1',
       skill: 'writing',
     },
@@ -914,7 +955,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q43',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo definido: Ganhamos ___ bicicleta que esperávamos.',
+      prompt:
+        'Complete com o artigo definido: Ganhamos ___ bicicleta que esperávamos.',
       promptFa: 'حرف تعریف معرفهٔ درست را بگذارید (bicicleta مؤنث مفرد).',
       options: [],
       answer: 'a',
@@ -925,7 +967,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q44',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo definido: Luísa aproveitou para rever ___ amigos.',
+      prompt:
+        'Complete com o artigo definido: Luísa aproveitou para rever ___ amigos.',
       promptFa: 'حرف تعریف معرفهٔ درست را بگذارید (amigos مذکر جمع).',
       options: [],
       answer: 'os',
@@ -936,7 +979,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q45',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo indefinido: Eu estou lendo ___ livro muito interessante.',
+      prompt:
+        'Complete com o artigo indefinido: Eu estou lendo ___ livro muito interessante.',
       promptFa: 'حرف تعریف نکرهٔ درست را بگذارید (livro مذکر مفرد).',
       options: [],
       answer: 'um',
@@ -947,7 +991,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q46',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo indefinido: Na frente da minha casa tem ___ árvore.',
+      prompt:
+        'Complete com o artigo indefinido: Na frente da minha casa tem ___ árvore.',
       promptFa: 'حرف تعریف نکرهٔ درست را بگذارید (árvore مؤنث مفرد).',
       options: [],
       answer: 'uma',
@@ -962,7 +1007,8 @@ export const aula4: CourseLesson = {
       promptFa: 'این جمله را به پرتغالی برزیلی ترجمه کنید (تاریخ با عدد اصلی).',
       options: [],
       answer: 'Hoje é vinte e dois de maio.',
-      explanationFa: 'روزهای ماه (جز روز اول) با عدد اصلی گفته می‌شوند: vinte e dois de maio.',
+      explanationFa:
+        'روزهای ماه (جز روز اول) با عدد اصلی گفته می‌شوند: vinte e dois de maio.',
       cefr: 'A1',
       skill: 'writing',
     },
@@ -1003,10 +1049,12 @@ export const aula4: CourseLesson = {
       id: 'course-aula-4-q51',
       type: 'fill-blank',
       prompt: 'Complete com o artigo definido: ___ motorista.',
-      promptFa: 'حرف تعریف معرفهٔ درست را بگذارید (motorista دوجنسی است؛ برای مذکر).',
+      promptFa:
+        'حرف تعریف معرفهٔ درست را بگذارید (motorista دوجنسی است؛ برای مذکر).',
       options: [],
       answer: 'O',
-      explanationFa: 'motorista دوجنسی است؛ جنس با حرف تعریف مشخص می‌شود: «o motorista» (مرد) یا «a motorista» (زن).',
+      explanationFa:
+        'motorista دوجنسی است؛ جنس با حرف تعریف مشخص می‌شود: «o motorista» (مرد) یا «a motorista» (زن).',
       cefr: 'A1',
       skill: 'grammar',
     },
@@ -1017,14 +1065,16 @@ export const aula4: CourseLesson = {
       promptFa: 'حرف تعریف معرفهٔ درست را بگذارید (repórter؛ برای مذکر).',
       options: [],
       answer: 'O',
-      explanationFa: 'repórter دوجنسی است: «o repórter» (مرد) یا «a repórter» (زن).',
+      explanationFa:
+        'repórter دوجنسی است: «o repórter» (مرد) یا «a repórter» (زن).',
       cefr: 'A1',
       skill: 'grammar',
     },
     {
       id: 'course-aula-4-q53',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo definido: ___ ondas faziam o navio balançar.',
+      prompt:
+        'Complete com o artigo definido: ___ ondas faziam o navio balançar.',
       promptFa: 'حرف تعریف معرفهٔ درست را بگذارید (ondas مؤنث جمع).',
       options: [],
       answer: 'As',
@@ -1035,7 +1085,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q54',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo definido: Renato está brincando com ___ meninos na rua.',
+      prompt:
+        'Complete com o artigo definido: Renato está brincando com ___ meninos na rua.',
       promptFa: 'حرف تعریف معرفهٔ درست را بگذارید (meninos مذکر جمع).',
       options: [],
       answer: 'os',
@@ -1112,7 +1163,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q61',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo indefinido: Peguei ___ panela para cozinhar.',
+      prompt:
+        'Complete com o artigo indefinido: Peguei ___ panela para cozinhar.',
       promptFa: 'حرف تعریف نکرهٔ درست را بگذارید (panela مؤنث مفرد).',
       options: [],
       answer: 'uma',
@@ -1127,14 +1179,16 @@ export const aula4: CourseLesson = {
       promptFa: 'حرف تعریف نکرهٔ درست را بگذارید (dia مذکر مفرد).',
       options: [],
       answer: 'Um',
-      explanationFa: 'dia مذکر است (استثنا: با a ختم می‌شود ولی مذکر است) → «um dia».',
+      explanationFa:
+        'dia مذکر است (استثنا: با a ختم می‌شود ولی مذکر است) → «um dia».',
       cefr: 'A1',
       skill: 'grammar',
     },
     {
       id: 'course-aula-4-q63',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo indefinido: Joana convidou ___ amigas estrangeiras para a festa.',
+      prompt:
+        'Complete com o artigo indefinido: Joana convidou ___ amigas estrangeiras para a festa.',
       promptFa: 'حرف تعریف نکرهٔ درست را بگذارید (amigas مؤنث جمع).',
       options: [],
       answer: 'umas',
@@ -1178,7 +1232,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q67',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo definido: Ela está feliz com ___ novo trabalho.',
+      prompt:
+        'Complete com o artigo definido: Ela está feliz com ___ novo trabalho.',
       promptFa: 'حرف تعریف معرفهٔ درست را بگذارید (trabalho مذکر مفرد).',
       options: [],
       answer: 'o',
@@ -1189,7 +1244,8 @@ export const aula4: CourseLesson = {
     {
       id: 'course-aula-4-q68',
       type: 'fill-blank',
-      prompt: 'Complete com o artigo indefinido: Nós vamos viajar para ___ cidade no interior.',
+      prompt:
+        'Complete com o artigo indefinido: Nós vamos viajar para ___ cidade no interior.',
       promptFa: 'حرف تعریف نکرهٔ درست را بگذارید (cidade مؤنث مفرد).',
       options: [],
       answer: 'uma',

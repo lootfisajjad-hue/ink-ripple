@@ -44,6 +44,8 @@ export interface Flashcard {
   back: string;
   pronunciation?: string;
   memory: MemoryState;
+  /** user-set importance, 1 (low) .. 5 (high); 0 or undefined = unrated */
+  importance?: number;
   createdAt: string;
   updatedAt: string;
 }
@@ -200,6 +202,12 @@ export class OlaBrasilDB extends Dexie {
     // v2: add the Federal Prep Course content table.
     this.version(2).stores({
       courseLessons: 'id, order',
+    });
+
+    // v3: index flashcard importance (user-set star rating).
+    this.version(3).stores({
+      flashcards:
+        'id, profileId, deck, [profileId+deck], memory.due, importance',
     });
   }
 }

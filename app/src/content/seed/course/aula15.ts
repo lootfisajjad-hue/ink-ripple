@@ -295,7 +295,8 @@ export const aula15: CourseLesson = {
       promptFa: 'در فرایند ارتباط چه کسی پیام را تولید می‌کند؟',
       options: ['O emissor', 'O receptor', 'O canal', 'O código'],
       answer: 'O emissor',
-      explanationFa: 'فرستنده (emissor / remetente) کسی است که پیام را تولید می‌کند؛ گیرنده آن را دریافت می‌کند.',
+      explanationFa:
+        'فرستنده (emissor / remetente) کسی است که پیام را تولید می‌کند؛ گیرنده آن را دریافت می‌کند.',
       cefr: 'B1',
       skill: 'reading',
     },
@@ -306,7 +307,8 @@ export const aula15: CourseLesson = {
       promptFa: 'در پیام نوشتاری یا گفتاری، «رمز» (código) چیست؟',
       options: ['a língua', 'o canal', 'o emissor', 'a mímica'],
       answer: 'a língua',
-      explanationFa: 'در پیام نوشتاری یا گفتاری، رمز همان زبان (língua) است؛ البته رنگ‌ها، اشاره‌ها و علائم هم می‌توانند رمز باشند.',
+      explanationFa:
+        'در پیام نوشتاری یا گفتاری، رمز همان زبان (língua) است؛ البته رنگ‌ها، اشاره‌ها و علائم هم می‌توانند رمز باشند.',
       cefr: 'B1',
       skill: 'reading',
     },
@@ -322,7 +324,8 @@ export const aula15: CourseLesson = {
         'Uma conversa entre amigos',
       ],
       answer: 'O apito do juiz de futebol',
-      explanationFa: 'سوت داور بدون واژه معنا را می‌رساند، پس زبان غیرکلامی است؛ ایمیل، سخنرانی و گفت‌وگو کلامی‌اند.',
+      explanationFa:
+        'سوت داور بدون واژه معنا را می‌رساند، پس زبان غیرکلامی است؛ ایمیل، سخنرانی و گفت‌وگو کلامی‌اند.',
       cefr: 'B1',
       skill: 'reading',
     },
@@ -338,14 +341,16 @@ export const aula15: CourseLesson = {
         'um estágio posterior da língua',
       ],
       answer: 'mais espontânea',
-      explanationFa: 'زبان گفتاری خودانگیخته‌تر است؛ زبان نوشتاری قواعد سخت‌گیرانه‌تر و مرحله‌ای متأخرتر از زبان است.',
+      explanationFa:
+        'زبان گفتاری خودانگیخته‌تر است؛ زبان نوشتاری قواعد سخت‌گیرانه‌تر و مرحله‌ای متأخرتر از زبان است.',
       cefr: 'B1',
       skill: 'reading',
     },
     {
       id: 'course-aula-15-q5',
       type: 'mcq',
-      prompt: 'A diferença entre o português do nordeste e do sudeste é um exemplo de:',
+      prompt:
+        'A diferença entre o português do nordeste e do sudeste é um exemplo de:',
       promptFa: 'تفاوت پرتغالیِ شمال‌شرق و جنوب‌شرق نمونهٔ کدام عامل است؟',
       options: [
         'fatores regionais',
@@ -354,7 +359,8 @@ export const aula15: CourseLesson = {
         'linguagem não-verbal',
       ],
       answer: 'fatores regionais',
-      explanationFa: 'تفاوت بین مناطق جغرافیایی به عوامل منطقه‌ای (fatores regionais) مربوط است.',
+      explanationFa:
+        'تفاوت بین مناطق جغرافیایی به عوامل منطقه‌ای (fatores regionais) مربوط است.',
       cefr: 'B1',
       skill: 'reading',
     },
@@ -365,7 +371,8 @@ export const aula15: CourseLesson = {
       promptFa: 'حرف اضافهٔ درست پس از صفت interessado را بگذارید.',
       options: [],
       answer: 'em',
-      explanationFa: 'صفت interessado همیشه با حرف اضافهٔ em می‌آید: interessado em.',
+      explanationFa:
+        'صفت interessado همیشه با حرف اضافهٔ em می‌آید: interessado em.',
       cefr: 'B1',
       skill: 'grammar',
     },
@@ -406,7 +413,8 @@ export const aula15: CourseLesson = {
       id: 'course-aula-15-q10',
       type: 'fill-blank',
       prompt: 'Eu moro ___ Rio de Janeiro. (em + o)',
-      promptFa: 'فعل morar به حرف اضافهٔ em نیاز دارد؛ شکل ادغام‌شده با «o» را بگذارید.',
+      promptFa:
+        'فعل morar به حرف اضافهٔ em نیاز دارد؛ شکل ادغام‌شده با «o» را بگذارید.',
       options: [],
       answer: 'no',
       explanationFa: 'morar + em؛ em + o = no. پس «moro no Rio de Janeiro».',
@@ -420,7 +428,8 @@ export const aula15: CourseLesson = {
       promptFa: 'با فعل ir کدام دو حرف اضافه یکسان عمل می‌کنند؟',
       options: ['a e para', 'de e em', 'em e por', 'de e a'],
       answer: 'a e para',
-      explanationFa: 'با فعل ir هر دو حرف اضافهٔ a و para درست‌اند: «ir a / ir para».',
+      explanationFa:
+        'با فعل ir هر دو حرف اضافهٔ a و para درست‌اند: «ir a / ir para».',
       cefr: 'B1',
       skill: 'grammar',
     },
@@ -461,10 +470,12 @@ export const aula15: CourseLesson = {
       id: 'course-aula-15-q15',
       type: 'fill-blank',
       prompt: 'Ele ___ acordar mais cedo para não chegar atrasado no trabalho.',
-      promptFa: 'تمرین (الف): با گزینهٔ مناسب کامل کنید (precisa / preciso / gosto de …).',
+      promptFa:
+        'تمرین (الف): با گزینهٔ مناسب کامل کنید (precisa / preciso / gosto de …).',
       options: [],
       answer: 'precisa',
-      explanationFa: 'فاعل «ele» سوم‌شخص مفرد است، پس «precisa»: او لازم است زودتر بیدار شود.',
+      explanationFa:
+        'فاعل «ele» سوم‌شخص مفرد است، پس «precisa»: او لازم است زودتر بیدار شود.',
       cefr: 'B1',
       skill: 'grammar',
     },
@@ -475,7 +486,8 @@ export const aula15: CourseLesson = {
       promptFa: 'تمرین (ب): دو جای خالی را کامل کنید (gosto de / preciso).',
       options: [],
       answer: 'gosto de / preciso',
-      explanationFa: 'اولی سلیقه است → «gosto de dormir»؛ دومی نیاز است → «preciso acordar».',
+      explanationFa:
+        'اولی سلیقه است → «gosto de dormir»؛ دومی نیاز است → «preciso acordar».',
       cefr: 'B1',
       skill: 'grammar',
     },
@@ -486,7 +498,8 @@ export const aula15: CourseLesson = {
       promptFa: 'تمرین (ج): با گزینهٔ مناسب کامل کنید.',
       options: [],
       answer: 'boas em',
-      explanationFa: '«ser boa em» یعنی در چیزی خوب بودن؛ برای «elas» جمع مؤنث → «boas em matemática».',
+      explanationFa:
+        '«ser boa em» یعنی در چیزی خوب بودن؛ برای «elas» جمع مؤنث → «boas em matemática».',
       cefr: 'B1',
       skill: 'grammar',
     },
@@ -497,7 +510,8 @@ export const aula15: CourseLesson = {
       promptFa: 'تمرین (د): با گزینهٔ مناسب کامل کنید.',
       options: [],
       answer: 'acabamos de',
-      explanationFa: '«acabar de + مصدر» یعنی تازه کاری را تمام کردن → «acabamos de jantar».',
+      explanationFa:
+        '«acabar de + مصدر» یعنی تازه کاری را تمام کردن → «acabamos de jantar».',
       cefr: 'B1',
       skill: 'grammar',
     },

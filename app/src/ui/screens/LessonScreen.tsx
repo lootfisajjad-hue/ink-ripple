@@ -229,7 +229,13 @@ function Quiz({
     if (answered) return;
     setChosen(opt);
     if (opt === answer) setCorrectCount((c) => c + 1);
-    else onMistake(String(answer), String(answer));
+    // Build a useful mistake card: the question on the front, the correct
+    // answer (plus any explanation) on the back — never front === back.
+    else
+      onMistake(
+        ex.prompt,
+        [String(answer), ex.explanationFa].filter(Boolean).join(' — '),
+      );
   }
 
   function next() {
