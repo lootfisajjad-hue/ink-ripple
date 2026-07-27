@@ -12,6 +12,10 @@ import { useSession } from '@/app/store/session';
 import { getCourseLesson } from '@/infra/db/content';
 import { setLessonProgress, logActivity } from '@/infra/db/activity';
 import type { CourseLesson, Exercise } from '@/domain/content/schema';
+import coursePages from '@/content/coursePages.json';
+
+const PAGES = coursePages as Record<string, string[]>;
+const asset = (p: string) => `${import.meta.env.BASE_URL}${p}`;
 
 export function CourseLessonScreen() {
   const { id } = useParams();
@@ -126,6 +130,33 @@ export function CourseLessonScreen() {
                 ))}
               </ul>
             </Card>
+          )}
+
+          {(PAGES[`aula${lesson.order}`]?.length ?? 0) > 0 && (
+            <details className="pages-gallery">
+              <summary>
+                🖼️ {t('course.originalPages')} —{' '}
+                {t('course.showPages', {
+                  count: PAGES[`aula${lesson.order}`]!.length,
+                })}
+              </summary>
+              <div className="pages-grid">
+                {PAGES[`aula${lesson.order}`]!.map((file) => (
+                  <a
+                    key={file}
+                    href={asset(`pages/aula${lesson.order}/${file}`)}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src={asset(`pages/aula${lesson.order}/${file}`)}
+                      alt={`${lesson.aula} — ${file}`}
+                      loading="lazy"
+                    />
+                  </a>
+                ))}
+              </div>
+            </details>
           )}
 
           <Disclaimer>{lesson.sourceNoteFa}</Disclaimer>

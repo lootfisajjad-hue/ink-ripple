@@ -127,6 +127,8 @@ export const pt: Translation = {
     backToList: 'Voltar à lista do curso',
     finish: 'Concluir a aula',
     progress: '{{done}} de {{total}} aulas',
+    originalPages: 'Páginas originais da apostila',
+    showPages: 'Mostrar imagens da apostila ({{count}} páginas)',
   },
   flashcards: {
     title: 'Flashcards',

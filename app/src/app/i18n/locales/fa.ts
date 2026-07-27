@@ -125,6 +125,8 @@ export const fa = {
     backToList: 'بازگشت به فهرست دوره',
     finish: 'پایان درس',
     progress: '{{done}} از {{total}} درس',
+    originalPages: 'تصاویر صفحات اصل جزوه',
+    showPages: 'نمایش تصاویر جزوه ({{count}} صفحه)',
   },
   flashcards: {
     title: 'فلش‌کارت‌ها',
