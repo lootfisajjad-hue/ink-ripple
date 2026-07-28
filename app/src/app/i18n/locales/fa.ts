@@ -125,6 +125,7 @@ export const fa = {
     backToList: 'بازگشت به فهرست دوره',
     finish: 'پایان درس',
     progress: '{{done}} از {{total}} درس',
+    lessonCount: '{{count}} درس',
     originalPages: 'تصاویر صفحات اصل جزوه',
     showPages: 'نمایش تصاویر جزوه ({{count}} صفحه)',
     track: {

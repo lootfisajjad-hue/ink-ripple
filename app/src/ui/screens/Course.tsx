@@ -1,16 +1,24 @@
 /**
- * Federal Prep Course — the list of Aulas (lessons re-taught step-by-step in
- * Persian, based on the user's federal-preparation materials). Shows completion
- * state and links into each lesson reader.
+ * Courses & books landing — shows each source collection (the federal-prep
+ * Aulas and each provided book) as its own category card. Tapping a card opens
+ * that collection's lessons (see CourseCollection).
  */
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Badge, ProgressBar } from '../components/kit';
+import { ProgressBar } from '../components/kit';
 import { useSession } from '@/app/store/session';
 import { getCourseLessons } from '@/infra/db/content';
 import { getProgressMap } from '@/infra/db/activity';
 import type { CourseLesson } from '@/domain/content/schema';
+
+// stable display order + an icon per known track
+const TRACK_ORDER = ['federal', 'portas', 'mafalda'];
+const TRACK_ICON: Record<string, string> = {
+  federal: '🇧🇷',
+  portas: '🚪',
+  mafalda: '🕊️',
+};
 
 export function Course() {
   const { t } = useTranslation();
@@ -29,17 +37,14 @@ export function Course() {
     });
   }, [profile.id]);
 
-  const doneCount = lessons.filter((l) => done.has(l.id)).length;
-
-  // group lessons by their source track, keeping a stable track order
-  const trackOrder = ['federal', 'portas', 'mafalda'];
+  // group lessons into collections by track
   const byTrack = new Map<string, CourseLesson[]>();
   for (const l of lessons) {
     const key = l.track ?? 'federal';
     (byTrack.get(key) ?? byTrack.set(key, []).get(key)!).push(l);
   }
   const tracks = [...byTrack.keys()].sort(
-    (a, b) => trackOrder.indexOf(a) - trackOrder.indexOf(b),
+    (a, b) => TRACK_ORDER.indexOf(a) - TRACK_ORDER.indexOf(b),
   );
 
   return (
@@ -47,45 +52,39 @@ export function Course() {
       <h1 className="screen-title">{t('course.title')}</h1>
       <p className="screen-subtitle">{t('course.subtitle')}</p>
 
-      {lessons.length > 0 && (
-        <div className="stack" style={{ marginBottom: 'var(--space-4)' }}>
-          <ProgressBar value={doneCount / lessons.length} />
-          <span className="muted" style={{ fontSize: '0.85rem' }}>
-            {t('course.progress', { done: doneCount, total: lessons.length })}
-          </span>
-        </div>
-      )}
-
-      {tracks.map((track) => (
-        <section key={track} style={{ marginBottom: 'var(--space-5)' }}>
-          {byTrack.size > 1 && (
-            <h2 className="section-title">{t(`course.track.${track}`)}</h2>
-          )}
-          <div className="lesson-list">
-            {byTrack.get(track)!.map((l) => (
-              <Link key={l.id} to={`/course/${l.id}`} className="lesson-item">
-                <span className="lesson-num">{l.order}</span>
-                <span style={{ flex: 1 }}>
-                  <strong>{l.titleFa}</strong>
-                  <div
-                    className="muted pt"
-                    lang="pt"
-                    style={{ fontSize: '0.82rem' }}
-                  >
-                    {l.aula} · {l.titlePt}
-                  </div>
+      <div className="collection-list">
+        {tracks.map((track) => {
+          const items = byTrack.get(track)!;
+          const doneCount = items.filter((l) => done.has(l.id)).length;
+          return (
+            <Link
+              key={track}
+              to={`/course/c/${track}`}
+              className="collection-card"
+            >
+              <span className="collection-icon" aria-hidden>
+                {TRACK_ICON[track] ?? '📚'}
+              </span>
+              <span className="collection-body">
+                <strong>{t(`course.track.${track}`)}</strong>
+                <span className="muted collection-meta">
+                  {t('course.lessonCount', { count: items.length })} ·{' '}
+                  {t('course.progress', {
+                    done: doneCount,
+                    total: items.length,
+                  })}
                 </span>
-                <Badge tone="primary">{l.cefr}</Badge>
-                {done.has(l.id) && (
-                  <span className="lesson-done" aria-label={t('common.done')}>
-                    ✓
-                  </span>
-                )}
-              </Link>
-            ))}
-          </div>
-        </section>
-      ))}
+                <ProgressBar
+                  value={items.length ? doneCount / items.length : 0}
+                />
+              </span>
+              <span className="collection-chevron" aria-hidden>
+                ›
+              </span>
+            </Link>
+          );
+        })}
+      </div>
     </div>
   );
 }

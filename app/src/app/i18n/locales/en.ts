@@ -127,6 +127,7 @@ export const en: Translation = {
     backToList: 'Back to course list',
     finish: 'Finish lesson',
     progress: '{{done}} of {{total}} lessons',
+    lessonCount: '{{count}} lessons',
     originalPages: 'Original handout pages',
     showPages: 'Show handout images ({{count}} pages)',
     track: {
