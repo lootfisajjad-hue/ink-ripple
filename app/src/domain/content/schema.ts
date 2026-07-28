@@ -238,6 +238,8 @@ export const courseLessonSchema = z.object({
   id: z.string(),
   order: z.number().int().nonnegative(),
   aula: z.string(), // e.g. 'Aula 1'
+  /** which source collection this lesson belongs to (groups the list) */
+  track: z.string().default('federal'),
   titleFa: z.string(), // Persian title (required)
   titlePt: z.string(), // original Portuguese title
   cefr: cefrSchema,
@@ -248,6 +250,8 @@ export const courseLessonSchema = z.object({
   quiz: z.array(exerciseSchema).default([]),
   estimatedMinutes: z.number().int().positive().default(12),
   sourceNoteFa: z.string(),
+  /** page-image gallery folder key (defaults to `aula{order}` in the UI) */
+  pagesKey: z.string().optional(),
 });
 export type CourseLesson = z.infer<typeof courseLessonSchema>;
 

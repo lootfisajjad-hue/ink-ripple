@@ -4,6 +4,7 @@ export const aula12: CourseLesson = {
   id: 'course-aula-12',
   order: 12,
   aula: 'Aula 12',
+  track: 'federal',
   titleFa: 'مطابقت اسمی و فعلی (Concordância Nominal e Verbal)',
   titlePt: 'Concordância Nominal e Verbal',
   cefr: 'B1',

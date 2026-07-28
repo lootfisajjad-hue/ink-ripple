@@ -31,6 +31,17 @@ export function Course() {
 
   const doneCount = lessons.filter((l) => done.has(l.id)).length;
 
+  // group lessons by their source track, keeping a stable track order
+  const trackOrder = ['federal', 'portas'];
+  const byTrack = new Map<string, CourseLesson[]>();
+  for (const l of lessons) {
+    const key = l.track ?? 'federal';
+    (byTrack.get(key) ?? byTrack.set(key, []).get(key)!).push(l);
+  }
+  const tracks = [...byTrack.keys()].sort(
+    (a, b) => trackOrder.indexOf(a) - trackOrder.indexOf(b),
+  );
+
   return (
     <div>
       <h1 className="screen-title">{t('course.title')}</h1>
@@ -45,29 +56,36 @@ export function Course() {
         </div>
       )}
 
-      <div className="lesson-list">
-        {lessons.map((l) => (
-          <Link key={l.id} to={`/course/${l.id}`} className="lesson-item">
-            <span className="lesson-num">{l.order}</span>
-            <span style={{ flex: 1 }}>
-              <strong>{l.titleFa}</strong>
-              <div
-                className="muted pt"
-                lang="pt"
-                style={{ fontSize: '0.82rem' }}
-              >
-                {l.aula} · {l.titlePt}
-              </div>
-            </span>
-            <Badge tone="primary">{l.cefr}</Badge>
-            {done.has(l.id) && (
-              <span className="lesson-done" aria-label={t('common.done')}>
-                ✓
-              </span>
-            )}
-          </Link>
-        ))}
-      </div>
+      {tracks.map((track) => (
+        <section key={track} style={{ marginBottom: 'var(--space-5)' }}>
+          {byTrack.size > 1 && (
+            <h2 className="section-title">{t(`course.track.${track}`)}</h2>
+          )}
+          <div className="lesson-list">
+            {byTrack.get(track)!.map((l) => (
+              <Link key={l.id} to={`/course/${l.id}`} className="lesson-item">
+                <span className="lesson-num">{l.order}</span>
+                <span style={{ flex: 1 }}>
+                  <strong>{l.titleFa}</strong>
+                  <div
+                    className="muted pt"
+                    lang="pt"
+                    style={{ fontSize: '0.82rem' }}
+                  >
+                    {l.aula} · {l.titlePt}
+                  </div>
+                </span>
+                <Badge tone="primary">{l.cefr}</Badge>
+                {done.has(l.id) && (
+                  <span className="lesson-done" aria-label={t('common.done')}>
+                    ✓
+                  </span>
+                )}
+              </Link>
+            ))}
+          </div>
+        </section>
+      ))}
     </div>
   );
 }

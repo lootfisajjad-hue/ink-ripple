@@ -4,6 +4,7 @@ export const aula13: CourseLesson = {
   id: 'course-aula-13',
   order: 13,
   aula: 'Aula 13',
+  track: 'federal',
   titleFa: 'قیدها (Advérbios)',
   titlePt: 'Advérbios',
   cefr: 'A2',

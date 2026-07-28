@@ -4,6 +4,7 @@ export const aula8: CourseLesson = {
   id: 'course-aula-8',
   order: 8,
   aula: 'Aula 8',
+  track: 'federal',
   titleFa: 'فعل‌ها ۲ — وجه اخباری (فعل‌های بی‌قاعده)',
   titlePt: 'Verbos 2 — Indicativo (Irregulares)',
   cefr: 'A2',

@@ -33,6 +33,9 @@ export function CourseLessonScreen() {
 
   if (!lesson) return <div className="empty-state">{t('common.loading')}</div>;
 
+  // gallery folder: explicit pagesKey, else the federal-course convention
+  const pagesKey = lesson.pagesKey ?? `aula${lesson.order}`;
+
   return (
     <div>
       <button className="back-link" onClick={() => navigate('/course')}>
@@ -132,24 +135,24 @@ export function CourseLessonScreen() {
             </Card>
           )}
 
-          {(PAGES[`aula${lesson.order}`]?.length ?? 0) > 0 && (
+          {(PAGES[pagesKey]?.length ?? 0) > 0 && (
             <details className="pages-gallery">
               <summary>
                 🖼️ {t('course.originalPages')} —{' '}
                 {t('course.showPages', {
-                  count: PAGES[`aula${lesson.order}`]!.length,
+                  count: PAGES[pagesKey]!.length,
                 })}
               </summary>
               <div className="pages-grid">
-                {PAGES[`aula${lesson.order}`]!.map((file) => (
+                {PAGES[pagesKey]!.map((file) => (
                   <a
                     key={file}
-                    href={asset(`pages/aula${lesson.order}/${file}`)}
+                    href={asset(`pages/${pagesKey}/${file}`)}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <img
-                      src={asset(`pages/aula${lesson.order}/${file}`)}
+                      src={asset(`pages/${pagesKey}/${file}`)}
                       alt={`${lesson.aula} — ${file}`}
                       loading="lazy"
                       onError={(e) => {

@@ -129,6 +129,10 @@ export const en: Translation = {
     progress: '{{done}} of {{total}} lessons',
     originalPages: 'Original handout pages',
     showPages: 'Show handout images ({{count}} pages)',
+    track: {
+      federal: 'Federal-prep handouts',
+      portas: 'Portas Abertas — Portuguese for immigrants',
+    },
   },
   flashcards: {
     title: 'Flashcards',

@@ -4,6 +4,7 @@ export const aula11: CourseLesson = {
   id: 'course-aula-11',
   order: 11,
   aula: 'Aula 11',
+  track: 'federal',
   titleFa: 'فهم و تفسیر متن',
   titlePt: 'Compreensão e Interpretação de Texto',
   cefr: 'A2',

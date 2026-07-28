@@ -4,6 +4,7 @@
  * "Aula" from the federal-preparation materials the learner provided.
  */
 import type { CourseLesson } from '@/domain/content/schema';
+import { portasLessons } from './portas';
 import { aula1 } from './aula1';
 import { aula2 } from './aula2';
 import { aula3 } from './aula3';
@@ -20,6 +21,8 @@ import { aula13 } from './aula13';
 import { aula14 } from './aula14';
 import { aula15 } from './aula15';
 import { aula16 } from './aula16';
+
+const TRACK_ORDER = ['federal', 'portas'];
 
 export const courseLessons: CourseLesson[] = [
   aula1,
@@ -38,4 +41,9 @@ export const courseLessons: CourseLesson[] = [
   aula14,
   aula15,
   aula16,
-].sort((a, b) => a.order - b.order);
+  ...portasLessons,
+].sort(
+  (a, b) =>
+    TRACK_ORDER.indexOf(a.track ?? 'federal') -
+      TRACK_ORDER.indexOf(b.track ?? 'federal') || a.order - b.order,
+);

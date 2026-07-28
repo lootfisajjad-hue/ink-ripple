@@ -4,6 +4,7 @@ export const aula5: CourseLesson = {
   id: 'course-aula-5',
   order: 5,
   aula: 'Aula 5',
+  track: 'federal',
   titleFa: 'انشا و فنون نگارش (Redação)',
   titlePt: 'Redação',
   cefr: 'A2',

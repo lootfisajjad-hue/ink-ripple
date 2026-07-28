@@ -4,6 +4,7 @@ export const aula10: CourseLesson = {
   id: 'course-aula-10',
   order: 10,
   aula: 'Aula 10',
+  track: 'federal',
   titleFa: 'آزمون آزمایشی — نمونهٔ آزمون با پاسخ تشریحی',
   titlePt: 'Simulado — Prova Comentada',
   cefr: 'A2',

@@ -4,6 +4,7 @@ export const aula1: CourseLesson = {
   id: 'course-aula-1',
   order: 1,
   aula: 'Aula 1',
+  track: 'federal',
   titleFa: 'الفبا، سدیلها و دیگرافوها',
   titlePt: 'Alfabeto, Cedilha e Dígrafos',
   cefr: 'A1',

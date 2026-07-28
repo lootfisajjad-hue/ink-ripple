@@ -4,6 +4,7 @@ export const aula2: CourseLesson = {
   id: 'course-aula-2',
   order: 2,
   aula: 'Aula 2',
+  track: 'federal',
   titleFa: 'معرفی خود و ضمایر شخصی',
   titlePt: 'Apresentação Pessoal e Pronomes Pessoais',
   cefr: 'A1',

@@ -129,6 +129,10 @@ export const pt: Translation = {
     progress: '{{done}} de {{total}} aulas',
     originalPages: 'Páginas originais da apostila',
     showPages: 'Mostrar imagens da apostila ({{count}} páginas)',
+    track: {
+      federal: 'Apostilas de preparação federal',
+      portas: 'Portas Abertas — Português para imigrantes',
+    },
   },
   flashcards: {
     title: 'Flashcards',

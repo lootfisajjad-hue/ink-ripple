@@ -4,6 +4,7 @@ export const aula16: CourseLesson = {
   id: 'course-aula-16',
   order: 16,
   aula: 'Aula 16',
+  track: 'federal',
   titleFa: 'گونه‌های متنی و کاربردهای واژهٔ QUE',
   titlePt: 'Gêneros Textuais e Usos da palavra QUE',
   cefr: 'B1',

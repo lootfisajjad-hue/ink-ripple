@@ -4,6 +4,7 @@ export const aula7: CourseLesson = {
   id: 'course-aula-7',
   order: 7,
   aula: 'Aula 7',
+  track: 'federal',
   titleFa: 'فعل‌ها ۱ — وجه اخباری (افعال باقاعده)',
   titlePt: 'Verbos 1 — Indicativo (Regulares)',
   cefr: 'A2',

@@ -4,6 +4,7 @@ export const aula3: CourseLesson = {
   id: 'course-aula-3',
   order: 3,
   aula: 'Aula 3',
+  track: 'federal',
   titleFa: 'ضمایر ملکی و صفت‌ها',
   titlePt: 'Pronomes Possessivos e Adjetivos',
   cefr: 'A1',

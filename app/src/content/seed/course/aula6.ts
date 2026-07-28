@@ -4,6 +4,7 @@ export const aula6: CourseLesson = {
   id: 'course-aula-6',
   order: 6,
   aula: 'Aula 6',
+  track: 'federal',
   titleFa: 'علائم نگارشی (نشانه‌های سجاوندی)',
   titlePt: 'Sinais de Pontuação',
   cefr: 'A2',

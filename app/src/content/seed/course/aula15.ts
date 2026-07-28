@@ -4,6 +4,7 @@ export const aula15: CourseLesson = {
   id: 'course-aula-15',
   order: 15,
   aula: 'Aula 15',
+  track: 'federal',
   titleFa: 'زبان و ارتباط؛ وابستگی اسمی و وابستگی فعلی',
   titlePt: 'Linguagem e Comunicação; Regência Nominal e Verbal',
   cefr: 'B1',

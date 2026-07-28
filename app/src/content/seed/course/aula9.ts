@@ -4,6 +4,7 @@ export const aula9: CourseLesson = {
   id: 'course-aula-9',
   order: 9,
   aula: 'Aula 9',
+  track: 'federal',
   titleFa: 'افعال ۳ — تمرین (افعال باقاعده و بی‌قاعده)',
   titlePt: 'Verbos 3 — Prática (Regulares e Irregulares)',
   cefr: 'A2',
