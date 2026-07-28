@@ -5,6 +5,7 @@
  */
 import type { CourseLesson } from '@/domain/content/schema';
 import { portasLessons } from './portas';
+import { mafaldaLessons } from './mafalda';
 import { aula1 } from './aula1';
 import { aula2 } from './aula2';
 import { aula3 } from './aula3';
@@ -22,7 +23,7 @@ import { aula14 } from './aula14';
 import { aula15 } from './aula15';
 import { aula16 } from './aula16';
 
-const TRACK_ORDER = ['federal', 'portas'];
+const TRACK_ORDER = ['federal', 'portas', 'mafalda'];
 
 export const courseLessons: CourseLesson[] = [
   aula1,
@@ -42,6 +43,7 @@ export const courseLessons: CourseLesson[] = [
   aula15,
   aula16,
   ...portasLessons,
+  ...mafaldaLessons,
 ].sort(
   (a, b) =>
     TRACK_ORDER.indexOf(a.track ?? 'federal') -

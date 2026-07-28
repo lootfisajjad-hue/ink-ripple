@@ -130,6 +130,7 @@ export const fa = {
     track: {
       federal: 'جزوات آمادگی فدرال',
       portas: 'کتاب «درهای باز» — پرتغالی برای مهاجران',
+      mafalda: 'کتاب «پرتغالی برای پناهندگان» (Mafalda)',
     },
   },
   flashcards: {

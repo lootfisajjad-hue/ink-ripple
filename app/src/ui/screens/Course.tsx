@@ -32,7 +32,7 @@ export function Course() {
   const doneCount = lessons.filter((l) => done.has(l.id)).length;
 
   // group lessons by their source track, keeping a stable track order
-  const trackOrder = ['federal', 'portas'];
+  const trackOrder = ['federal', 'portas', 'mafalda'];
   const byTrack = new Map<string, CourseLesson[]>();
   for (const l of lessons) {
     const key = l.track ?? 'federal';

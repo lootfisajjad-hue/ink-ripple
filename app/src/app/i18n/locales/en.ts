@@ -132,6 +132,7 @@ export const en: Translation = {
     track: {
       federal: 'Federal-prep handouts',
       portas: 'Portas Abertas — Portuguese for immigrants',
+      mafalda: 'Portuguese for refugees (Curso Mafalda)',
     },
   },
   flashcards: {
