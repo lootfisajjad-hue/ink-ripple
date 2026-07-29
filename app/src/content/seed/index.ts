@@ -8,7 +8,8 @@ import {
   type ContentBundle,
 } from '../../domain/content/schema';
 import { sources } from './sources';
-import { vocab } from './vocab';
+import { vocab as coreVocab } from './vocab';
+import { vocabExtra } from './vocabExtra';
 import { phrases } from './phrases';
 import { lessons as lessonsWithCategories } from './lessons';
 import { dialogues } from './dialogues';
@@ -27,6 +28,21 @@ export const lessonCategoryMap: Record<string, string[]> = Object.fromEntries(
 const lessons = lessonsWithCategories.map(
   ({ categories: _categories, ...rest }) => rest,
 );
+
+// Merge the core (A1) vocabulary with the extended set, dropping any extended
+// word that repeats an existing one in the same category (same text).
+const seenVocab = new Set(
+  coreVocab.map((v) => `${v.category}::${v.pt.toLowerCase()}`),
+);
+const vocab = [
+  ...coreVocab,
+  ...vocabExtra.filter((v) => {
+    const key = `${v.category}::${v.pt.toLowerCase()}`;
+    if (seenVocab.has(key)) return false;
+    seenVocab.add(key);
+    return true;
+  }),
+];
 
 /** The raw, unvalidated bundle. Use {@link getContentBundle} for a checked one. */
 export const rawBundle = {

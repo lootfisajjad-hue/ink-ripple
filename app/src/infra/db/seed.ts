@@ -6,7 +6,7 @@
 import { db } from './db';
 import { getContentBundle } from '@/content/seed';
 
-const CONTENT_VERSION = 5;
+const CONTENT_VERSION = 6;
 const VERSION_KEY = 'ola-brasil-content-version';
 
 /** Seed content into IndexedDB if not already present at this version. */
