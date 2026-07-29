@@ -134,6 +134,13 @@ export const fa = {
       mafalda: 'کتاب «پرتغالی برای پناهندگان» (Mafalda)',
     },
   },
+  words: {
+    title: 'کلمات',
+    subtitle: '{{count}} واژه در دسته‌های موضوعی و سطح‌بندی‌شده',
+    wordCount: '{{count}} واژه',
+    level: 'سطح',
+    addAll: 'افزودن همه به فلش‌کارت ({{count}})',
+  },
   flashcards: {
     title: 'فلش‌کارت‌ها',
     decks: 'دسته‌ها',

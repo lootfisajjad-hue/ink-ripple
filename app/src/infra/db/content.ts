@@ -62,6 +62,31 @@ export async function getVocabByCategory(category: string): Promise<Vocab[]> {
   return db.vocab.where('category').equals(category).toArray();
 }
 
+export async function getAllVocab(): Promise<Vocab[]> {
+  return db.vocab.toArray();
+}
+
+/** Vocabulary categories with their word count and the CEFR levels present. */
+export async function getVocabCategories(): Promise<
+  Array<{ category: string; count: number; levels: string[] }>
+> {
+  const all = await db.vocab.toArray();
+  const map = new Map<string, { count: number; levels: Set<string> }>();
+  for (const v of all) {
+    const entry = map.get(v.category) ?? { count: 0, levels: new Set() };
+    entry.count += 1;
+    entry.levels.add(v.cefr);
+    map.set(v.category, entry);
+  }
+  return [...map.entries()]
+    .map(([category, v]) => ({
+      category,
+      count: v.count,
+      levels: [...v.levels].sort(),
+    }))
+    .sort((a, b) => b.count - a.count);
+}
+
 export async function searchPhrases(
   query: string,
   limit = 30,

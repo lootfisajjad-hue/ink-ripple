@@ -74,6 +74,69 @@
   flex-shrink: 0;
 }
 
+/* Words — category grid + word rows */
+.word-cat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+.word-cat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: var(--space-4);
+  background: var(--bg-elevated);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+}
+.word-cat-emoji {
+  font-size: 1.6rem;
+}
+.word-cat-name {
+  font-size: 0.98rem;
+}
+.word-cat-count {
+  font-size: 0.78rem;
+}
+.word-cat-levels {
+  display: flex;
+  gap: 4px;
+  margin-top: 4px;
+}
+.word-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.word-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  background: var(--bg-elevated);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+}
+.word-add {
+  flex-shrink: 0;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid var(--surface-border);
+  background: var(--bg-sunken);
+  color: var(--primary);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.word-add-done {
+  color: var(--success);
+  cursor: default;
+}
+
 .track-tabs {
   display: flex;
   gap: var(--space-2);

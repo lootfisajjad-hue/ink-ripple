@@ -136,6 +136,13 @@ export const pt: Translation = {
       mafalda: 'Português para refugiados (Curso Mafalda)',
     },
   },
+  words: {
+    title: 'Palavras',
+    subtitle: '{{count}} palavras em categorias temáticas, por nível',
+    wordCount: '{{count}} palavras',
+    level: 'Nível',
+    addAll: 'Adicionar todas aos flashcards ({{count}})',
+  },
   flashcards: {
     title: 'Flashcards',
     decks: 'Baralhos',
