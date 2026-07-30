@@ -10,6 +10,7 @@ import {
 import { sources } from './sources';
 import { vocab as coreVocab } from './vocab';
 import { vocabExtra } from './vocabExtra';
+import { vocabExtra2 } from './vocabExtra2';
 import { phrases } from './phrases';
 import { lessons as lessonsWithCategories } from './lessons';
 import { dialogues } from './dialogues';
@@ -36,7 +37,7 @@ const seenVocab = new Set(
 );
 const vocab = [
   ...coreVocab,
-  ...vocabExtra.filter((v) => {
+  ...[...vocabExtra, ...vocabExtra2].filter((v) => {
     const key = `${v.category}::${v.pt.toLowerCase()}`;
     if (seenVocab.has(key)) return false;
     seenVocab.add(key);
