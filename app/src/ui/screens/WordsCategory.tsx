@@ -150,7 +150,7 @@ export function WordsCategory() {
   );
 }
 
-/** A quick pt→fa multiple-choice quiz over a set of words. */
+/** A quick multiple-choice quiz over a set of words, in either direction. */
 export function CategoryQuiz({
   words,
   onExit,
@@ -160,34 +160,43 @@ export function CategoryQuiz({
 }) {
   const { t } = useTranslation();
   const { speak } = useSpeak();
+  const [dir, setDir] = useState<'pt2fa' | 'fa2pt'>('pt2fa');
+  const [listening, setListening] = useState(false);
 
-  // build up to 10 questions, each with 4 distinct fa options
+  // questions depend on direction: prompt is the word in the source language,
+  // the answer + options are in the target language.
   const questions = useMemo(() => {
     const pool = shuffle(words).slice(0, 10);
     return pool.map((w) => {
-      const distractors = shuffle(
-        words.filter((o) => o.id !== w.id && o.faNatural !== w.faNatural),
-      )
-        .slice(0, 3)
-        .map((o) => o.faNatural);
-      const options = shuffle([w.faNatural, ...distractors]);
-      return { w, options };
+      const answer = dir === 'pt2fa' ? w.faNatural : w.pt;
+      const distractors = shuffle(words.filter((o) => o.id !== w.id))
+        .map((o) => (dir === 'pt2fa' ? o.faNatural : o.pt))
+        .filter((v) => v !== answer)
+        .slice(0, 3);
+      return { w, answer, options: shuffle([answer, ...distractors]) };
     });
-  }, [words]);
+  }, [words, dir]);
 
   const [i, setI] = useState(0);
   const [chosen, setChosen] = useState<string | null>(null);
   const [correct, setCorrect] = useState(0);
   const [done, setDone] = useState(false);
-  const [listening, setListening] = useState(false);
 
   const q = questions[i];
+  const listenActive = listening && dir === 'pt2fa';
 
-  // in listening mode, auto-play the word when a new question appears
+  // in listening mode (pt→fa only), auto-play the word each new question
   useEffect(() => {
-    if (listening && q && !done) void speak(q.w.pt);
+    if (listenActive && q && !done) void speak(q.w.pt);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [i, listening, done]);
+  }, [i, listenActive, done]);
+
+  function restart() {
+    setI(0);
+    setChosen(null);
+    setCorrect(0);
+    setDone(false);
+  }
 
   if (done || !q) {
     return (
@@ -196,16 +205,7 @@ export function CategoryQuiz({
           {correct === questions.length ? '🏆' : '🎉'}
         </div>
         <h2>{t('words.scoreLine', { correct, total: questions.length })}</h2>
-        <Button
-          onClick={() => {
-            setI(0);
-            setChosen(null);
-            setCorrect(0);
-            setDone(false);
-          }}
-        >
-          {t('common.retry')}
-        </Button>
+        <Button onClick={restart}>{t('common.retry')}</Button>
         <Button variant="ghost" onClick={onExit}>
           {t('common.back')}
         </Button>
@@ -217,7 +217,7 @@ export function CategoryQuiz({
   function choose(opt: string) {
     if (answered) return;
     setChosen(opt);
-    if (opt === q!.w.faNatural) setCorrect((c) => c + 1);
+    if (opt === q!.answer) setCorrect((c) => c + 1);
   }
   function next() {
     if (i + 1 < questions.length) {
@@ -230,29 +230,41 @@ export function CategoryQuiz({
 
   return (
     <div className="mt-4">
-      <div className="row-between">
+      <div className="row-between" style={{ flexWrap: 'wrap', gap: 8 }}>
         <span className="muted">
           {i + 1}/{questions.length}
         </span>
         <span style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
           <button
-            className={`chip-toggle ${listening ? 'chip-on' : ''}`}
-            onClick={() => setListening((v) => !v)}
-            aria-pressed={listening}
+            className={`chip-toggle ${dir === 'fa2pt' ? 'chip-on' : ''}`}
+            onClick={() => {
+              setDir((d) => (d === 'pt2fa' ? 'fa2pt' : 'pt2fa'));
+              restart();
+            }}
+            aria-pressed={dir === 'fa2pt'}
           >
-            🎧 {t('words.listeningMode')}
+            {dir === 'pt2fa' ? 'PT → FA' : 'FA → PT'}
           </button>
+          {dir === 'pt2fa' && (
+            <button
+              className={`chip-toggle ${listening ? 'chip-on' : ''}`}
+              onClick={() => setListening((v) => !v)}
+              aria-pressed={listening}
+            >
+              🎧 {t('words.listeningMode')}
+            </button>
+          )}
           <button className="back-link" onClick={onExit}>
             ✕
           </button>
         </span>
       </div>
       <Card className="flip-card" style={{ minHeight: 120 }}>
-        {listening && !answered ? (
+        {listenActive && !answered ? (
           <span className="flip-front" aria-hidden>
             🎧
           </span>
-        ) : (
+        ) : dir === 'pt2fa' ? (
           <>
             <span className="pt flip-front" lang="pt">
               {q.w.pt}
@@ -261,27 +273,34 @@ export function CategoryQuiz({
               <span className="muted">{q.w.pronunciation}</span>
             )}
           </>
+        ) : (
+          <span className="flip-front">{q.w.faNatural}</span>
         )}
-        <button
-          className="speak-btn"
-          onClick={() => void speak(q.w.pt)}
-          aria-label={`پخش: ${q.w.pt}`}
-        >
-          🔊
-        </button>
+        {/* audio: always in pt→fa; in fa→pt only after answering (no spoiler) */}
+        {(dir === 'pt2fa' || answered) && (
+          <button
+            className="speak-btn"
+            onClick={() => void speak(q.w.pt)}
+            aria-label={`پخش: ${q.w.pt}`}
+          >
+            🔊
+          </button>
+        )}
       </Card>
       <div className="exercise-options mt-4">
         {q.options.map((opt) => {
           const cls =
-            answered && opt === q.w.faNatural
+            answered && opt === q.answer
               ? 'option-correct'
               : answered && opt === chosen
                 ? 'option-wrong'
                 : '';
+          const isPt = dir === 'fa2pt';
           return (
             <button
               key={opt}
-              className={`option-btn ${cls}`}
+              className={`option-btn ${cls} ${isPt ? 'pt' : ''}`}
+              lang={isPt ? 'pt' : undefined}
               onClick={() => choose(opt)}
             >
               {opt}
