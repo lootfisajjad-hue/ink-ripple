@@ -143,6 +143,8 @@ export const pt: Translation = {
     wordCount: '{{count}} palavras',
     level: 'Nível',
     addAll: 'Adicionar todas aos flashcards ({{count}})',
+    practice: 'Praticar este grupo',
+    scoreLine: '{{correct}} de {{total}} certas',
   },
   flashcards: {
     title: 'Flashcards',

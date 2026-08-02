@@ -141,6 +141,8 @@ export const fa = {
     wordCount: '{{count}} واژه',
     level: 'سطح',
     addAll: 'افزودن همه به فلش‌کارت ({{count}})',
+    practice: 'تمرین این دسته',
+    scoreLine: '{{correct}} از {{total}} درست',
   },
   flashcards: {
     title: 'فلش‌کارت‌ها',
