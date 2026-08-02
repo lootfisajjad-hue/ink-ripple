@@ -143,6 +143,7 @@ export const fa = {
     addAll: 'افزودن همه به فلش‌کارت ({{count}})',
     practice: 'تمرین این دسته',
     scoreLine: '{{correct}} از {{total}} درست',
+    mixedPractice: 'تمرین ترکیبی (همهٔ واژه‌ها)',
   },
   flashcards: {
     title: 'فلش‌کارت‌ها',

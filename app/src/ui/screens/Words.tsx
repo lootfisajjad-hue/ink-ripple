@@ -7,12 +7,13 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Badge, PtLine } from '../components/kit';
+import { Badge, PtLine, Button } from '../components/kit';
 import { useSession } from '@/app/store/session';
 import { getVocabCategories, getAllVocab } from '@/infra/db/content';
 import { addCard } from '@/infra/db/flashcards';
 import cardImages from '@/content/cardImages.json';
 import { categoryMeta, categoryRank } from './wordCategories';
+import { CategoryQuiz } from './WordsCategory';
 import type { Vocab } from '@/domain/content/schema';
 
 type Cat = { category: string; count: number; levels: string[] };
@@ -41,6 +42,7 @@ export function Words() {
   const [all, setAll] = useState<Vocab[]>([]);
   const [query, setQuery] = useState('');
   const [added, setAdded] = useState<Set<string>>(new Set());
+  const [quiz, setQuiz] = useState(false);
 
   useEffect(() => {
     getVocabCategories().then((list) =>
@@ -88,10 +90,25 @@ export function Words() {
     setAdded((s) => new Set(s).add(w.id));
   }
 
+  if (quiz) {
+    return (
+      <div>
+        <h1 className="screen-title">{t('words.title')}</h1>
+        <CategoryQuiz words={all} onExit={() => setQuiz(false)} />
+      </div>
+    );
+  }
+
   return (
     <div>
       <h1 className="screen-title">{t('words.title')}</h1>
       <p className="screen-subtitle">{t('words.subtitle', { count: total })}</p>
+
+      {all.length >= 4 && (
+        <Button className="mt-4" onClick={() => setQuiz(true)}>
+          🎯 {t('words.mixedPractice')}
+        </Button>
+      )}
 
       <input
         className="word-search"

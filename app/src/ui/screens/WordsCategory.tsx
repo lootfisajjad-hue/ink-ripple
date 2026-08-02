@@ -150,8 +150,8 @@ export function WordsCategory() {
   );
 }
 
-/** A quick pt→fa multiple-choice quiz over a category's words. */
-function CategoryQuiz({
+/** A quick pt→fa multiple-choice quiz over a set of words. */
+export function CategoryQuiz({
   words,
   onExit,
 }: {

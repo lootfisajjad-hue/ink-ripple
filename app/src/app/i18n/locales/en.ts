@@ -145,6 +145,7 @@ export const en: Translation = {
     addAll: 'Add all to flashcards ({{count}})',
     practice: 'Practice this set',
     scoreLine: '{{correct}} of {{total}} correct',
+    mixedPractice: 'Mixed practice (all words)',
   },
   flashcards: {
     title: 'Flashcards',
