@@ -1,0 +1,149 @@
+/* Design tokens + base styles.
+   Theme is controlled by data-theme on <html>; direction by dir=rtl|ltr.
+   Font scale is controlled by the --font-scale custom property. */
+
+:root {
+  --font-scale: 1;
+
+  /* light theme (default) */
+  --bg: #f6f8fb;
+  --bg-elevated: #ffffff;
+  --bg-sunken: #eef2f7;
+  --surface-border: #e2e8f0;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --text-faint: #94a3b8;
+
+  --primary: #0e7490; /* teal — calm, trustworthy */
+  --primary-strong: #0b5563;
+  --primary-contrast: #ffffff;
+  --accent: #b45309; /* warm amber for highlights */
+  --success: #15803d;
+  --danger: #b91c1c;
+  --warning: #a16207;
+
+  --rating-again: #dc2626;
+  --rating-hard: #d97706;
+  --rating-good: #16a34a;
+  --rating-easy: #0891b2;
+
+  --radius: 14px;
+  --radius-sm: 9px;
+  --shadow: 0 1px 2px rgba(15, 23, 42, 0.06), 0 8px 24px rgba(15, 23, 42, 0.06);
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
+
+  --font-fa:
+    'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma,
+    sans-serif;
+  --font-pt: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+
+  --nav-height: 64px;
+  --content-max: 720px;
+}
+
+:root[data-theme='dark'] {
+  --bg: #0b1120;
+  --bg-elevated: #131c31;
+  --bg-sunken: #0e1626;
+  --surface-border: #24314d;
+  --text: #e8eef7;
+  --text-muted: #9fb0c9;
+  --text-faint: #6b7c98;
+
+  --primary: #22b8cf;
+  --primary-strong: #38c7db;
+  --primary-contrast: #04222a;
+  --accent: #fbbf24;
+  --success: #4ade80;
+  --danger: #f87171;
+  --warning: #fbbf24;
+
+  --rating-again: #f87171;
+  --rating-hard: #fbbf24;
+  --rating-good: #4ade80;
+  --rating-easy: #38bdf8;
+
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(16px * var(--font-scale));
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-fa);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overscroll-behavior-y: none;
+}
+
+html[dir='ltr'] body {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.35;
+  margin: 0 0 var(--space-3);
+  font-weight: 700;
+}
+
+a {
+  color: var(--primary);
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Portuguese text is always LTR, even inside an RTL interface. */
+.pt,
+[lang='pt'] {
+  font-family: var(--font-pt);
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* Respect users who prefer reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Visually-hidden but available to screen readers. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
