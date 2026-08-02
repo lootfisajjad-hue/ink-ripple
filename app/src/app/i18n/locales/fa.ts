@@ -144,6 +144,7 @@ export const fa = {
     practice: 'تمرین این دسته',
     scoreLine: '{{correct}} از {{total}} درست',
     mixedPractice: 'تمرین ترکیبی (همهٔ واژه‌ها)',
+    listeningMode: 'شنیداری',
   },
   flashcards: {
     title: 'فلش‌کارت‌ها',

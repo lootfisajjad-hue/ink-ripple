@@ -150,6 +150,20 @@
   color: var(--success);
   cursor: default;
 }
+.chip-toggle {
+  font-size: 0.82rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--surface-border);
+  background: var(--bg-sunken);
+  color: inherit;
+  cursor: pointer;
+}
+.chip-toggle.chip-on {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
 
 .track-tabs {
   display: flex;

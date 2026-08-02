@@ -179,8 +179,15 @@ export function CategoryQuiz({
   const [chosen, setChosen] = useState<string | null>(null);
   const [correct, setCorrect] = useState(0);
   const [done, setDone] = useState(false);
+  const [listening, setListening] = useState(false);
 
   const q = questions[i];
+
+  // in listening mode, auto-play the word when a new question appears
+  useEffect(() => {
+    if (listening && q && !done) void speak(q.w.pt);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [i, listening, done]);
 
   if (done || !q) {
     return (
@@ -227,16 +234,33 @@ export function CategoryQuiz({
         <span className="muted">
           {i + 1}/{questions.length}
         </span>
-        <button className="back-link" onClick={onExit}>
-          ✕
-        </button>
+        <span style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <button
+            className={`chip-toggle ${listening ? 'chip-on' : ''}`}
+            onClick={() => setListening((v) => !v)}
+            aria-pressed={listening}
+          >
+            🎧 {t('words.listeningMode')}
+          </button>
+          <button className="back-link" onClick={onExit}>
+            ✕
+          </button>
+        </span>
       </div>
       <Card className="flip-card" style={{ minHeight: 120 }}>
-        <span className="pt flip-front" lang="pt">
-          {q.w.pt}
-        </span>
-        {q.w.pronunciation && (
-          <span className="muted">{q.w.pronunciation}</span>
+        {listening && !answered ? (
+          <span className="flip-front" aria-hidden>
+            🎧
+          </span>
+        ) : (
+          <>
+            <span className="pt flip-front" lang="pt">
+              {q.w.pt}
+            </span>
+            {q.w.pronunciation && (
+              <span className="muted">{q.w.pronunciation}</span>
+            )}
+          </>
         )}
         <button
           className="speak-btn"

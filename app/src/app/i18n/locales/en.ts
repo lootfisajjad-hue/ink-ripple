@@ -146,6 +146,7 @@ export const en: Translation = {
     practice: 'Practice this set',
     scoreLine: '{{correct}} of {{total}} correct',
     mixedPractice: 'Mixed practice (all words)',
+    listeningMode: 'Listening',
   },
   flashcards: {
     title: 'Flashcards',

@@ -146,6 +146,7 @@ export const pt: Translation = {
     practice: 'Praticar este grupo',
     scoreLine: '{{correct}} de {{total}} certas',
     mixedPractice: 'Prática mista (todas as palavras)',
+    listeningMode: 'Áudio',
   },
   flashcards: {
     title: 'Flashcards',
