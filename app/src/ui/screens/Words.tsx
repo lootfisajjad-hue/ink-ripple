@@ -7,10 +7,10 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Badge, PtLine, Button } from '../components/kit';
+import { Badge, PtLine, Button, ProgressBar } from '../components/kit';
 import { useSession } from '@/app/store/session';
 import { getVocabCategories, getAllVocab } from '@/infra/db/content';
-import { addCard } from '@/infra/db/flashcards';
+import { addCard, getAllCards } from '@/infra/db/flashcards';
 import cardImages from '@/content/cardImages.json';
 import { categoryMeta, categoryRank } from './wordCategories';
 import { CategoryQuiz } from './WordsCategory';
@@ -42,6 +42,7 @@ export function Words() {
   const [all, setAll] = useState<Vocab[]>([]);
   const [query, setQuery] = useState('');
   const [added, setAdded] = useState<Set<string>>(new Set());
+  const [saved, setSaved] = useState<Set<string>>(new Set());
   const [quiz, setQuiz] = useState(false);
 
   useEffect(() => {
@@ -53,9 +54,21 @@ export function Words() {
       ),
     );
     getAllVocab().then(setAll);
-  }, []);
+    getAllCards(profile.id, 'vocab').then((cards) =>
+      setSaved(new Set(cards.map((c) => c.itemId))),
+    );
+  }, [profile.id]);
 
   const total = cats.reduce((s, c) => s + c.count, 0);
+
+  // how many words per category are already in the learner's flashcard deck
+  const savedByCat = useMemo(() => {
+    const m = new Map<string, number>();
+    for (const v of all) {
+      if (saved.has(v.id)) m.set(v.category, (m.get(v.category) ?? 0) + 1);
+    }
+    return m;
+  }, [all, saved]);
 
   // accent-insensitive: "agua" matches "água", "cafe" matches "café"
   const deburr = (s: string) =>
@@ -178,6 +191,16 @@ export function Words() {
                     </Badge>
                   ))}
                 </span>
+                {(savedByCat.get(c.category) ?? 0) > 0 && (
+                  <span className="word-cat-progress">
+                    <ProgressBar
+                      value={(savedByCat.get(c.category) ?? 0) / c.count}
+                    />
+                    <span className="muted word-cat-saved">
+                      {savedByCat.get(c.category) ?? 0}/{c.count}
+                    </span>
+                  </span>
+                )}
               </Link>
             );
           })}

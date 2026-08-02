@@ -121,6 +121,21 @@
   gap: 4px;
   margin-top: 4px;
 }
+.word-cat-progress {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  width: 100%;
+  margin-top: auto;
+  padding-top: 6px;
+}
+.word-cat-progress > *:first-child {
+  flex: 1;
+}
+.word-cat-saved {
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
 .word-list {
   display: flex;
   flex-direction: column;
