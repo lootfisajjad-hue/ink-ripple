@@ -5,13 +5,19 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Button, Card, ProgressBar } from '../components/kit';
+import { Button, Card, ProgressBar, PtLine } from '../components/kit';
 import { useSession } from '@/app/store/session';
-import { countDue } from '@/infra/db/flashcards';
+import { countDue, addCard } from '@/infra/db/flashcards';
 import { getTodayActivity, getStreak } from '@/infra/db/activity';
-import { getLessonsByTrack } from '@/infra/db/content';
+import { getLessonsByTrack, getAllVocab } from '@/infra/db/content';
 import { getProgressMap } from '@/infra/db/activity';
+import type { Vocab } from '@/domain/content/schema';
 import './Dashboard.css';
+
+/** Days since the epoch — used to pick a stable "word of the day". */
+function dayIndex(): number {
+  return Math.floor(Date.now() / 86_400_000);
+}
 
 const GOAL_TRACK: Record<string, string> = {
   citizenship: 'citizenship',
@@ -29,12 +35,17 @@ export function Dashboard() {
     id: string;
     title: string;
   } | null>(null);
+  const [wotd, setWotd] = useState<Vocab | null>(null);
+  const [wotdAdded, setWotdAdded] = useState(false);
 
   useEffect(() => {
     (async () => {
       setDue(await countDue(profile.id));
       setMinutes((await getTodayActivity(profile.id)).minutes);
       setStreak(await getStreak(profile.id));
+
+      const all = await getAllVocab();
+      if (all.length) setWotd(all[dayIndex() % all.length]!);
 
       const track = GOAL_TRACK[profile.goal] ?? 'a1';
       const [lessons, progress] = await Promise.all([
@@ -75,6 +86,38 @@ export function Dashboard() {
         </div>
         <ProgressBar value={minutes / profile.dailyMinutes} />
       </Card>
+
+      {wotd && (
+        <Card className="dash-wotd">
+          <div className="row-between">
+            <strong>🗓️ {t('dashboard.wordOfDay')}</strong>
+            <button
+              className={`word-add ${wotdAdded ? 'word-add-done' : ''}`}
+              disabled={wotdAdded}
+              aria-label={t('flashcards.addToDeck')}
+              title={t('flashcards.addToDeck')}
+              onClick={async () => {
+                await addCard(profile.id, {
+                  itemId: wotd.id,
+                  itemType: 'vocab',
+                  deck: 'vocab',
+                  front: wotd.pt,
+                  back: wotd.faNatural,
+                  pronunciation: wotd.pronunciation,
+                });
+                setWotdAdded(true);
+              }}
+            >
+              {wotdAdded ? '✓' : '＋'}
+            </button>
+          </div>
+          <PtLine
+            pt={wotd.pt}
+            fa={wotd.faNatural}
+            pronunciation={wotd.pronunciation}
+          />
+        </Card>
+      )}
 
       {nextLesson && (
         <Link to={`/learn/lesson/${nextLesson.id}`} className="dash-continue">

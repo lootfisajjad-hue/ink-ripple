@@ -91,6 +91,7 @@ export const fa = {
     quickActions: 'دسترسی سریع',
     noReviews: 'کارتی برای مرور نیست 🎉',
     minutesToday: '{{done}} از {{goal}} دقیقهٔ امروز',
+    wordOfDay: 'واژهٔ روز',
   },
   learn: {
     title: 'مسیر آموزشی',

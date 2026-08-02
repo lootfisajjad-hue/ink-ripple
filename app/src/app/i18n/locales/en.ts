@@ -92,6 +92,7 @@ export const en: Translation = {
     quickActions: 'Quick actions',
     noReviews: 'No cards to review 🎉',
     minutesToday: '{{done}} of {{goal}} minutes today',
+    wordOfDay: 'Word of the day',
   },
   learn: {
     title: 'Learning path',
