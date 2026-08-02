@@ -74,7 +74,21 @@
   flex-shrink: 0;
 }
 
-/* Words — category grid + word rows */
+/* Words — search, category grid + word rows */
+.word-search {
+  width: 100%;
+  margin-top: var(--space-4);
+  padding: var(--space-3) var(--space-4);
+  font-size: 1rem;
+  background: var(--bg-elevated);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+  color: inherit;
+}
+.word-search:focus {
+  outline: 2px solid var(--primary);
+  outline-offset: 1px;
+}
 .word-cat-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

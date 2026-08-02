@@ -139,6 +139,7 @@ export const pt: Translation = {
   words: {
     title: 'Palavras',
     subtitle: '{{count}} palavras em categorias temáticas, por nível',
+    searchPlaceholder: 'Buscar uma palavra (português ou persa)…',
     wordCount: '{{count}} palavras',
     level: 'Nível',
     addAll: 'Adicionar todas aos flashcards ({{count}})',

@@ -137,6 +137,7 @@ export const fa = {
   words: {
     title: 'کلمات',
     subtitle: '{{count}} واژه در دسته‌های موضوعی و سطح‌بندی‌شده',
+    searchPlaceholder: 'جست‌وجوی واژه (پرتغالی یا فارسی)…',
     wordCount: '{{count}} واژه',
     level: 'سطح',
     addAll: 'افزودن همه به فلش‌کارت ({{count}})',

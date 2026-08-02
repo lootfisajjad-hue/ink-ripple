@@ -139,6 +139,7 @@ export const en: Translation = {
   words: {
     title: 'Words',
     subtitle: '{{count}} words in topic categories, graded by level',
+    searchPlaceholder: 'Search a word (Portuguese or Persian)…',
     wordCount: '{{count}} words',
     level: 'Level',
     addAll: 'Add all to flashcards ({{count}})',
